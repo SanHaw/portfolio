@@ -1,12 +1,15 @@
-import './App.css'
-
-function App() {
-
+import Head from 'next/head';
+import Navbar from './components/Navbar';
+const App = () => {
   return (
-    <>
-      <p>test</p>
-    </>
-  )
-}
+    <div>
+      <Head>
+      <></>
+    </Head>
+      <Navbar />
+      
+    </div>
+  );
+};
 
-export default App
+export default App;
