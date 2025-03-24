@@ -3,7 +3,8 @@ import React from "react";
 
 const About: React.FC = () => {
   return (
-    <div className="w-full pt-0 p-8">
+      <div className="min-h-screen flex justify-center items-center pt-0 p-8">
+      <div className="lg:w-[70%] md:w-full sm:w-full flex flex-col justify-center items-center pt-0 p-8">
 
       <div className="grid grid-cols-2 gap-0">
         <div></div>
@@ -25,7 +26,7 @@ const About: React.FC = () => {
 
       <div className="grid grid-cols-[5fr_1fr] w-full">
         <div className="flex items-center justify-left">
-          <span className="py-20">
+          <span className="py-0">
             <p className="font-[Instrument] text-5xl">Hi there, I'm</p>
             <p className=" font-[Nowcloud] text-9xl">Sarah</p>
             <p className="font-[Instrument] text-3xl">UI/UX Designer | Graphic Designer | Computer Science</p>
@@ -69,7 +70,7 @@ const About: React.FC = () => {
           </span>
         </div>
         <div className="flex items-center justify-end w-full">
-          <div className="flex flex-col gap-y-2 w-full">
+          <div className="flex flex-col gap-y-0 w-full">
             <div className="w-full aspect-square bg-[#6EAA87] rounded-md"></div>
             <div className="w-full aspect-square bg-[#A3CED6] rounded-md"></div>
             <div className="w-full aspect-square bg-[#FFEB81] rounded-md"></div>
@@ -78,23 +79,36 @@ const About: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-6 gap-0">
+            <div className="w-full rounded-lg bg-transparent aspect-square"></div>
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center 
               flex items-center justify-center overflow-hidden">
-            <div className="w-full rounded-lg bg-[transparent aspect-square text-center 
-              flex items-center justify-center overflow-hidden"></div>
+              <img
+                src="/asterisk.svg"
+                alt="Asterisk"
+                className="w-max h-max object-contain"
+              />
+              </div>
             <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
             <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-            <div className="w-full rounded-lg bg-[transparent aspect-square text-center 
-              flex items-center justify-center overflow-hidden">
-                <img
-                  src="/asterisk.svg"
-                  alt="Asterisk"
-                  className="w-max h-max object-contain"
-                />
-            </div></div>
+            <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+            <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+        </div>
 
-    </div>
+        <div className="grid grid-cols-6 gap-0">
+          <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+          <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+          <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+        </div>
   
+        <div className="grid grid-cols-[2fr_4fr] w-full">
+          <div className="grid grid-cols-2 gap-0">
+          <div className="col-start-1 w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+          <div className="col-start-2 w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+          <div className="col-start-1 w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+          <div className="col-start-2 w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+          </div>
+        </div>
+    </div>
     </div>
   );
 };
