@@ -107,7 +107,17 @@ const About: React.FC = () => {
           <div className="col-start-1 w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
           <div className="col-start-2 w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
           </div>
+
+          <div>
+            <div className="flex items-right justify-rigth">
+              <span className="">
+                <h1 className=" font-[Nowcloud] justify-right">Projects</h1>
+                <h1 className=" font-[Nowcloud]" >Lately</h1>
+              </span>
+            </div>
+          </div>
         </div>
+        
     </div>
     </div>
   );
