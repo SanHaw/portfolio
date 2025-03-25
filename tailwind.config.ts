@@ -31,7 +31,7 @@ const config: Config = {
     './index.html',
     './src/**/*.{ts,tsx,js,jsx}',
   ],
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
   
 }
 

@@ -10,41 +10,40 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl }) => {
   return (
-    <div className="max-w-xl h-40 w-[40vw] rounded-lg overflow-hidden shadow-lg bg-white flex flex-col sm:flex-row transition hover:shadow-xl">
+    <div className="ml-4 my-2 2xl:my-4
+                    max-w-full h-32 2xl:h-40 sm:h-28
+                    rounded-lg overflow-hidden 
+                    bg-stone-100 shadow-xl 
+                    flex flex-col sm:flex-row">
       {/* Left Image */}
-      <div className="w-full h-full overflow-hidden">
-        <img
-          src={imageUrl}
-          alt={title}
-          className="w-full h-full object-cover"
-        />
-      </div>
+        <div className="w-1/2 overflow-hidden">
+          <img
+            src={imageUrl}
+            alt={title}
+            className="w-full h-full object-cover"
+          />
+        </div>  
 
       {/* Right Content */}
-      <div className="w-full sm:w-1/2 p-6 flex flex-col justify-between">
+      <div className="w-full sm:w-full align-middle pl-4 pr-4 pt-4 pb-4 flex flex-col">
         <div>
-          <h2 className="text-3xl font-[Instrument] font-medium text-gray-900 mb-4">Project name</h2>
-          <p className="text-gray-800 text-lg leading-snug">
+          <h2 className="font-[Instrument] font-medium 
+                    text-3xl sm:text-xl
+                    text-gray-900 
+                    mb-4
+          ">Project name</h2>
+          <p className="
+                  text-gray-800 
+                  text-base sm:text-sm
+                  mt-[-12px] 
+                  leading-snug line-clamp-2
+          ">
             {description}
           </p>
         </div>
 
         {/* Bottom Arrow Icon */}
         <div className="flex justify-end mt-6">
-          <div className="">
-            
-              <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8 text-zinc-800"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17 7H7m10 0v10m0-10L7 17" />
-              </svg>
-          </div>
         </div>
       </div>
     </div>
