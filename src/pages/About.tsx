@@ -214,11 +214,11 @@ const About: React.FC = () => {
 
                      {/* ---------------------------------------------------------------------- */}
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
         
             {/* Image Placeholder */}
             <div className="md:col-span-1">
-              <div className="bg-gray-300 rounded-lg w-full aspect-[3/4]" />
+              <div className="h-full bg-gray-300 rounded-lg w-full aspect-[2/3] " />
             </div>
 
             {/* Text Content */}
@@ -230,9 +230,10 @@ const About: React.FC = () => {
                 SARAH<br />HAW
               </h1>
 
-              <p className="mt-6 leading-relaxed
+              <p className="mt-2 leading-relaxed 
                           text-stone-800 
                             text-lg md:text-base
+                            2xl:w-[30vw]
               ">
                 Hi, I'm Sarah („• ᴗ •„)♡ An artist and designer from Davao City, Philippines.
                 ･ʚ˚✧˖ With a background in graphic design, ux/ui design, front-end development,
@@ -244,7 +245,6 @@ const About: React.FC = () => {
 
           </div>
         
-
 
 
 
