@@ -1,14 +1,21 @@
 import React from 'react';
-import Card from '../components/Card';
+import Card from '../components/Card.tsx';
 
-const handleButtonClick = () => {
+const handleCardClick = () => {
   alert('Button clicked!');
 };
 
 const GraphicDesign: React.FC = () => {
   return (
-    <div id="whole page" className="min-h-screen flex pt-0 p-8 text-stone-800 justify-center overflow-x-hidden">
-    <div id="whole page" className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full flex flex-col justify-center items-center pt-0 p-8">
+    <div id="whole page" className="min-h-screen 
+                                  flex 
+                                  pt-0 p-8 
+                                  text-stone-800 
+                                  justify-center align-top overflow-x-hidden">
+    <div id="whole page" className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full 
+                                  flex flex-col 
+                                  justify-start align-middle items-center
+                                  pt-0 p-8">
 
       <div id="first row of squares" className="grid grid-cols-2 gap-0">
         <div>
@@ -19,7 +26,7 @@ const GraphicDesign: React.FC = () => {
             <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
             <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center
-              flex items-center justify-center overflow-hidden">
+              flex align-middle items-center overflow-hidden">
                 <img
                   src="/asterisk.svg"
                   alt="Asterisk"
@@ -62,77 +69,37 @@ const GraphicDesign: React.FC = () => {
 
 
         <div className="col-start-2 col-span-4 grid
-                        grid-cols-3 2xl:grid-cols-4 xl:grid-cols-3 md:cols-
-                        mt-10 space-x-5 space-y-5 
+                        grid-cols-3 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-
+                        mt-10 space-x-5 space-y-5
                         
         ">
           <div className="col-span-1">
-            <Card
-              title="Sample Card"
-              description="This is a sample description for the card component."
-              imageUrl="../public/work/temp.jpg"
-              buttonText="Click Me"
-              onButtonClick={handleButtonClick}
-            />
-          </div>
-          <div className="col-span-1">
-            <Card
-              title="Sample Card"
-              description="This is a sample description for the card component."
-              imageUrl="../public/work/temp.jpg"
-              buttonText="Click Me"
-              onButtonClick={handleButtonClick}
-            />
-          </div>
-          <div className="col-span-1">
-            <Card
-              title="Sample Card"
-              description="This is a sample description for the card component."
-              imageUrl="../public/work/temp.jpg"
-              buttonText="Click Me"
-              onButtonClick={handleButtonClick}
-            />
-          </div>
-          <div className="col-span-1">
-            <Card
-              title="Sample Card"
-              description="This is a sample description for the card component."
-              imageUrl="../public/work/temp.jpg"
-              buttonText="Click Me"
-              onButtonClick={handleButtonClick}
-            />
-          </div><div className="col-span-1">
-            <Card
-              title="Sample Card"
-              description="This is a sample description for the card component."
-              imageUrl="../public/work/temp.jpg"
-              buttonText="Click Me"
-              onButtonClick={handleButtonClick}
-            />
-          </div>
-          <div className="col-span-1">
-            <Card
-              title="Sample Card"
-              description="This is a sample description for the card component."
-              imageUrl="../public/work/temp.jpg"
-              buttonText="Click Me"
-              onButtonClick={handleButtonClick}
-            />
-          </div>
-          <div className="col-span-1">
-            <Card
-              title="Sample Card"
-              description="This is a sample description for the card component."
-              imageUrl="../public/work/temp.jpg"
-              buttonText="Click Me"
-              onButtonClick={handleButtonClick}
-            />
+            
           </div>
         </div>
 
         <div className="mt-10 flex justify-center items-start h-auto w-full space-x-5">
-          
-          
+          <Card
+          title="Sample Card Title"
+          description="This is a description for the card. It will be truncated if it's too long."
+          imageUrl="public/work/temp.jpg"
+          onCardClick={handleCardClick}
+          link="https://www.example.com" // Link where the user will be navigated
+        />
+        <Card
+          title="Sample Card Title"
+          description="This is a description for the card. It will be truncated if it's too long."
+          imageUrl="public/work/temp.jpg"
+          onCardClick={handleCardClick}
+          link="https://www.example.com" // Link where the user will be navigated
+        />
+        <Card
+          title="Sample Card Title"
+          description="This is a description for the card. It will be truncated if it's too long."
+          imageUrl="public/work/temp.jpg"
+          onCardClick={handleCardClick}
+          link="https://www.example.com" // Link where the user will be navigated
+        />
         </div>
 
 

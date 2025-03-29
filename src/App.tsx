@@ -2,11 +2,13 @@ import Head from 'next/head';
 import Navbar from './components/Navbar';
 const App = () => {
   return (
-    <div>
+    <div className='bg-stone-100 w-full'>
       <Head>
       <></>
     </Head>
-      <Navbar />
+
+      <Navbar/>
+
       
     </div>
   );
