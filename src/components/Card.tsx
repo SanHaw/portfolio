@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, onCardClick, 
                   w-90 2xl:w-100 xl:w-100 lg:w-96 md:w-75 sm:w-70 xs:w-80
                   cursor-pointer transform transition-all duration-300 
                   ease-in-out hover:scale-105 active:bg-stone-200 hover:shadow-lg"
-      onClick={() => onCardClick(link)}
+      onClick={() => onCardClick(link)} // Call the onCardClick with the link passed as prop
     >
       {/* Image */}
       <div className="h-40 overflow-hidden">
