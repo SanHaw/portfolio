@@ -47,7 +47,8 @@ const GraphicDesign: React.FC = () => {
             <p className="font-[Instrument] text-4xl 2xl:w-xl
             ">Hi there, I do</p>
             <p className="font-[Nowcloud]
-                          text-8xl 2xl:text-[10rem]
+                          text-8xl 2xl:text-[10rem] xl:text-9xl lg:text-9xl
+                          md:text-[50%] sm:text- xs:text-[90%]
                           leading-[0.8]
                           mt-4
             ">Graphic<br />Design</p>
@@ -69,32 +70,68 @@ const GraphicDesign: React.FC = () => {
 
 
         <div className="col-start-2 col-span-4 grid
-                        grid-cols-3 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-
-                        mt-10 space-x-5 space-y-5
+                        grid-cols-3 2xl:grid-cols-4 xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-2
+                        mt-10 space-x-5
                         
         ">
+        
+        {/* <div className="grid 
+                        grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
+                        xl:grid-cols-5 
+                        gap-4">
+
+        <div className="rounded-lg overflow-hidden shadow-md bg-white w-80"></div> */}
+
           <div className="col-span-1">
             
           </div>
         </div>
 
-        <div className="mt-10 flex justify-center items-start h-auto w-full space-x-5">
+        <div className="mt-10 flex flex-wrap justify-center items-start h-auto w-full gap-4">
           <Card
-          title="Sample Card Title"
+          title="Elysan Deisgn Studio"
           description="This is a description for the card. It will be truncated if it's too long."
           imageUrl="public/work/temp.jpg"
           onCardClick={handleCardClick}
           link="https://www.example.com" // Link where the user will be navigated
         />
         <Card
-          title="Sample Card Title"
+          title="TEDxLanang Ave"
           description="This is a description for the card. It will be truncated if it's too long."
           imageUrl="public/work/temp.jpg"
           onCardClick={handleCardClick}
           link="https://www.example.com" // Link where the user will be navigated
         />
         <Card
-          title="Sample Card Title"
+          title="CCSSEC 2023-2024"
+          description="This is a description for the card. It will be truncated if it's too long."
+          imageUrl="public/work/temp.jpg"
+          onCardClick={handleCardClick}
+          link="https://www.example.com" // Link where the user will be navigated
+        />
+        <Card
+          title="Chammie Carnival"
+          description="This is a description for the card. It will be truncated if it's too long."
+          imageUrl="public/work/temp.jpg"
+          onCardClick={handleCardClick}
+          link="https://www.example.com" // Link where the user will be navigated
+        />
+        <Card
+          title="Mooncake Festival 2024"
+          description="This is a description for the card. It will be truncated if it's too long."
+          imageUrl="public/work/temp.jpg"
+          onCardClick={handleCardClick}
+          link="https://www.example.com" // Link where the user will be navigated
+        />
+        <Card
+          title="Purple Up: Kick-Off 2023"
+          description="This is a description for the card. It will be truncated if it's too long."
+          imageUrl="public/work/temp.jpg"
+          onCardClick={handleCardClick}
+          link="https://www.example.com" // Link where the user will be navigated
+        />
+        <Card
+          title="IT Week 2024"
           description="This is a description for the card. It will be truncated if it's too long."
           imageUrl="public/work/temp.jpg"
           onCardClick={handleCardClick}

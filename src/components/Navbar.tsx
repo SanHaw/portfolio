@@ -20,7 +20,9 @@ const Navbar: React.FC = () => {
       ">
         
         <div className="flex items-center">
-          <p className='font-[Nowcloud] text-4xl'>San Haw</p>
+          <p className='font-[Nowcloud] 
+                        text-4xl
+          '>San Haw</p>
         </div>
 
         <nav className="flex space-x-6 font-[Roboto] text-lg">

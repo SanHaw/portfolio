@@ -12,7 +12,7 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, onCardClick, 
   return (
     <div
       className="rounded-lg overflow-hidden shadow-md bg-white 
-                  w-70 md:w-90 sm:w-80 xs:w-80 
+                  w-90 2xl:w-100 xl:w-100 lg:w-96 md:w-75 sm:w-70 xs:w-80
                   cursor-pointer transform transition-all duration-300 
                   ease-in-out hover:scale-105 active:bg-stone-200 hover:shadow-lg"
       onClick={() => onCardClick(link)}
