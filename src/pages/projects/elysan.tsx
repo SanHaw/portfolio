@@ -5,7 +5,7 @@ const Elysan: React.FC = () => {
     <div>
       <h1>Elysan Design Page</h1>
       <p>Welcome to the Elysan design project!</p>
-      {/* Add content specific to Elysan here */}
+      
     </div>
   );
 };
