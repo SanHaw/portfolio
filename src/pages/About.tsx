@@ -133,7 +133,6 @@ const About: React.FC = () => {
               <div className="w-full rounded-lg bg-[transparent aspect-square text-center
                   flex items-center justify-center overflow-hidden"></div>
               <div className="col-start-1 w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-              <div className="col-start-1 w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
             </div>
 
             <div id="latest projects section" className=" 2xl:scale-{1.5}">
@@ -166,7 +165,7 @@ const About: React.FC = () => {
                                             text-stone-800 font-[Instrument] 
                                             text-xl 2xl:text-3xl
                                             2xl:mt-1
-                          ">Hover me</button>
+                          ">See more</button>
                         </HoverCardTrigger>
                       </HoverCard>
                     </div>
