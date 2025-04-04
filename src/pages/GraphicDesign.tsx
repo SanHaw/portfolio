@@ -82,7 +82,7 @@ const GraphicDesign: React.FC = () => {
                 <div className="w-full aspect-square bg-[#FFEB81] rounded-md"></div>
               </div>
             </div>
-          </div>
+          
 
           {/* Cards Grid */}
           <div className="grid col-span-2 justify-items-stretch grid-cols-3 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mt-10 space-x-5 space-y-5 gap-5">
@@ -99,7 +99,7 @@ const GraphicDesign: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></div>
   );
 };
 
