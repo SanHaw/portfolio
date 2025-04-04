@@ -1,48 +1,52 @@
 import React from 'react';
-import Card from '../components/Card.tsx'; // Make sure the path is correct
+import Card from '../components/Card';
 
 const GraphicDesign: React.FC = () => {
-  // You can uncomment this if you're using a navigation library like React Router.
-  // const navigate = useNavigate(); 
-  
-  // Define the handleCardClick function if you need any actions when a card is clicked.
-  // const handleCardClick = (link: string) => {
-  //   navigate(link); // Navigate to the path specified in the link
-  // };
+  const handleCardClick = (cardTitle: string) => {
+    console.log(`${cardTitle} clicked!`);
+  };
 
   const cards = [
     {
-      title: 'Logo Design Project',
-      description: 'A clean, modern logo design for a tech startup.',
-      imageUrl: 'https://via.placeholder.com/150',
-      onCardClick: () => console.log("Logo Design Clicked"),
-      link: 'https://www.example.com/project1'
+      title: 'Elysan Design',
+      description: 'Explore the Elysan project!',
+      imageUrl: '/work/temp.jpg',
+      link: '/projects/elysan',
+      onCardClick: () => handleCardClick('Elysan Design'),
     },
     {
-      title: 'Website Layout',
-      description: 'A website layout design for an e-commerce platform.',
-      imageUrl: 'https://via.placeholder.com/150',
-      onCardClick: () => console.log("Website Layout Clicked"),
-      link: 'https://www.example.com/project2'
+      title: 'Elysan Design',
+      description: 'Explore the Elysan project!',
+      imageUrl: '/work/temp.jpg',
+      link: '/projects/elysan',
+      onCardClick: () => handleCardClick('Elysan Design'),
     },
     {
-      title: 'Poster Design',
-      description: 'A vibrant poster design for a concert event.',
-      imageUrl: 'https://via.placeholder.com/150',
-      onCardClick: () => console.log("Poster Design Clicked"),
-      link: 'https://www.example.com/project3'
+      title: 'Elysan Design',
+      description: 'Explore the Elysan project!',
+      imageUrl: '/work/temp.jpg',
+      link: '/projects/elysan',
+      onCardClick: () => handleCardClick('Elysan Design'),
     },
     {
-      title: 'Branding Design',
-      description: 'Complete branding design for a new coffee shop.',
-      imageUrl: 'https://via.placeholder.com/150',
-      onCardClick: () => console.log("Branding Design Clicked"),
-      link: 'https://www.example.com/project4'
+      title: 'Elysan Design',
+      description: 'Explore the Elysan project!',
+      imageUrl: '/work/temp.jpg',
+      link: '/projects/elysan',
+      onCardClick: () => handleCardClick('Elysan Design'),
+    },
+    {
+      title: 'Elysan Design',
+      description: 'Explore the Elysan project!',
+      imageUrl: '/work/temp.jpg',
+      link: '/projects/elysan',
+      onCardClick: () => handleCardClick('Elysan Design'),
     }
   ];
 
   return (
-    <div id="whole page" className="min-h-screen 
+    <div>
+      <div id="whole page" className="min-h-screen 
                                     flex pt-0 px-20 text-stone-800 
                                     justify-center align-top 
                                     max-w-full overflow-x-hidden">
@@ -77,7 +81,7 @@ const GraphicDesign: React.FC = () => {
               <p className="font-[Instrument] 
                             text-3xl 2xl:7xl">Hi there, I do</p>
               <p className="font-[Nowcloud] 
-                            text-6xl 2xl:text-[10rem] lg:text-9xl 2xs:text:2xl">Graphic Design</p>
+                            text-6xl 2xl:text-[10rem] lg:text-8xl 2xs:text:2xl">Graphic<br />Design</p>
             </span>
           </div>
           
@@ -88,23 +92,24 @@ const GraphicDesign: React.FC = () => {
               <div className="w-full aspect-square bg-[#FFEB81] rounded-md"></div>
             </div>
           </div>
-        </div>
 
-        {/* Cards Section */}
-        <div className="grid grid-cols-3 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mt-10 space-x-5 space-y-5">
-          {cards.map((card, index) => (
-            <Card
-              key={index}
-              title={card.title}
-              description={card.description}
-              imageUrl={card.imageUrl}
-              onCardClick={card.onCardClick}
-              link={card.link}
-            />
-          ))}
-        </div>
+
+      <div className="grid col-span-2 justify-items-stretch
+                      grid-cols-3 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 
+                      mt-10 space-x-5 space-y-5 gap-5
+        ">
+        {cards.map((card, index) => (
+          <Card
+            key={index}
+            title={card.title}
+            description={card.description}
+            imageUrl={card.imageUrl}
+            link={card.link}
+            onCardClick={card.onCardClick}
+          />
+        ))}
       </div>
-    </div>
+    </div></div></div></div>
   );
 };
 
