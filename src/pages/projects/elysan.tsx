@@ -1,11 +1,12 @@
-import React from "react";
- 
-  
+import React from 'react';
 
-  const elysan: React.FC = () => {
-    return (
-        <div>test</div>
-    );
-  };
-  
-  export default elysan;
+const Elysan: React.FC = () => {
+  return (
+    <div>
+      <h1>Elysan Design Studio</h1>
+      {/* Add content specific to Elysan Design Studio */}
+    </div>
+  );
+};
+
+export default Elysan;
