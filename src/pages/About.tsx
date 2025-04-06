@@ -248,10 +248,6 @@ const About: React.FC = () => {
             </div>
 
           </div>
-        
-
-
-
                      {/* ---------------------------------------------------------------------- */}
 
           <div id="row of squares" className="grid grid-cols-2 gap-0">

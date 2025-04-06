@@ -7,7 +7,7 @@ import ElysanDesign from './pages/projects/elysan';
 
 const App = () => {
   return (
-    <div className='bg-stone-100 w-full overflow-hidden max-w-full'>
+    <div className='bg-stone-100 w-full overflow-hidden max-w-full '>
       <Head>
       <></>
     </Head>

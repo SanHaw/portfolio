@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Card from '../components/Card';
 
 const GraphicDesign: React.FC = () => {
-  const navigate = useNavigate(); // Get the navigate function from react-router-dom
+  const navigate = useNavigate(); 
 
   const handleCardClick = (cardTitle: string) => {
     console.log(`${cardTitle} clicked!`);
@@ -47,11 +47,18 @@ const GraphicDesign: React.FC = () => {
     }
   ];
 
+
+
   return (
     <div>
-      <div id="whole page" className="min-h-screen flex pt-0 px-20 text-stone-800 justify-center align-top max-w-full overflow-x-hidden">
-        <div className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full flex flex-col justify-start align-middle items-center pt-0 p-8">
-          
+      <div id="whole page" className="min-h-screen sm:w-full
+                                      flex pt-0 p-8
+                                      text-stone-800 justify-center overflow-x-hidden">
+        <div id="whole page" className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
+                                      flex flex-col items-start
+                                      pt-0 p-8">
+
+
           {/* First Row of Squares */}
           <div id="first row of squares" className="grid grid-cols-2 gap-0">
             <div></div>
