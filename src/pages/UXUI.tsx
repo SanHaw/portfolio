@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Card from '../components/Card';
 
 const UXUI: React.FC = () => {
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   const handleCardClick = (cardTitle: string) => {
     console.log(`${cardTitle} clicked!`);

@@ -6,6 +6,7 @@ import {
   Routes
 } from 'react-router-dom';
 import '../index.css';
+import Page404 from '../pages/404';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import GraphicDesign from '../pages/GraphicDesign';
@@ -41,6 +42,7 @@ const Navbar: React.FC = () => {
         <Route path="/uxui" element={<UXUI />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/404" element={<Page404 />} />
       </Routes>
     </Router>
   );
