@@ -8,13 +8,20 @@ const Elysan: React.FC = () => {
         <div>
           <p className="font-[Instrument] justify-center
                               text-5xl 2xl:text-[10rem] lg:text-7xl 2xs:text-2xl
-                              overflow-y-visible pb-10
+                              overflow-y-visible pb-4
           ">Elysan Design Studio</p>
+        </div>
+
+        <div>
+          <p className="font-[Instrument] justify-center
+                              text-2xl
+                              overflow-y-visible pb-10
+          ">Online Business | 2022 - present</p>
         </div>
       
       <div>
         <p className="font-[Roboto] justify-left
-                      text-2xl
+                      text-md
                       py-5
         ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -26,7 +33,7 @@ const Elysan: React.FC = () => {
         </p>
       </div></div>
       
-      <div className="w-[60%] h-100 max-w-[60%] flex justify-center overflow-hidden">
+      <div className="w-[100%] h-auto max-w-[60%] justify-center overflow-auto flex flex-col gap-y-4">
         <img src="/work/temp.jpg" alt="" />
         <img src="/work/temp.jpg" alt="" />
         <img src="/work/temp.jpg" alt="" />

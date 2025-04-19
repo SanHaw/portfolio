@@ -71,11 +71,11 @@ const GraphicDesign: React.FC = () => {
 
 
   return (
-    <div>
-      <div id="whole page" className="min-h-screen sm:w-full
+    
+      <div className="min-h-screen sm:w-full
                                       flex pt-0 p-8
                                       text-stone-800 justify-center overflow-x-hidden">
-        <div id="whole page" className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
+        <div className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
                                       flex flex-col items-start
                                       pt-0 p-8">
 
@@ -127,7 +127,7 @@ const GraphicDesign: React.FC = () => {
           </div>
         </div>
       </div>
-    </div></div>
+    </div>
   );
 };
 

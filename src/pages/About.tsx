@@ -3,7 +3,10 @@ import {
   HoverCardTrigger
 } from "@/components/ui/hover-card";
 import React from "react";
+import { FaFigma } from "react-icons/fa";
+import { SiCanva, SiTailwindcss, SiTypescript } from "react-icons/si";
 import ProjectCard from '../components/ProjectCard';
+
 
 
 // import '../styling/Tag.css';
@@ -45,52 +48,52 @@ const About: React.FC = () => {
                 <p className="font-[Instrument] text-5xl 2xl:7xl">Hi there, I'm</p>
                 <p className=" font-[Nowcloud] text-9xl 2xl:text-[10rem] ">Sarah</p>
                 <p className="font-[Instrument] text-3xl 2xl:5xl">UI/UX Designer | Graphic Designer | Computer Science</p>
-                <div className="py-4 text-stone-700 inline-block p-4">
-                  <div className="flex">
+                <div className="py-4 text-stone-700 inline-block">
+                  <div className="flex w-[70%] overflow- ">
                     
-                    {/* <div className="pr-2">
+                    <div className="pr-2">
                       <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
-                        <p className="pr-4 ">X</p><p>Figma</p>
+                        <FaFigma className="mt-1 mr-2" />
+                        <p>Figma</p>
                       </div>
                     </div>
                     <div className="pr-2">
                       <div className="flex bg-[#E8D0FF] p-1 px-4 rounded-xl pr-4">
-                        <p className="pr-4 ">X</p><p>Canva</p>
+                      <SiCanva className="mt-1 mr-2" />
+                      <p>Canva</p>
                       </div>
                     </div>
                     <div className="pr-2">
                       <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-                        <p className="pr-4 ">X</p><p>Tailwind</p>
+                      <SiTailwindcss className="mt-1 mr-2" />
+                      <p>Tailwind</p>
                       </div>
                     </div>
                     <div className="pr-2">
                       <div className="flex bg-[#6EAA87] p-1 px-4 rounded-xl pr-4">
-                        <p className="pr-4 ">X</p><p>Typescript</p>
-                      </div>
-                    </div>
-                    <div className="pr-2">
-                      <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-                        <p className="pr-4 ">X</p><p>Procreate</p>
+                      <SiTypescript className="mt-1 mr-2" />
+                      <p>Typescript</p>
                       </div>
                     </div>
                     <div className="pr-2">
                       <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
-                        <p className="pr-4 ">X</p><p>tailwind</p>
+                      <SiTailwindcss className="mt-1 mr-2" />
+                      <p>Tailwind</p>
                       </div>
-                    </div> */}
+                    </div>
 
                   </div>
                 </div>
               </span>
             </div>
             
-            <div className="flex items-center justify-end w-auto">
+            {/* <div className="flex items-center justify-end w-0">
               <div className="flex flex-col gap-y-0 w-full">
                 <div className="w-full aspect-square bg-[#6EAA87] rounded-md"></div>
                 <div className="w-full aspect-square bg-[#A3CED6] rounded-md"></div>
                 <div className="w-full aspect-square bg-[#FFEB81] rounded-md"></div>
               </div>
-            </div>
+            </div> */}
             </div>
 
            {/* ---------------------------------------------------------------------- */}
