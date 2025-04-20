@@ -20,13 +20,11 @@ const About: React.FC = () => {
                                       flex flex-col justify-center items-center 
                                       pt-0 p-8">
 
-          <div id="first row of squares" className="grid grid-cols-2 gap-0">
-            <div></div>
-            <div className="col-start-2">
-              <div className="grid grid-cols-3 gap-0">
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full 
+          <div className="grid grid-cols-6 gap-0 w-full">
+            <div className=" col-start-4 col-span-3 flex">
+              <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+              <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+              <div className="w-full 
                                 rounded-lg bg-[transparent aspect-square text-center
                                 flex items-center justify-center overflow-hidden">
                     <img
@@ -36,10 +34,8 @@ const About: React.FC = () => {
                       id="asterisk asset"
                     />
                 </div>
-              </div>
             </div>
           </div>
-
                      {/* ---------------------------------------------------------------------- */}
 
           <div className="grid grid-cols-[5fr_1fr] w-full">
@@ -75,13 +71,6 @@ const About: React.FC = () => {
                       <p>Typescript</p>
                       </div>
                     </div>
-                    <div className="pr-2">
-                      <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
-                      <SiTailwindcss className="mt-1 mr-2" />
-                      <p>Tailwind</p>
-                      </div>
-                    </div>
-
                   </div>
                 </div>
               </span>
@@ -98,10 +87,41 @@ const About: React.FC = () => {
 
            {/* ---------------------------------------------------------------------- */}
 
-                {/* padding is not consistent with other grids */}
-            <div className="grid grid-cols-6 gap-0">
+            <div className="grid grid-cols-6 gap-0 w-full">
+              <div className=" col-start-1 col-span-6 flex">
+                <div className="w-full rounded-lg bg-[transparent aspect-square text-center
+                    flex items-center justify-center overflow-hidden"></div>
+                <div className="w-full rounded-lg bg-[transparent aspect-square text-center
+                  flex items-center justify-center overflow-hidden"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-6 gap-0 w-full">
+              <div className=" col-start-1 col-span-3 flex">
+                
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-6 gap-0 w-full">
+              <div className=" col-start-1 col-span-1">
+                <div className="w-full rounded-lg bg-[transparent aspect-square text-center
+                    flex items-center justify-center overflow-hidden"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-transparent aspect-square"></div>
-                <div className="w-full rounded-lg bg-[transparent aspect-square text-center 
+                
+              </div>
+              <div className=" col-start-2 col-span-1">
+              
+              <div className="w-full rounded-lg bg-[transparent aspect-square text-center 
                   flex items-center justify-center overflow-hidden">
                   <img
                     src="/asterisk.svg"
@@ -109,115 +129,97 @@ const About: React.FC = () => {
                     className="w-max h-max object-contain"
                   />
                   </div>
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-            </div>
+              </div>
 
-               {/* ---------------------------------------------------------------------- */}
-
-            <div className="grid grid-cols-6 gap-0">
-              <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-              <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-              <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-            </div>
-
-             {/* ---------------------------------------------------------------------- */}
-          <div className="grid grid-cols-[2fr_4fr] items-start w-full align-top">
-            <div className="grid grid-cols-2 w-full">
-              <div className="col-start-1 w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-              <div className="col-start-2 w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-              <div className="col-start-1 w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-              <div className="col-start-2 w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-              <div className="w-full rounded-lg bg-[transparent aspect-square text-center
-                  flex items-center justify-center overflow-hidden"></div>
-              <div className="col-start-1 w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-            </div>
-
-            <div id="latest projects section" className=" 2xl:scale-{1.5}">
-              <div className="pl-16 2xl:pl-12 w-full">
-                <span className="">
-                  <h1 className=" font-[Nowcloud] text-right text-5xl 2xl:text-7xl">Projects</h1>
-                  <h1 className=" font-[Nowcloud] mt-[-10px] text-right text-7xl 2xl:text-9xl" >Lately</h1>
-                </span>
-                <div className="flex justify-end justify-items-end 2xl:mt-2">
-                  <div className="w-full flex flex-col justify-between h-full">
-                    <ProjectCard
-                      title="Project name"
-                      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
-                      imageUrl="../public/work/temp.jpg" // Make sure this image exists in your public folder
-                    />
-                    <ProjectCard
-                      title="Project name"
-                      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
-                      imageUrl="../public/work/temp.jpg" // Make sure this image exists in your public folder
-                    />
-                    <ProjectCard
-                      title="Project name"
-                      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
-                      imageUrl="../public/work/temp.jpg" // Make sure this image exists in your public folder
-                    />
-                    <div className="flex justify-end pr-3">
-                      <HoverCard>
-                        <HoverCardTrigger>
-                          <button className="hover:underline 
-                                            text-stone-800 font-[Instrument] 
-                                            text-xl 2xl:text-3xl
-                                            2xl:mt-1
-                          ">See more</button>
-                        </HoverCardTrigger>
-                      </HoverCard>
+              <div className=" col-start-3 col-span-4">
+                <div>
+                  <div>
+                  <div id="latest projects section" className=" 2xl:scale-{1.5}">
+                    <div className="pl-16 2xl:pl-12 w-full">
+                      <span className="">
+                        <h1 className=" font-[Nowcloud] text-right text-5xl 2xl:text-7xl">Projects</h1>
+                        <h1 className=" font-[Nowcloud] mt-[-10px] text-right text-7xl 2xl:text-9xl" >Lately</h1>
+                      </span>
+                      <div className="flex justify-end justify-items-end 2xl:mt-2">
+                        <div className="w-full flex flex-col justify-between h-full">
+                          <ProjectCard
+                            title="Project name"
+                            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+                            imageUrl="../public/work/temp.jpg" // Make sure this image exists in your public folder
+                          />
+                          <ProjectCard
+                            title="Project name"
+                            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+                            imageUrl="../public/work/temp.jpg" // Make sure this image exists in your public folder
+                          />
+                          <ProjectCard
+                            title="Project name"
+                            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+                            imageUrl="../public/work/temp.jpg" // Make sure this image exists in your public folder
+                          />
+                          <div className="flex justify-end pr-3">
+                            <HoverCard>
+                              <HoverCardTrigger>
+                                <button className="hover:underline 
+                                                  text-stone-800 font-[Instrument] 
+                                                  text-xl 2xl:text-3xl
+                                                  2xl:mt-1
+                                ">See more</button>
+                              </HoverCardTrigger>
+                            </HoverCard>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
+                  </div></div>
+                </div>  
               </div>
             </div>
-          </div>
+
+
+
+
+
+
+
 
             {/* ---------------------------------------------------------------------- */}
 
-              {/* padding is not consistent with other grids */}
-            <div className="grid grid-cols-6 gap-0">
-              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
-              <div className="w-full rounded-lg bg-[transparent aspect-square text-center 
-                flex items-center justify-center overflow-hidden">
-                <img
-                  src="/asterisk.svg"
-                  alt="Asterisk"
-                  className="w-max h-max object-contain"
-                />
-                </div>
-              <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-              <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-              <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-              <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-            </div>
-
-            {/* ---------------------------------------------------------------------- */}
-
-            <div id="first row of squares" className="grid grid-cols-2 gap-0">
-            <div></div>
-            <div className="col-start-2">
-              <div className="grid grid-cols-3 gap-0">
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+            <div className="grid grid-cols-6 gap-0 w-full">
+              <div className=" col-start-1 col-span-7 flex">
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[transparent aspect-square text-center
-                  flex items-center justify-center overflow-hidden">
-                    <img
-                      src="/asterisk.svg"
-                      alt="Asterisk"
-                      className="w-max h-max object-contain"
-                      id="asterisk asset"
-                    />
-                </div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-6 gap-0 w-full">
+              <div className=" col-start-1 col-span-7 flex">
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-6 gap-0 w-full">
+              <div className=" col-start-1 col-span-7 flex">
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
               <div className="w-full rounded-lg bg-transparent aspect-square"></div>
               </div>
             </div>
-          </div>
 
                      {/* ---------------------------------------------------------------------- */}
 
@@ -253,7 +255,7 @@ const About: React.FC = () => {
           </div>
                      {/* ---------------------------------------------------------------------- */}
 
-          <div id="row of squares" className="grid grid-cols-2 gap-0">
+          <div className="grid grid-cols-2 gap-0">
             <div></div>
             <div className="col-start-2">
               <div className="grid grid-cols-3 gap-0">
