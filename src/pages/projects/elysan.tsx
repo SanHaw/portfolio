@@ -1,44 +1,69 @@
-import React from 'react';
+import React from "react";
 
 const Elysan: React.FC = () => {
   return (
-    <div className='justify-items-center py-10'>
-      <div className="justify-items-center justify-center
-                      w-[60%] max-w-[60%]">
-        <div>
-          <p className="font-[Instrument] justify-center
+
+    <div>
+      <div className="min-h-screen sm:w-full
+                                      flex pt-0 p-8
+                                      text-stone-800 justify-center overflow-x-hidden">
+        <div className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
+                                      flex flex-col items-center
+                                      pt-0 p-8">
+          <div className=" justify-center">
+            <p className="font-[Instrument] justify-center
                               text-5xl 2xl:text-[10rem] lg:text-7xl 2xs:text-2xl
                               overflow-y-visible pb-4
-          ">Elysan Design Studio</p>
-        </div>
-
-        <div>
-          <p className="font-[Instrument] justify-center
-                              text-2xl
+              ">Elysan Design Studio 
+            </p>
+          </div>
+        
+          <div>
+            <p className="font-[Instrument] justify-center
+                            text-2xl
                               overflow-y-visible pb-10
-          ">Online Business | 2022 - present</p>
+              ">Online Business | 2022 - present
+            </p>
+          </div>
+
+          <div>
+            <p className="font-[Roboto] justify-left
+                          text-md
+                          py-5
+            ">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+              est laborum.
+              <br />
+              When I'm not rushing off to the next project, I'm collecting smiskis, reading, watching
+              movies, and--my favorite-- writing in my burn book (scrapbooking in my journal)
+            </p>
+          </div>
+
+          <div className="w-[100%]">
+              <div className="grid grid-cols-6 gap-0">
+                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+              </div>
+            </div>
+
         </div>
-      
-      <div>
-        <p className="font-[Roboto] justify-left
-                      text-md
-                      py-5
-        ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
-          est laborum.
-        </p>
-      </div></div>
-      
-      <div className="w-[100%] h-auto max-w-[60%] justify-center overflow-auto flex flex-col gap-y-4">
-        <img src="/work/temp.jpg" alt="" />
-        <img src="/work/temp.jpg" alt="" />
-        <img src="/work/temp.jpg" alt="" />
       </div>
     </div>
+
   );
 };
 
