@@ -52,24 +52,28 @@ const Elysan: React.FC = () => {
                                 col-start-1 col-span-2 row-start-1 row-span-2
                                 bg-cover bg-right aspect-square
                                 bg-[url('/work/eds/eds001.jpg')]">
+                                {/* EDS: your next design solution */}
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-3 col-span-2 row-start-1 row-span-1
                                 bg-cover bg-right bg-top  aspect-[2/1]
                                 bg-[url('/work/eds/eds101.jpg')]">
+                                {/* thyroid cancer */}
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-5 col-span-1 row-start-1 row-span-1
                                 bg-cover bg-top aspect-square
                                 bg-[url('/work/eds/eds102.jpg')]">
+                                {/* periodic table */}
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-6 col-span-1 row-start-1 row-span-1
                                 bg-cover bg-right aspect-square
                                 bg-[url('/work/eds/eds002.jpg')]">
+                                {/* check out na yan */}
                 </div>
 
                 <div className="rounded-lg bg-[transparent text-center
@@ -77,19 +81,19 @@ const Elysan: React.FC = () => {
                                 col-start-3 col-span-1 row-start-2 row-span-1
                                 bg-cover bg-right bg-top aspect-square
                                 bg-[url('/work/eds/eds103.jpg')]">
+                                {/* ethanol  */}
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-4 col-span-1 row-start-2 row-span-1
                                 bg-cover bg-right bg-top aspect-square
                                 bg-[url('/work/eds/eds104.jpg')]">
+                                {/* formula 1 */}
                 </div>
-                
                 <div className="relative rounded-lg bg-transparent text-center
                 flex items-center justify-center overflow-hidden
                 ccol-start-5 col-span-2 row-start-2 row-span-3
                 bg-cover bg-top aspect-[2/3]">
-  
                   <video
                     autoPlay
                     loop
@@ -97,10 +101,10 @@ const Elysan: React.FC = () => {
                     playsInline
                     className="absolute top-0 left-0 w-full h-full object-cover"
                   >
-                    <source src="/work/eds/eds000.mov" type="video/quicktime" />
+                    <source src="/work/eds/eds000.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
-
+                  {/* IG feed video */}
                 </div>
 
                 
@@ -112,8 +116,8 @@ const Elysan: React.FC = () => {
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
-                                col-start-2 col-span-2 row-start-3 row-span-1
-                                bg-cover bg-top  aspect-[2/1]
+                                col-start-2 col-span-2 row-start-3 row-span-3
+                                bg-cover bg-top  aspect-[2/3]
                                 bg-[url('/work/eds/eds107.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
