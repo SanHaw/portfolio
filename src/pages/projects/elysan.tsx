@@ -1,4 +1,7 @@
+import ImageSlider from "@/components/ImageSlider";
 import React from "react";
+
+
 
 const Elysan: React.FC = () => {
   return (
@@ -47,13 +50,14 @@ const Elysan: React.FC = () => {
 
           <div className="w-full">
               <div className="grid grid-cols-6 gap-2 w-full">
-                <div className="rounded-lg bg-[transparent text-center
+                
+              <ImageSlider className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-1 col-span-2 row-start-1 row-span-2
                                 bg-cover bg-right aspect-square
-                                bg-[url('/work/eds/eds001.jpg')]">
+                                " />
                                 {/* EDS: your next design solution */}
-                </div>
+                
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-3 col-span-2 row-start-1 row-span-1
@@ -113,18 +117,21 @@ const Elysan: React.FC = () => {
                                 col-start-1 col-span-1 row-start-3 row-span-1
                                 bg-cover bg-top  aspect-square
                                 bg-[url('/work/eds/eds105.jpg')]">
+                                {/* international business (dark blue) */}
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-2 col-span-2 row-start-3 row-span-3
                                 bg-cover bg-top  aspect-[2/3]
                                 bg-[url('/work/eds/eds107.jpg')]">
+                                {/* defend the press */}
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-4 col-span-1 row-start-3 row-span-2
                                 bg-cover bg-top  aspect-[1/2]
                                 bg-[url('/work/eds/eds111.jpg')]">
+                                {/*  */}
                 </div>
 
                 <div className="rounded-lg bg-[transparent text-center
@@ -149,6 +156,21 @@ const Elysan: React.FC = () => {
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div> */}
               </div>
             </div>
+
+            <div>
+            <p className="font-[Roboto] justify-left
+                          text-md 2xl:text-3xl
+                          py-5
+            ">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+              est laborum.
+              
+            </p>
+          </div>
 
         </div>
       </div>
