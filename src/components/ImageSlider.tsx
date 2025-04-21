@@ -16,7 +16,7 @@ export default function ImageSlider({ className = "" }: Props) {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 3000); // change every 3 seconds
+    }, 2000); // change every 3 seconds
     return () => clearInterval(interval);
   }, []);
 

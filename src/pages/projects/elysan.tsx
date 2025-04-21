@@ -89,10 +89,10 @@ const Elysan: React.FC = () => {
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
-                                col-start-4 col-span-1 row-start-2 row-span-1
-                                bg-cover bg-right bg-top aspect-square
-                                bg-[url('/work/eds/eds104.jpg')]">
-                                {/* formula 1 */}
+                                col-start-4 col-span-1 row-start-2 row-span-2
+                                bg-cover bg-top aspect-[1/2]
+                                bg-[url('/work/eds/eds111.jpg')]">
+                                {/* construction */}
                 </div>
                 <div className="relative rounded-lg bg-transparent text-center
                 flex items-center justify-center overflow-hidden
@@ -128,10 +128,10 @@ const Elysan: React.FC = () => {
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
-                                col-start-4 col-span-1 row-start-3 row-span-2
-                                bg-cover bg-top  aspect-[1/2]
-                                bg-[url('/work/eds/eds111.jpg')]">
-                                {/*  */}
+                                col-start-4 col-span-1 row-start-4 row-span-1
+                                bg-cover bg-right bg-top aspect-square
+                                bg-[url('/work/eds/eds104.jpg')]">
+                                {/* f1 */}
                 </div>
 
                 <div className="rounded-lg bg-[transparent text-center
@@ -139,21 +139,9 @@ const Elysan: React.FC = () => {
                                 col-start-1 col-span-1 row-start-3 row-span-1
                                 bg-cover bg-top  aspect-square
                                 bg-[url('/work/eds/eds105.jpg')]">
+                                  {/* international business */}
                 </div>
 
-                {/* <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div> */}
               </div>
             </div>
 
