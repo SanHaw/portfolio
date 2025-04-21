@@ -10,25 +10,29 @@ const Elysan: React.FC = () => {
         <div className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
                                       flex flex-col items-center
                                       pt-0 p-8">
-          <div className=" justify-center">
+          <div className="justify-center">
             <p className="font-[Instrument] justify-center
-                              text-5xl 2xl:text-[10rem] lg:text-7xl 2xs:text-2xl
+                              text-5xl 2xl:text-[10rem] lg:text-7xl 2xs:text-2xl 
                               overflow-y-visible pb-4
               ">Elysan Design Studio 
             </p>
           </div>
         
-          <div>
-            <p className="font-[Instrument] justify-center
-                            text-2xl
+          <div className="w-full text-center">
+            <p className="font-[Instrument]
+                            text-2xl 2xl:text-6xl
                               overflow-y-visible pb-10
-              ">Online Business | 2022 - present
+              ">
+              Online Business | 2022 - present
+              <br />
+              Founder | Graphic Designer | Customer Service | Social Media Manager
+              
             </p>
           </div>
 
           <div>
             <p className="font-[Roboto] justify-left
-                          text-md
+                          text-md 2xl:text-3xl
                           py-5
             ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -43,6 +47,7 @@ const Elysan: React.FC = () => {
 
           <div className="w-[100%]">
               <div className="grid grid-cols-6 gap-0">
+                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
