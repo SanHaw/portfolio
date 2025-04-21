@@ -12,7 +12,7 @@ const Elysan: React.FC = () => {
                                       pt-0 p-8">
           <div className="justify-center">
             <p className="font-[Instrument] justify-center
-                              text-5xl 2xl:text-[10rem] lg:text-7xl 2xs:text-2xl 
+                              text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl 
                               overflow-y-visible pb-4
               ">Elysan Design Studio 
             </p>
@@ -20,7 +20,7 @@ const Elysan: React.FC = () => {
         
           <div className="w-full text-center">
             <p className="font-[Instrument]
-                            text-2xl 2xl:text-6xl
+                            text-2xl 2xl:text-5xl
                               overflow-y-visible pb-10
               ">
               Online Business | 2022 - present
@@ -45,10 +45,73 @@ const Elysan: React.FC = () => {
             </p>
           </div>
 
-          <div className="w-[100%]">
-              <div className="grid grid-cols-6 gap-0">
+          <div className="w-full">
+              <div className="grid grid-cols-6 gap-2 w-full">
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-1 col-span-2 row-start-1 row-span-2
+                                bg-cover bg-right aspect-square
+                                bg-[url('/work/eds/eds01.png')]">
+                </div>
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-3 col-span-2 row-start-1 row-span-1
+                                bg-cover bg-right bg-top  aspect-[2/1]
+                                bg-[url('/work/eds/eds11.png')]">
+                </div>
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-5 col-span-1 row-start-1 row-span-1
+                                bg-cover bg-top aspect-square
+                                bg-[url('/work/eds/eds12.png')]">
+                </div>
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-6 col-span-1 row-start-1 row-span-1
+                                bg-cover bg-right aspect-square
+                                bg-[url('/work/eds/eds02.png')]">
+                </div>
+
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-3 col-span-1 row-start-2 row-span-1
+                                bg-cover bg-right bg-top aspect-square
+                                bg-[url('/work/eds/eds13.jpg')]">
+                </div>
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-4 col-span-1 row-start-2 row-span-1
+                                bg-cover bg-right bg-top aspect-square
+                                bg-[url('/work/eds/eds14.jpg')]">
+                </div>
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-5 col-span-2 row-start-2 row-span-2
+                                bg-cover bg-right aspect-square
+                                bg-[url('/work/eds/eds03.png')]">
+                </div>
+                
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-1 col-span-1 row-start-3 row-span-1
+                                bg-cover bg-right bg-top  aspect-square
+                                bg-[url('/work/eds/eds15.jpg')]">
+                </div>
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-2 col-span-2 row-start-3 row-span-1
+                                bg-cover bg-right bg-top  aspect-[2/1]
+                                bg-[url('/work/eds/eds17.png')]">
+                </div>
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-2 col-span-2 row-start-3 row-span-1
+                                bg-cover bg-right bg-top  aspect-[2/1]
+                                bg-[url('/work/eds/eds17.png')]">
+                </div>
+
+                {/* <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
@@ -59,7 +122,7 @@ const Elysan: React.FC = () => {
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div> */}
               </div>
             </div>
 
