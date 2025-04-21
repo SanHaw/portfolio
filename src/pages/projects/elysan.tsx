@@ -51,63 +51,63 @@ const Elysan: React.FC = () => {
                                 flex items-center justify-center overflow-hidden
                                 col-start-1 col-span-2 row-start-1 row-span-2
                                 bg-cover bg-right aspect-square
-                                bg-[url('/work/eds/eds01.png')]">
+                                bg-[url('/work/eds/eds001.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-3 col-span-2 row-start-1 row-span-1
                                 bg-cover bg-right bg-top  aspect-[2/1]
-                                bg-[url('/work/eds/eds11.png')]">
+                                bg-[url('/work/eds/eds101.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-5 col-span-1 row-start-1 row-span-1
                                 bg-cover bg-top aspect-square
-                                bg-[url('/work/eds/eds12.png')]">
+                                bg-[url('/work/eds/eds102.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-6 col-span-1 row-start-1 row-span-1
                                 bg-cover bg-right aspect-square
-                                bg-[url('/work/eds/eds02.png')]">
+                                bg-[url('/work/eds/eds002.jpg')]">
                 </div>
 
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-3 col-span-1 row-start-2 row-span-1
                                 bg-cover bg-right bg-top aspect-square
-                                bg-[url('/work/eds/eds13.jpg')]">
+                                bg-[url('/work/eds/eds103.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-4 col-span-1 row-start-2 row-span-1
                                 bg-cover bg-right bg-top aspect-square
-                                bg-[url('/work/eds/eds14.jpg')]">
+                                bg-[url('/work/eds/eds104.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-5 col-span-2 row-start-2 row-span-2
                                 bg-cover bg-right aspect-square
-                                bg-[url('/work/eds/eds03.png')]">
+                                bg-[url('/work/eds/eds003.jpg')]">
                 </div>
                 
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-1 col-span-1 row-start-3 row-span-1
                                 bg-cover bg-right bg-top  aspect-square
-                                bg-[url('/work/eds/eds15.jpg')]">
+                                bg-[url('/work/eds/eds105.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-2 col-span-2 row-start-3 row-span-1
                                 bg-cover bg-right bg-top  aspect-[2/1]
-                                bg-[url('/work/eds/eds17.png')]">
+                                bg-[url('/work/eds/eds107.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-2 col-span-2 row-start-3 row-span-1
                                 bg-cover bg-right bg-top  aspect-[2/1]
-                                bg-[url('/work/eds/eds17.png')]">
+                                bg-[url('/work/eds/eds107.jpg')]">
                 </div>
 
                 {/* <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
