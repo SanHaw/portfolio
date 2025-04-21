@@ -249,6 +249,10 @@ const About: React.FC = () => {
                 project management, social media marketing, and customer service. (*´∇｀*)♡
                 I actively participate in organizations within and outside of school and have
                 led numerous projects since entering college. ⋆✺⋆｡
+                <br />
+                When I'm not rushing off to the next project, I'm collecting smiskis, reading, 
+                playing games, watching movies, and--my favorite-- writing in my burn book 
+                (scrapbooking in my journal).
               </p>
             </div>
 

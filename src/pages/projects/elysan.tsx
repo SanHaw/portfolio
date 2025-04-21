@@ -37,9 +37,7 @@ const Elysan: React.FC = () => {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
               sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
               est laborum.
-              <br />
-              When I'm not rushing off to the next project, I'm collecting smiskis, reading, watching
-              movies, and--my favorite-- writing in my burn book (scrapbooking in my journal)
+              
             </p>
           </div>
 
