@@ -84,30 +84,50 @@ const Elysan: React.FC = () => {
                                 bg-cover bg-right bg-top aspect-square
                                 bg-[url('/work/eds/eds104.jpg')]">
                 </div>
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-5 col-span-2 row-start-2 row-span-2
-                                bg-cover bg-right aspect-square
-                                bg-[url('/work/eds/eds003.jpg')]">
+                
+                <div className="relative rounded-lg bg-transparent text-center
+                flex items-center justify-center overflow-hidden
+                ccol-start-5 col-span-2 row-start-2 row-span-3
+                bg-cover bg-top aspect-[2/3]">
+  
+                  <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="absolute top-0 left-0 w-full h-full object-cover"
+                  >
+                    <source src="/work/eds/eds000.mov" type="video/quicktime" />
+                    Your browser does not support the video tag.
+                  </video>
+
                 </div>
+
                 
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-1 col-span-1 row-start-3 row-span-1
-                                bg-cover bg-right bg-top  aspect-square
+                                bg-cover bg-top  aspect-square
                                 bg-[url('/work/eds/eds105.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-2 col-span-2 row-start-3 row-span-1
-                                bg-cover bg-right bg-top  aspect-[2/1]
+                                bg-cover bg-top  aspect-[2/1]
                                 bg-[url('/work/eds/eds107.jpg')]">
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
-                                col-start-2 col-span-2 row-start-3 row-span-1
-                                bg-cover bg-right bg-top  aspect-[2/1]
-                                bg-[url('/work/eds/eds107.jpg')]">
+                                col-start-4 col-span-1 row-start-3 row-span-2
+                                bg-cover bg-top  aspect-[1/2]
+                                bg-[url('/work/eds/eds111.jpg')]">
+                </div>
+
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-1 col-span-1 row-start-3 row-span-1
+                                bg-cover bg-top  aspect-square
+                                bg-[url('/work/eds/eds105.jpg')]">
                 </div>
 
                 {/* <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
