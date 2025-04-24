@@ -95,13 +95,7 @@ const Elysan: React.FC = () => {
                                 bg-[url('/work/eds/eds101.jpg')]">
                                 {/* thyroid cancer */}
                 </div>
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-5 col-span-1 row-start-1 row-span-1
-                                bg-cover bg-top aspect-square
-                                bg-[url('/work/eds/eds102.jpg')]">
-                                {/* periodic table */}
-                </div>
+                
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-6 col-span-1 row-start-1 row-span-1
@@ -141,14 +135,6 @@ const Elysan: React.FC = () => {
                   {/* IG feed video */}
                 </div>
 
-                
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-1 col-span-1 row-start-3 row-span-1
-                                bg-cover bg-top  aspect-square
-                                bg-[url('/work/eds/eds105.jpg')]">
-                                {/* international business (dark blue) */}
-                </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-2 col-span-2 row-start-3 row-span-3
@@ -158,26 +144,27 @@ const Elysan: React.FC = () => {
                 </div>
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
-                                col-start-1 col-span-1 row-start-3 row-span-1
+                                col-start-1 col-span-1 row-start-4 row-span-1
                                 bg-cover bg-top  aspect-square
                                 bg-[url('/work/eds/eds105.jpg')]">
                                   {/* international business */}
                 </div>
 
+                
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
-                                col-start-1 col-span-1 row-start-4 row-span-2
+                                col-start-1 col-span-1 row-start-5 row-span-2
                                 bg-cover bg-top aspect-[1/2]
                                 bg-[url('/work/eds/eds110.jpg')]">
                                 {/* sex health */}
                 </div>
-                <div className="rounded-lg bg-[transparent text-center
+                {/* <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-4 col-span-1 row-start-4 row-span-1
                                 bg-cover bg-top aspect-square
                                 bg-[url('/work/eds/eds104.jpg')]">
                                 {/* f1 */}
-                </div>
+                {/* </div>  */}
 
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
@@ -192,6 +179,21 @@ const Elysan: React.FC = () => {
                                 bg-cover bg-top aspect-square
                                 bg-[url('/work/eds/eds108.jpg')]">
                                 {/* f1 */}
+                </div>
+
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-2 col-span-1 row-start-7 row-span-1
+                                bg-cover bg-top aspect-square
+                                bg-[url('/work/eds/eds102.jpg')]">
+                                {/* periodic table */}
+                </div>
+                <div className="rounded-lg bg-[transparent text-center
+                                flex items-center justify-center overflow-hidden
+                                col-start-3 col-span-3 row-start-6 row-span-2
+                                bg-cover bg-top aspect-3/2
+                                bg-[url('/work/eds/eds112.jpg')]">
+                                {/* periodic table */}
                 </div>
 
               </div>
