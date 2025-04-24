@@ -40,12 +40,12 @@ const Elysan: React.FC = () => {
                           text-md 2xl:text-3xl
                           py-5
             ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
-              est laborum.
+              Elysan Design Studios, a digital design brand I launched in 2022 
+              on TikTok. What started as a creative outlet has now grown into 
+              a small business with over 3,000 followers, 73,000 likes, and 
+              200+ recurring clients. With  Elysan Design Studios, I create 
+              posters, infographics— information designs and even branding 
+              kits for people in the academe and small businesses.
               
             </p>
           </div>
@@ -79,7 +79,7 @@ const Elysan: React.FC = () => {
         </div>
 
           <div className="w-full pt-8">
-              <div className="grid grid-cols-6 gap-2 w-full">
+              <div className="grid grid-cols-6 gap-4 w-full">
                 
               <ImageSlider className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
@@ -197,7 +197,7 @@ const Elysan: React.FC = () => {
               </div>
             </div>
 
-            <div>
+            {/* <div>
             <p className="font-[Roboto] justify-left
                           text-md 2xl:text-3xl
                           py-5 pt-10
@@ -210,7 +210,7 @@ const Elysan: React.FC = () => {
               est laborum.
               
             </p>
-          </div>
+          </div> */}
 
           
 
