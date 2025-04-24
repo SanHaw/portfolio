@@ -1,6 +1,7 @@
 import ImageSlider from "@/components/ImageSlider";
 import React from "react";
-
+import { FaFigma } from "react-icons/fa";
+import { SiCanva, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 
 const Elysan: React.FC = () => {
@@ -48,7 +49,35 @@ const Elysan: React.FC = () => {
             </p>
           </div>
 
-          <div className="w-full">
+          <div className="flex w-[70%] overflow- ">
+                              
+          <div className="pr-2">
+            <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+              <FaFigma className="mt-1 mr-2" />
+              <p>Figma</p>
+            </div>
+          </div>
+          <div className="pr-2">
+            <div className="flex bg-[#E8D0FF] p-1 px-4 rounded-xl pr-4">
+            <SiCanva className="mt-1 mr-2" />
+            <p>Canva</p>
+            </div>
+          </div>
+          <div className="pr-2">
+            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+            <SiTailwindcss className="mt-1 mr-2" />
+            <p>Tailwind</p>
+            </div>
+          </div>
+          <div className="pr-2">
+            <div className="flex bg-[#6EAA87] p-1 px-4 rounded-xl pr-4">
+            <SiTypescript className="mt-1 mr-2" />
+            <p>Typescript</p>
+            </div>
+          </div>
+        </div>
+
+          <div className="w-full pt-8">
               <div className="grid grid-cols-6 gap-2 w-full">
                 
               <ImageSlider className="rounded-lg bg-[transparent text-center
