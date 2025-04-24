@@ -14,11 +14,12 @@ const Elysan: React.FC = () => {
         <div className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
                                       flex flex-col items-center
                                       pt-0 p-8">
-          <div className="justify-center">
+          <div className="justify-center justify-items-center">
             <p className="font-[Instrument] justify-center
-                              text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl 
-                              overflow-y-visible pb-4
-              ">Elysan Design Studio 
+                              text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
+                              overflow-y-visible text-center
+                              bg-[#FFEB81] p-20 mb-6 w-[100vw]
+              ">Elysan Design Studio
             </p>
           </div>
         
@@ -49,7 +50,7 @@ const Elysan: React.FC = () => {
             </p>
           </div>
 
-          <div className="flex w-[70%] overflow- ">
+          <div className="flex w-[70%] overflow-  justify-center">
                               
           <div className="pr-2">
             <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
@@ -166,7 +167,7 @@ const Elysan: React.FC = () => {
                 <div className="rounded-lg bg-[transparent text-center
                                 flex items-center justify-center overflow-hidden
                                 col-start-1 col-span-1 row-start-4 row-span-2
-                                bg-cover bg-top aspect-[1/2
+                                bg-cover bg-top aspect-[1/2]
                                 bg-[url('/work/eds/eds110.jpg')]">
                                 {/* sex health */}
                 </div>
@@ -211,9 +212,7 @@ const Elysan: React.FC = () => {
             </p>
           </div>
 
-          <div className="w-full">
-            <div></div>
-          </div>
+          
 
         </div>
       </div>
