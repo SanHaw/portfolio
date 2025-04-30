@@ -12,17 +12,17 @@ const GraphicDesign: React.FC = () => {
   const cards = [
     {
       title: 'Elysan Design',
-      description: 'Explore the Elysan project!',
+      description: 'Founder | Graphic Designer',
       imageUrl: '/work/temp.jpg',
       link: '/projects/elysan',
       onCardClick: () => handleCardClick('Elysan Design'),
     },
     {
       title: 'TEDxLanang Ave',
-      description: 'Explore the Elysan project!',
+      description: 'Branding Head',
       imageUrl: '/work/temp.jpg',
-      link: '/projects/elysan',
-      onCardClick: () => handleCardClick('Elysan Design'),
+      link: '/projects/tedx',
+      onCardClick: () => handleCardClick('tedx'),
     },
     {
       title: 'Chammie Carnival',

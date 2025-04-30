@@ -224,21 +224,18 @@ const About: React.FC = () => {
                       <div className="flex justify-end justify-items-end 2xl:mt-2">
                         <div className="w-full flex flex-col justify-between h-full">
                         <ProjectCard 
-                          title="Project Beta"
-                          role={["QA Testing"]}
+                          title="SYSDEV Website"
+                          role={["UX/UI Head"]}
                           otherRole={[
-                            { label: "SEO Specialist", color: "#4ADE80" }, // custom role
-                            { label: "DevOps", color: "#60A5FA" }
                           ]}
                           imageUrl="/img/project2.png"
                           status="Ongoing"
                       />
                       <ProjectCard 
-                        title="Project Beta"
-                        role={["QA Testing"]}
+                        title="SAMAHAN Newsfeed"
+                        role={["Project Manager"]}
                         otherRole={[
-                          { label: "SEO Specialist", color: "#4ADE80" }, // custom role
-                          { label: "DevOps", color: "#60A5FA" }
+                          { label: "UX/UI Consultant", color: "#4ADE80" },
                         ]}
                         imageUrl="/img/project2.png"
                         status="Ongoing"
