@@ -1,11 +1,6 @@
-import {
-  HoverCard,
-  HoverCardTrigger
-} from "@/components/ui/hover-card";
 import React from "react";
 import { FaCss3Alt, FaFigma, FaGitAlt, FaGithub, FaHtml5, FaJsSquare, FaPython, FaReact, FaTrello } from 'react-icons/fa';
 import { SiCanva, SiShadcnui, SiTypescript } from 'react-icons/si';
-import ProjectCard from '../components/ProjectCard';
 
 
 
@@ -169,7 +164,9 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-6 gap-0 w-full">
+{/* Recent Projects */}
+
+            {/* <div className="grid grid-cols-6 gap-0 w-full">
               <div className=" col-start-1 col-span-1">
                 <div className="w-full rounded-lg bg-[transparent aspect-square text-center
                     flex items-center justify-center overflow-hidden"></div>
@@ -259,7 +256,7 @@ const About: React.FC = () => {
                                                   text-xl 2xl:text-3xl
                                                   2xl:mt-1
                                                 
-    >
+                                >
                                 ">See more</button>
                               </HoverCardTrigger>
                             </HoverCard>
@@ -270,18 +267,11 @@ const About: React.FC = () => {
                   </div></div>
                 </div>  
               </div>
-            </div>
-
-
-
-
-
-
-
+            </div> */}
 
             {/* ---------------------------------------------------------------------- */}
 
-            <div className="grid grid-cols-6 gap-0 w-full">
+            {/* <div className="grid grid-cols-6 gap-0 w-full">
               <div className=" col-start-1 col-span-7 flex">
                 <div className="w-full rounded-lg bg-[#FFEB81] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
@@ -319,7 +309,7 @@ const About: React.FC = () => {
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#FFEB81] aspect-square"></div>
               </div>
-            </div>
+            </div> */}
 
             <div className="grid grid-cols-6 gap-0 w-full">
               <div className=" col-start-1 col-span-7 flex">
@@ -336,9 +326,15 @@ const About: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
         
-            {/* Image Placeholder */}
+            
             <div className="md:col-span-1">
-              <div className="h-full bg-gray-300 rounded-lg w-full aspect-[2/3] " />
+              <div className="h-full bg-gray-300 rounded-lg w-full aspect-[2/3] overflow-hidden">
+                <img
+                  src="/me.jpg"
+                  alt="Me"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
 
             {/* Text Content */}
