@@ -166,7 +166,7 @@ const About: React.FC = () => {
 
 {/* Recent Projects */}
 
-            {/* <div className="grid grid-cols-6 gap-0 w-full">
+            {/* <div className="grid grid-coçls-6 gap-0 w-full">
               <div className=" col-start-1 col-span-1">
                 <div className="w-full rounded-lg bg-[transparent aspect-square text-center
                     flex items-center justify-center overflow-hidden"></div>
