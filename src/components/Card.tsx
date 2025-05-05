@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, onCardClick, 
             cursor-pointer transform transition-all duration-300 
             ease-in-out hover:scale-105 active:bg-stone-200 hover:shadow-lg"
       onClick={handleClick}
-      style={{ height: '260px' }}
+      style={{ height: '280px' }}
     >
       {/* Image */}
       <div className="h-40 overflow-hidden" style={{ height: '60%' }}>

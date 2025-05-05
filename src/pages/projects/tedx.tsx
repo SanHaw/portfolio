@@ -85,65 +85,28 @@ const Tedx: React.FC = () => {
             </p>
           </div>
 
-            {/* <div>
-            <p className="font-[Roboto] justify-left
-                          text-md 2xl:text-3xl
-                          py-5 pt-10
-            ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
-              est laborum.
-              
-            </p>
-          </div> */}
-          
-        
-
           <div className="w-full pt-8">
           <div className="grid grid-cols-6 gap-4 w-full">
-            <div className="col-span-4 col-start-1 flex
-                aspect-[4/2]
+          <div className="col-span-6 col-start-1 flex aspect-[6/2] rounded-lg overflow-hidden">
+            <img
+              src="/work/tedx/tedx001.jpg"
+              alt="Asterisk"
+              className="w-full h-full object-cover object-left"
+              id="asterisk asset"
+            />
+          </div>
+
+            <div className="col-span-2 col-start-1 flex justify-center aspect-square
                 items-center rounded-lg overflow-hidden">
                 <img
-                  src="/work/tedx/tedx001.jpg"
+                  src="/work/tedx/tedx008.jpg"
                   alt="Asterisk"
-                  className="w-max object-contain"
-                  id="asterisk asset"
-                />
-            </div>
-            <div className="col-span-2 col-start- flex justify-center 
-                items-center rounded-lg overflow-hidden">
-                <img
-                  src="/work/tedx/tedx002.jpg"
-                  alt="Asterisk"
-                  className="w-max object-contain"
+                  className="w-full h-full object-cover object-left"
                   id="asterisk asset"
                 />
             </div>
 
             <div className="col-span-2 col-start-3 flex justify-center 
-                items-center rounded-lg overflow-hidden">
-                <img
-                  src="/work/tedx/tedx003.jpg"
-                  alt="Asterisk"
-                  className="w-max object-contain"
-                  id="asterisk asset"
-                />
-            </div>
-            <div className="col-span-2 col-start-5 flex justify-center 
-                items-center rounded-lg overflow-hidden">
-                <img
-                  src="/work/tedx/tedx004.jpg"
-                  alt="Asterisk"
-                  className="w-max object-contain"
-                  id="asterisk asset"
-                />
-            </div>
-
-            <div className="col-span-3 col-start-1 flex justify-center 
                 items-center rounded-lg overflow-hidden">
                 <img
                   src="/work/tedx/tedx005.jpg"
@@ -152,15 +115,6 @@ const Tedx: React.FC = () => {
                   id="asterisk asset"
                 />
             </div>
-            <div className="col-span-2 col-start-4 flex justify-center 
-                items-start rounded-lg overflow-hidden">
-                <img
-                  src="/work/tedx/tedx008.jpg"
-                  alt="Asterisk"
-                  className="w-max object-contain"
-                  id="asterisk asset"
-                />
-            </div>
             <div className="col-span-2 col-start-5 flex justify-center 
                 items-center rounded-lg overflow-hidden">
                 <img
@@ -170,7 +124,19 @@ const Tedx: React.FC = () => {
                   id="asterisk asset"
                 />
             </div>
+
+            <div className="col-span-6 col-start-1 flex justify-center 
+                items-start rounded-lg overflow-hidden">
+                <img
+                  src="/work/tedx/tedx006.jpg"
+                  alt="Asterisk"
+                  className="w-max object-contain"
+                  id="asterisk asset"
+                />
+            </div>
           </div>
+
+          
         </div>
       </div>
 
