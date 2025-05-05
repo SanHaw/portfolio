@@ -1,8 +1,6 @@
-import ImageSlider from "@/components/ImageSlider";
 import React from "react";
-import { FaFigma } from "react-icons/fa";
-import { SiCanva, SiTailwindcss, SiTypescript } from "react-icons/si";
-
+import { FaFigma } from 'react-icons/fa';
+import { SiCanva } from 'react-icons/si';
 
 const Tedx: React.FC = () => {
   return (
@@ -28,30 +26,14 @@ const Tedx: React.FC = () => {
                             text-2xl 2xl:text-5xl
                               overflow-y-visible pb-10
               ">
-              Online Business | 2022 - present
+              2024
               <br />
-              Founder | Graphic Designer | Customer Service | Social Media Manager
+              Branding Head
               
             </p>
           </div>
 
-          <div>
-            <p className="font-[Roboto] justify-left
-                          text-md 2xl:text-3xl
-                          py-5
-            ">
-              Elysan Design Studios, a digital design brand I launched in 2022 
-              on TikTok. What started as a creative outlet has now grown into 
-              a small business with over 3,000 followers, 73,000 likes, and 
-              200+ recurring clients. With  Elysan Design Studios, I create 
-              posters, infographics— information designs and even branding 
-              kits for people in the academe and small businesses.
-              
-            </p>
-          </div>
-
-          <div className="flex w-[70%] overflow-  justify-center">
-                              
+          <div className="flex w-[70%]  flex-wrap justify-center">
           <div className="pr-2">
             <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
               <FaFigma className="mt-1 mr-2" />
@@ -66,14 +48,8 @@ const Tedx: React.FC = () => {
           </div>
           <div className="pr-2">
             <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            <SiTailwindcss className="mt-1 mr-2" />
-            <p>Tailwind</p>
-            </div>
-          </div>
-          <div className="pr-2">
-            <div className="flex bg-[#6EAA87] p-1 px-4 rounded-xl pr-4">
-            <SiTypescript className="mt-1 mr-2" />
-            <p>Typescript</p>
+            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+            <p>Graphic Design</p>
             </div>
           </div>
         </div>
@@ -81,123 +57,33 @@ const Tedx: React.FC = () => {
           <div className="w-full pt-8">
               <div className="grid grid-cols-6 gap-4 w-full">
                 
-              <ImageSlider className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-1 col-span-2 row-start-1 row-span-2
-                                bg-cover bg-right aspect-square
-                                " />
-                                {/* EDS: your next design solution */}
-                
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-3 col-span-2 row-start-1 row-span-1
-                                bg-cover bg-top  aspect-[2/1]
-                                bg-[url('/work/eds/eds101.jpg')]">
-                                {/* thyroid cancer */}
-                </div>
-                
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-6 col-span-1 row-start-1 row-span-1
-                                bg-cover bg-right aspect-square
-                                bg-[url('/work/eds/eds002.jpg')]">
-                                {/* check out na yan */}
-                </div>
-
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-3 col-span-1 row-start-2 row-span-1
-                                bg-cover bg-top aspect-square
-                                bg-[url('/work/eds/eds103.jpg')]">
-                                {/* ethanol  */}
-                </div>
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-4 col-span-1 row-start-2 row-span-2
-                                bg-cover bg-top aspect-[1/2]
-                                bg-[url('/work/eds/eds116.jpg')]">
-                                {/* construction */}
-                </div>
-                <div className="relative rounded-lg bg-transparent text-center
-                flex items-center justify-center overflow-hidden
-                ccol-start-5 col-span-2 row-start-2 row-span-3
-                bg-cover bg-top aspect-[2/3]">
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="absolute top-0 left-0 w-full h-full object-cover"
-                  >
-                    <source src="/work/eds/eds000.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                  {/* IG feed video */}
-                </div>
-
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-2 col-span-2 row-start-3 row-span-3
-                                bg-cover bg-top  aspect-[2/3]
-                                bg-[url('/work/eds/eds107.jpg')]">
-                                {/* defend the press */}
-                </div>
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-1 col-span-1 row-start-4 row-span-1
-                                bg-cover bg-top  aspect-square
-                                bg-[url('/work/eds/eds105.jpg')]">
-                                  {/* international business */}
-                </div>
-
-                
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-1 col-span-1 row-start-5 row-span-2
-                                bg-cover bg-top aspect-[1/2]
-                                bg-[url('/work/eds/eds110.jpg')]">
-                                {/* sex health */}
-                </div>
-                {/* <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-4 col-span-1 row-start-4 row-span-1
-                                bg-cover bg-top aspect-square
-                                bg-[url('/work/eds/eds104.jpg')]">
-                                {/* f1 */}
-                {/* </div>  */}
-
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-4 col-span-2 row-start-5 row-span-1
-                                bg-cover bg-top aspect-[2/1]
-                                bg-[url('/work/eds/eds114.jpg')]">
-                                {/* christmas camp */}
-                </div>
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-6 col-span-1 row-start-5 row-span-1
-                                bg-cover bg-top aspect-square
-                                bg-[url('/work/eds/eds108.jpg')]">
-                                {/* f1 */}
-                </div>
-
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-2 col-span-1 row-start-7 row-span-1
-                                bg-cover bg-top aspect-square
-                                bg-[url('/work/eds/eds102.jpg')]">
-                                {/* periodic table */}
-                </div>
-                <div className="rounded-lg bg-[transparent text-center
-                                flex items-center justify-center overflow-hidden
-                                col-start-3 col-span-3 row-start-6 row-span-2
-                                bg-cover bg-top aspect-3/2
-                                bg-[url('/work/eds/eds112.jpg')]">
-                                {/* periodic table */}
-                </div>
-
               </div>
             </div>
+
+          <div>
+            <p className="font-[Roboto] justify-left
+                          text-md 2xl:text-3xl
+                          py-5
+            ">
+              TEDxLanang Ave is an independently organized TEDx event held in 
+              Davao City that brings together thought leaders, creatives, and 
+              changemakers to share ideas worth spreading. Rooted in the spirit 
+              of innovation and community, the event features diverse speakers 
+              who inspire progress through powerful storytelling and local impact.
+              <br /><br />
+              As the Branding Head for TEDxLanang Ave, my goal was to place 
+              Mindanao’s vibrant cultural identity at the heart of the event’s 
+              visual direction. I carefully balanced traditional elements—such 
+              as indigenous patterns, regional color palettes, and symbolic 
+              imagery—with TEDx’s globally recognized branding standards. This 
+              approach ensured that while the event reflected the uniqueness and 
+              richness of Mindanao, it remained consistent with TEDx’s professional 
+              and minimalist aesthetic. The result was a cohesive and culturally 
+              grounded visual experience that resonated with both local audiences 
+              and the broader TEDx community.
+              
+            </p>
+          </div>
 
             {/* <div>
             <p className="font-[Roboto] justify-left
@@ -213,10 +99,81 @@ const Tedx: React.FC = () => {
               
             </p>
           </div> */}
-
           
+        
 
+          <div className="w-full pt-8">
+          <div className="grid grid-cols-6 gap-4 w-full">
+            <div className="col-span-4 col-start-1 flex
+                aspect-[4/2]
+                items-center rounded-lg overflow-hidden">
+                <img
+                  src="/work/tedx/tedx001.jpg"
+                  alt="Asterisk"
+                  className="w-max object-contain"
+                  id="asterisk asset"
+                />
+            </div>
+            <div className="col-span-2 col-start- flex justify-center 
+                items-center rounded-lg overflow-hidden">
+                <img
+                  src="/work/tedx/tedx002.jpg"
+                  alt="Asterisk"
+                  className="w-max object-contain"
+                  id="asterisk asset"
+                />
+            </div>
+
+            <div className="col-span-2 col-start-3 flex justify-center 
+                items-center rounded-lg overflow-hidden">
+                <img
+                  src="/work/tedx/tedx003.jpg"
+                  alt="Asterisk"
+                  className="w-max object-contain"
+                  id="asterisk asset"
+                />
+            </div>
+            <div className="col-span-2 col-start-5 flex justify-center 
+                items-center rounded-lg overflow-hidden">
+                <img
+                  src="/work/tedx/tedx004.jpg"
+                  alt="Asterisk"
+                  className="w-max object-contain"
+                  id="asterisk asset"
+                />
+            </div>
+
+            <div className="col-span-3 col-start-1 flex justify-center 
+                items-center rounded-lg overflow-hidden">
+                <img
+                  src="/work/tedx/tedx005.jpg"
+                  alt="Asterisk"
+                  className="w-max object-contain"
+                  id="asterisk asset"
+                />
+            </div>
+            <div className="col-span-2 col-start-4 flex justify-center 
+                items-start rounded-lg overflow-hidden">
+                <img
+                  src="/work/tedx/tedx008.jpg"
+                  alt="Asterisk"
+                  className="w-max object-contain"
+                  id="asterisk asset"
+                />
+            </div>
+            <div className="col-span-2 col-start-5 flex justify-center 
+                items-center rounded-lg overflow-hidden">
+                <img
+                  src="/work/tedx/tedx004.jpg"
+                  alt="Asterisk"
+                  className="w-max object-contain"
+                  id="asterisk asset"
+                />
+            </div>
+          </div>
         </div>
+      </div>
+
       </div>
     </div>
 

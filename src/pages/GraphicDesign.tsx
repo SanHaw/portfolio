@@ -13,7 +13,7 @@ const GraphicDesign: React.FC = () => {
     {
       title: 'Elysan Design',
       description: 'Founder | Graphic Designer',
-      imageUrl: '/work/temp.jpg',
+      imageUrl: '/work/eds/eds007.jpg',
       link: '/projects/elysan',
       onCardClick: () => handleCardClick('Elysan Design'),
     },
