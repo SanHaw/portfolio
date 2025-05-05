@@ -13,9 +13,9 @@ const UXUI: React.FC = () => {
     {
       title: 'Minecraft Companion App',
       description: 'WINNING UI AT IT WEEK 24!',
-      imageUrl: '/work/temp.jpg',
-      link: '/projects/elysan',
-      onCardClick: () => handleCardClick('Elysan Design'),
+      imageUrl: '/work/bd/bd001.jpg',
+      link: '/projects/bd',
+      onCardClick: () => handleCardClick('Block Diary'),
     },
     {
       title: 'SAMAHAN Newsfeed',
@@ -69,7 +69,7 @@ const UXUI: React.FC = () => {
             <div className="flex items-center justify-left">
               <span className="py-0">
                 <p className="font-[Instrument] text-3xl 2xl:7xl">Hi there, I do</p>
-                <p className="font-[Nowcloud] text-6xl 2xl:text-[10rem] lg:text-8xl 2xs:text:2xl">UXUI<br />Design</p>
+                <p className="font-[Nowcloud] text-6xl 2xl:text-[10rem] lg:text-8xl 2xs:text:2xl">Dev &<br />Design</p>
               </span>
             </div>
 

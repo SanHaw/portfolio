@@ -12,6 +12,7 @@ const Tedx: React.FC = () => {
         <div className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
                                       flex flex-col items-center
                                       pt-0 p-8">
+          
           <div className="justify-center justify-items-center">
             <p className="font-[Instrument] justify-center
                               text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
@@ -62,7 +63,7 @@ const Tedx: React.FC = () => {
 
           <div>
             <p className="font-[Roboto] justify-left
-                          text-md 2xl:text-3xl
+                          text-xl 2xl:text-3xl
                           py-5
             ">
               TEDxLanang Ave is an independently organized TEDx event held in 

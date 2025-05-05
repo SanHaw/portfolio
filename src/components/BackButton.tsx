@@ -1,25 +1,15 @@
-import { useNavigate } from 'react-router-dom';
+// src/components/BackButton.tsx
+import { useNavigate } from "react-router-dom";
 
-const BackButton = () => {
+const BackButton: React.FC = () => {
   const navigate = useNavigate();
-
-  const handleBackClick = () => {
-    navigate(-1); // Navigates back to the previous page
-  };
 
   return (
     <button
-      onClick={handleBackClick}
-      style={{
-        padding: '10px 20px',
-        backgroundColor: '#007BFF',
-        color: 'white',
-        border: 'none',
-        borderRadius: '4px',
-        cursor: 'pointer',
-      }}
+      onClick={() => navigate(-1)}
+      className="fixed top-4 left-4 z-50 px-4 py-2 bg-gray-800 text-white rounded-lg shadow-md hover:bg-gray-700 transition"
     >
-      Go Back
+      ← Back
     </button>
   );
 };

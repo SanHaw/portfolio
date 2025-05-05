@@ -9,7 +9,6 @@ createRoot(document.getElementById('root')!).render(
   <Head>
     <></>
   </Head>
-
   <StrictMode>
     <App />
   </StrictMode>
