@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFigma } from 'react-icons/fa';
 
-const sysdev: React.FC = () => {
+const Sysdev: React.FC = () => {
     return (
 
     <div>
@@ -183,4 +183,4 @@ const sysdev: React.FC = () => {
     );
 };
 
-export default sysdev;
+export default Sysdev;

@@ -129,19 +129,6 @@ const SMHNnwsfd: React.FC = () => {
                 className="w-fullobject-cover object-top"
                 id="asterisk asset"
             />
-            </div>
-
-            <div className="col-span-6 col-start-1 row-start-11 row-span-4
-                            // aspect-[6/4]
-                    flex rounded-lg overflow-hidden">
-            <iframe
-                src="https://embed.figma.com/design/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?node-id=8-1597&embed-host=share"
-                allowFullScreen
-                className="w-full h-full border-0"
-            />
-            </div>
-
-            </div>
 
             <div>
             <p className="font-[Instrument]
@@ -171,6 +158,25 @@ const SMHNnwsfd: React.FC = () => {
             ">
                 lorem ipsum
             </p>
+            </div>
+            </div>
+
+            <div className="col-span-6 col-start-1 row-start-11 row-span-4
+                            // aspect-[6/4]
+                    flex rounded-lg overflow-hidden">
+            <p className="font-[Instrument]
+                            text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
+                            overflow-y-visible text-left
+                            pt-16 mb-6 w-[100vw]
+                ">Tech Stack
+            </p>
+            <iframe
+                src="https://embed.figma.com/design/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?node-id=8-1597&embed-host=share"
+                allowFullScreen
+                className="w-full h-full border-0"
+            />
+            </div>
+
             </div>
 
 
