@@ -87,20 +87,6 @@ const BD: React.FC = () => {
             </p>
             </div>
 
-            <button
-                onClick={() =>
-                    window.open(
-                    'https://www.figma.com/proto/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?page-id=8%3A1597&node-id=8-1610&p=f&viewport=-23%2C93%2C0.06&t=sPdTE3DqSQgg9ApL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A1610',
-                    '_blank'
-                    )}
-                className="border border-black text-black px-16 py-4 rounded-full 
-                font-[Instrument] text-2xl
-                transition-transform duration-200 hover:scale-105 active:bg-black 
-                active:text-white"
-                >
-                Try out the prototype ❋
-            </button>
-
             <div className="w-full pt-12">
             <div className="grid grid-cols-6 gap-4 w-full">
             <div className="col-span-6 col-start-1 flex aspect-[6/3] rounded-lg overflow-hidden">
@@ -193,6 +179,19 @@ const BD: React.FC = () => {
 
 
         </div>
+            <button
+                    onClick={() =>
+                        window.open(
+                        'https://www.figma.com/proto/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?page-id=8%3A1597&node-id=8-1610&p=f&viewport=-23%2C93%2C0.06&t=sPdTE3DqSQgg9ApL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A1610',
+                        '_blank'
+                        )}
+                    className="border border-black text-black px-16 py-4 rounded-full 
+                    font-[Instrument] text-2xl
+                    transition-transform duration-200 hover:scale-105 active:bg-black 
+                    active:text-white" 
+                    >
+                    Try out the prototype ❋
+                </button>
         </div>
 
         </div>

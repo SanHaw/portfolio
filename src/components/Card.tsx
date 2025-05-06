@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, onCardClick, 
     >
       {/* Image */}
       <div className="h-40 overflow-hidden" style={{ height: '60%' }}>
-        <img className="w-full h-full object-cover" src={imageUrl} alt={title} />
+        <img className="w-full h-full object-cover object-top" src={imageUrl} alt={title} />
       </div>
 
       {/* Text */}
