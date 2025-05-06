@@ -18,6 +18,13 @@ const UXUI: React.FC = () => {
       onCardClick: () => handleCardClick('Block Diary'),
     },
     {
+      title: 'SAMAHAH Systems Development Website',
+      description: 'Explore the Elysan project!',
+      imageUrl: '/work/temp.jpg',
+      link: '/projects/elysan',
+      onCardClick: () => handleCardClick('Elysan Design'),
+    },
+    {
       title: 'SAMAHAN Newsfeed',
       description: 'Explore the Elysan project!',
       imageUrl: '/work/temp.jpg',
@@ -25,7 +32,7 @@ const UXUI: React.FC = () => {
       onCardClick: () => handleCardClick('Elysan Design'),
     },
     {
-      title: 'SAMAHAN Website',
+      title: 'MISSCON 2024 Website',
       description: 'Explore the Elysan project!',
       imageUrl: '/work/temp.jpg',
       link: '/projects/elysan',
@@ -33,6 +40,13 @@ const UXUI: React.FC = () => {
     },
     {
       title: 'Divine Jewels Retail Management System',
+      description: 'Explore the Elysan project!',
+      imageUrl: '/work/temp.jpg',
+      link: '/projects/elysan',
+      onCardClick: () => handleCardClick('Elysan Design'),
+    },
+    {
+      title: 'SAMAHAN All for More Website',
       description: 'Explore the Elysan project!',
       imageUrl: '/work/temp.jpg',
       link: '/projects/elysan',
