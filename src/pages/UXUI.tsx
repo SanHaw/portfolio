@@ -22,35 +22,35 @@ const UXUI: React.FC = () => {
       description: 'Explore the Elysan project!',
       imageUrl: '/work/temp.jpg',
       link: '/projects/sysdev',
-      onCardClick: () => handleCardClick('Elysan Design'),
+      onCardClick: () => handleCardClick('SYSDEV'),
     },
     {
       title: 'SAMAHAN Newsfeed',
       description: 'Explore the Elysan project!',
       imageUrl: '/work/temp.jpg',
-      link: '/projects/SMHNnwsfd',
-      onCardClick: () => handleCardClick('Elysan Design'),
+      link: '/projects/nwsfd',
+      onCardClick: () => handleCardClick('NWSFD'),
     },
     {
       title: 'MISSCON 2024 Website',
       description: 'Explore the Elysan project!',
       imageUrl: '/work/temp.jpg',
       link: '/projects/mssc',
-      onCardClick: () => handleCardClick('Elysan Design'),
+      onCardClick: () => handleCardClick('MISSCON 24'),
     },
     {
       title: 'Divine Jewels Retail Management System',
       description: 'Explore the Elysan project!',
       imageUrl: '/work/temp.jpg',
       link: '/projects/djpos',
-      onCardClick: () => handleCardClick('Elysan Design'),
+      onCardClick: () => handleCardClick('Divine Jewels'),
     },
     {
       title: 'SAMAHAN All for More Website',
       description: 'Explore the Elysan project!',
       imageUrl: '/work/temp.jpg',
-      link: '/projects/SMHNafm',
-      onCardClick: () => handleCardClick('Elysan Design'),
+      link: '/projects/afm',
+      onCardClick: () => handleCardClick('All for More'),
     }
   ];
 

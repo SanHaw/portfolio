@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFigma } from 'react-icons/fa';
 
-const SMHNafm: React.FC = () => {
+const AFM: React.FC = () => {
     return (
 
     <div>
@@ -183,4 +183,4 @@ const SMHNafm: React.FC = () => {
     );
 };
 
-export default SMHNafm;
+export default AFM;
