@@ -1,5 +1,7 @@
+import BackButton from '@/components/BackButton'; // adjust path if needed
 import React from "react";
 import { FaFigma } from 'react-icons/fa';
+
 
 const BD: React.FC = () => {
     return (
@@ -12,13 +14,16 @@ const BD: React.FC = () => {
                                         flex flex-col items-center
                                         pt-0 p-8">
             
-            <div className="justify-center justify-items-center">
-            <p className="font-[Instrument] justify-center
-                            text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
-                            overflow-y-visible text-center
-                            bg-[#FFEB81] p-20 mb-6 w-[100vw]
-                ">Block Diary
-            </p>
+            <div className="justify-center justify-items-center  bg-[#FFEB81] mb-12">
+                <div className="w-full h-auto pt-4 pl-4">
+                    <BackButton />
+                </div>
+                <p className="font-[Instrument] justify-center
+                                text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
+                                overflow-y-visible text-center
+                                bg-[#FFEB81] pb-12 mb-6 w-[100vw]
+                    ">Block Diary
+                </p>
             </div>
         
             <div className="w-full text-center">
@@ -102,7 +107,7 @@ const BD: React.FC = () => {
                     flex rounded-lg overflow-hidden">
             <img
                 src="/work/bd/bd008.jpg"
-                className="w-fullobject-cover object-top"
+                className="w-full object-cover object-top"
                 id="asterisk asset"
             />
             </div>
@@ -111,7 +116,7 @@ const BD: React.FC = () => {
                     flex rounded-lg overflow-hidden">
             <img
                 src="/work/bd/bd004.jpg"
-                className="w-fullobject-cover object-top"
+                className="w-full object-cover object-top"
                 id="asterisk asset"
             />
             </div>
@@ -120,7 +125,7 @@ const BD: React.FC = () => {
                     flex rounded-lg overflow-hidden">
             <img
                 src="/work/bd/bd005.jpg"
-                className="w-fullobject-cover object-top"
+                className="w-full object-cover object-top"
                 id="asterisk asset"
             />
             </div>

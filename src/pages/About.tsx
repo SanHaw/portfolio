@@ -99,11 +99,11 @@ const About: React.FC = () => {
           <div className="grid grid-cols-[5fr_1fr] w-full">
             <div className="flex items-center justify-left">
               <span className="py-0">
-                <p className="font-[Instrument] text-5xl 2xl:7xl">Hi there, I'm</p>
+                <p className="font-[Instrument] text-6xl 2xl:7xl">Hi there, I'm</p>
                 <p className=" font-[Nowcloud] text-9xl 2xl:text-[10rem] ">Sarah</p>
-                <p className="font-[Instrument] text-3xl 2xl:5xl">UI/UX Designer | Graphic Designer | Computer Science</p>
+                <p className="font-[Instrument] text-4xl 2xl:5xl">UI/UX Designer | Graphic Designer | Computer Science</p>
                 <div className="py-4 text-stone-700 inline-block flex-wrap">
-                  <div className="flex w-[100%] flex-wrap">
+                  <div className="flex w-[100%] flex-wrap my-4">
                     {skills.map((skill, index) => {
                       let randomColor = colors[Math.floor(Math.random() * colors.length)];
                       return (
@@ -324,11 +324,11 @@ const About: React.FC = () => {
 
                      {/* ---------------------------------------------------------------------- */}
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
         
             
             <div className="md:col-span-1">
-              <div className="h-full bg-gray-300 rounded-lg w-full aspect-[2/3] overflow-hidden">
+              <div className="h-full bg-gray-300 rounded-2xl w-full aspect-[2/3] overflow-hidden">
                 <img
                   src="/me.jpg"
                   alt="Me"
@@ -342,13 +342,13 @@ const About: React.FC = () => {
               <h1 className="text-stone-800 
                             leading-[0.8]
                             font-[NowCloud]
-                            text-6xl">
+                            text-7xl">
                 SARAH<br />HAW
               </h1>
 
-              <p className="mt-2 leading-relaxed 
+              <p className="mt-12 leading-relaxed 
                           text-stone-800 
-                            text-lg md:text-base
+                            text-xl md:text-xl
                             2xl:w-[30vw]
               ">
                 Hi, I'm Sarah („• ᴗ •„)♡ An artist and designer from Davao City, Philippines.

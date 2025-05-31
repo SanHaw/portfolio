@@ -1,5 +1,7 @@
+import BackButton from '@/components/BackButton'; // adjust path if needed
 import React from "react";
 import { FaFigma } from 'react-icons/fa';
+
 
 const NWSFD: React.FC = () => {
     return (
@@ -12,23 +14,33 @@ const NWSFD: React.FC = () => {
                                         flex flex-col items-center
                                         pt-0 p-8">
             
-            <div className="justify-center justify-items-center">
-            <p className="font-[Instrument] justify-center
-                            text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
-                            overflow-y-visible text-center
-                            bg-[#FFEB81] p-20 mb-6 w-[100vw]
-                ">SAMAHAN Newsfeed Archives
-            </p>
+            <div className="justify-center justify-items-center  bg-[#FFEB81] mb-12">
+                <div className="w-full h-auto pt-4 pl-4">
+                    <BackButton />
+                </div>
+                <p className="font-[Instrument] justify-center
+                                text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
+                                overflow-y-visible text-center
+                                bg-[#FFEB81] pb-12 mb-6 w-[100vw]
+                    ">SAMAHAN Newsfeed
+                </p>
             </div>
         
             <div className="w-full text-center">
             <p className="font-[Instrument]
                             text-2xl 2xl:text-5xl
-                                overflow-y-visible pb-10
+                                overflow-y-visible pb-4
                 ">
-                2024
+                2025
                 <br />
-                UX/UI Designer
+                Project Manager
+                
+            </p>
+            <p className="font-[Instrument]
+                            text-xl 2xl:text-2xl
+                                overflow-y-visible pb-8
+                ">
+                QA Tester | UX/UI Consultant
                 
             </p>
             </div>
@@ -44,21 +56,14 @@ const NWSFD: React.FC = () => {
             <div className="pr-2">
             <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
             {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Mobile Development</p>
+            <p>Web Development</p>
             </div>
             </div>
 
             <div className="pr-2">
             <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
             {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>App Development</p>
-            </div>
-            </div>
-
-            <div className="pr-2">
-            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Prototype</p>
+            <p>Agile</p>
             </div>
             </div>
         </div>
@@ -74,24 +79,19 @@ const NWSFD: React.FC = () => {
                             text-xl 2xl:text-xl
                             py-5
             ">
-                lorem ipsum
+                The SAMAHAN NewsFeed is an annual publication led by the SAMAHAN 
+                Communications, the official public affairs and information arm 
+                of SAMAHAN.
+                
+                Over the years, the SAMAHAN NewsFeed has become more than just a 
+                publication—it has evolved into a space where Ateneans see their 
+                journeys reflected not as isolated experiences, but as shared 
+                milestones of a tightly knit community.
+                <br /><br />
+                <i>Copy taken from excerpts from the SAMAHAN Newsfeed Website</i>
 
             </p>
             </div>
-
-            <button
-                onClick={() =>
-                    window.open(
-                    'https://www.figma.com/proto/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?page-id=8%3A1597&node-id=8-1610&p=f&viewport=-23%2C93%2C0.06&t=sPdTE3DqSQgg9ApL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A1610',
-                    '_blank'
-                    )}
-                className="border border-black text-black px-16 py-4 rounded-full 
-                font-[Instrument] text-2xl
-                transition-transform duration-200 hover:scale-105 active:bg-black 
-                active:text-white"
-                >
-                Try out the prototype ❋
-            </button>
 
             <div className="w-full pt-12">
             <div className="grid grid-cols-6 gap-4 w-full">
@@ -108,7 +108,7 @@ const NWSFD: React.FC = () => {
                     flex rounded-lg overflow-hidden">
             <img
                 src="/work/bd/bd008.jpg"
-                className="w-fullobject-cover object-top"
+                className="w-full object-cover object-top"
                 id="asterisk asset"
             />
             </div>
@@ -117,7 +117,7 @@ const NWSFD: React.FC = () => {
                     flex rounded-lg overflow-hidden">
             <img
                 src="/work/bd/bd004.jpg"
-                className="w-fullobject-cover object-top"
+                className="w-full object-cover object-top"
                 id="asterisk asset"
             />
             </div>
@@ -126,7 +126,7 @@ const NWSFD: React.FC = () => {
                     flex rounded-lg overflow-hidden">
             <img
                 src="/work/bd/bd005.jpg"
-                className="w-fullobject-cover object-top"
+                className="w-full object-cover object-top"
                 id="asterisk asset"
             />
             </div>
@@ -154,7 +154,13 @@ const NWSFD: React.FC = () => {
                             text-xl 2xl:text-xl 
                             py-5
             ">
-                lorem ipsum
+                Given the brief, we hit the ground running—breaking down 
+                requirements, mapping seamless user flows, and dividing tasks 
+                to play to our strengths. I led the design process: sketching 
+                wireframes, crafting reusable components, and transforming static 
+                layouts into sleek, animated prototypes. We tested, tweaked, and 
+                polished until everything clicked. In just four days, we turned 
+                chaos into a cohesive, player-focused companion app.
 
             </p>
             </div>
@@ -169,12 +175,29 @@ const NWSFD: React.FC = () => {
                             text-xl 2xl:text-xl 
                             py-5
             ">
-                lorem ipsum
+                All of this was built in Figma—from low-fidelity wireframes to 
+                polished, interactive prototypes—bringing the entire experience 
+                to life, one frame at a time.
+
+
             </p>
             </div>
 
 
         </div>
+            <button
+                    onClick={() =>
+                        window.open(
+                        'https://www.figma.com/proto/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?page-id=8%3A1597&node-id=8-1610&p=f&viewport=-23%2C93%2C0.06&t=sPdTE3DqSQgg9ApL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A1610',
+                        '_blank'
+                        )}
+                    className="border border-black text-black px-16 py-4 rounded-full 
+                    font-[Instrument] text-2xl
+                    transition-transform duration-200 hover:scale-105 active:bg-black 
+                    active:text-white" 
+                    >
+                    Try out the prototype ❋
+                </button>
         </div>
 
         </div>

@@ -12,32 +12,35 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, onCardClick, 
   const handleClick = (event: React.MouseEvent) => {
     if (onCardClick) {
       event.preventDefault();
-      onCardClick(); // Call the click handler passed as a prop
+      onCardClick();
     }
-    window.location.href = link; // Redirect to the link after the click logic
+    window.location.href = link;
   };
 
   return (
     <div
-      className="rounded-lg overflow-hidden shadow-md bg-white
-            w-[100%]
-            cursor-pointer transform transition-all duration-300 
-            ease-in-out hover:scale-105 active:bg-stone-200 hover:shadow-lg"
+      className="flex flex-col sm:flex-row w-full max-w-4xl rounded-lg 
+        overflow-hidden shadow-md bg-white cursor-pointer transition-transform 
+        duration-300 ease-in-out hover:scale-105 hover:shadow-lg active:bg-stone-200"
       onClick={handleClick}
-      style={{ height: '280px' }}
     >
-      {/* Image */}
-      <div className="h-40 overflow-hidden" style={{ height: '60%' }}>
-        <img className="w-full h-full object-cover object-top" src={imageUrl} alt={title} />
+      {/* Image section: keeps 3:2 width:height ratio */}
+      <div className="w-full sm:w-1/3 aspect-[3/2] ">
+        <img
+          src={imageUrl}
+          alt={title}
+          className="w-full h-full object-cover object-center"
+        />
       </div>
 
-      {/* Text */}
-      <div className="px-4 py-4 mt-2" style={{ height:'40%' }}>
-        <div className="font-[Instrument] text-xl sm:text-2xl mb-2">{title}</div>
-        <p className="text-stone-800 line-clamp-2 text-base sm:text-sm leading-[1] mb-4">
+      {/* Text section */}
+      <div className="flex-1 p-4 flex flex-col justify-center">
+        <div className="font-[Instrument] text-3xl sm:text-3xl mb-2">{title}</div>
+        <p className="text-stone-800 text-sm sm:text-base line-clamp-2 leading-snug">
           {description}
         </p>
       </div>
+
     </div>
   );
 };

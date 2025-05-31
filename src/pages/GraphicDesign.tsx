@@ -113,7 +113,9 @@ const GraphicDesign: React.FC = () => {
           
 
           {/* Cards Grid */}
-          <div className="grid col-span-2 justify-items-stretch grid-cols-3 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mt-10 space-x-5 space-y-5 gap-5">
+          <div className="grid col-span-2 grid-cols-1 
+            sm:grid-cols-2 gap-6 auto-rows-fr items-stretch mt-10">
+
             {cards.map((card, index) => (
               <Card
                 key={index}

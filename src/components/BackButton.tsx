@@ -1,5 +1,7 @@
 // src/components/BackButton.tsx
-import { useNavigate } from "react-router-dom";
+import { ArrowLeft } from 'lucide-react'; // optional icon, see below
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const BackButton: React.FC = () => {
   const navigate = useNavigate();
@@ -7,9 +9,9 @@ const BackButton: React.FC = () => {
   return (
     <button
       onClick={() => navigate(-1)}
-      className="fixed top-4 left-4 z-50 px-4 py-2 bg-gray-800 text-white rounded-lg shadow-md hover:bg-gray-700 transition"
+      className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm hover:bg-black hover:text-white transition-all duration-200"
     >
-      ← Back
+      <ArrowLeft size={40} />
     </button>
   );
 };
