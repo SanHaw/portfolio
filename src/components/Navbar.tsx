@@ -16,7 +16,7 @@ import UXUI from '../pages/UXUI';
 const Navbar: React.FC = () => {
   return (
     <Router>
-      <div className="flex items-center justify-between bg-stone-100 text-stone-800 mb-6 px-8 py-4 
+      <div className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between bg-stone-100 text-stone-800 mb-6 px-16 py-4 pt-8 
                     position-fixed top-0 z-index-10000
       ">
         

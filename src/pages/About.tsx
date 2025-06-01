@@ -295,7 +295,7 @@ let colors = ['#FFEB81', '#E8D0FF', '#A3CED6', '#6EAA87'];
 
               <p className="mt-12 leading-relaxed 
                           text-stone-800 
-                            text-xl md:text-xl
+                            text-xl md:text-lg
                             2xl:w-[30vw]
               ">
                 Hi, I'm Sarah („• ᴗ •„)♡ An artist and designer from Davao City, Philippines.
