@@ -97,42 +97,64 @@ const NWSFD: React.FC = () => {
             <div className="grid grid-cols-6 gap-4 w-full">
             <div className="col-span-6 col-start-1 flex aspect-[6/3] rounded-lg overflow-hidden">
             <img
-                src="/work/bd/bd001.jpg"
-                className="w-full h-full object-cover object-left"
+                src="/work/nwsfd/smhnnwsfd002.jpg"
+                className="w-full h-full object-cover object-top"
                 id="asterisk asset"
             />
             </div>
 
-            <div className="col-span-2 col-start-1 row-start-2 row-span-4
-                            aspect-[2/4]
+            <div className="col-span-3 col-start-1 row-start-2 row-span-2
+                            aspect-[6/3]
                     flex rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd008.jpg"
-                className="w-full object-cover object-top"
-                id="asterisk asset"
-            />
+                <img
+                    src="/work/nwsfd/smhnnwsfd002.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
-            <div className="col-span-2 col-start-3 row-start-2 row-span-4
-                            aspect-[2/4]
+
+            <div className="col-span-3 col-start-4 row-start-2 row-span-2
+                            aspect-[6/3]
                     flex rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd004.jpg"
-                className="w-full object-cover object-top"
-                id="asterisk asset"
-            />
+                <img
+                    src="/work/nwsfd/smhnnwsfd001.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
-            <div className="col-span-2 col-start-5 row-start-2 row-span-4
-                            aspect-[2/4]
+
+            <div className="col-span-3 col-start-1 row-start-2 row-span-2
+                            aspect-[6/3]
                     flex rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd005.jpg"
-                className="w-full object-cover object-top"
-                id="asterisk asset"
-            />
+                <img
+                    src="/work/nwsfd/smhnnwsfd003.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
+            </div>
+
+            <div className="col-span-3 col-start-4 row-start-4 row-span-2
+                            aspect-[6/3]
+                    flex rounded-lg overflow-hidden">
+                <img
+                    src="/work/nwsfd/smhnnwsfd004.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
+            </div>
+
+            <div className="col-span-3 col-start-1 row-start-4 row-span-
+                            aspect-[6/3]
+                    flex rounded-lg overflow-hidden">
+                <img
+                    src="/work/nwsfd/smhnnwsfd005.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
 
             <div className="col-span-6 col-start-1 row-start-11 row-span-4
-                            // aspect-[6/4]
+                            aspect-[6/4]
                     flex rounded-lg overflow-hidden ">
             <div>
                 <p className="font-[Instrument]

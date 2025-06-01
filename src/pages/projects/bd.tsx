@@ -1,4 +1,4 @@
-import BackButton from '@/components/BackButton'; // adjust path if needed
+import BackButton from '@/components/BackButton';
 import React from "react";
 import { FaFigma } from 'react-icons/fa';
 

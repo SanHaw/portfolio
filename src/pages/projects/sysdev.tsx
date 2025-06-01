@@ -2,7 +2,6 @@ import BackButton from '@/components/BackButton'; // adjust path if needed
 import React from "react";
 import { FaFigma } from 'react-icons/fa';
 
-
 const Sysdev: React.FC = () => {
     return (
 
