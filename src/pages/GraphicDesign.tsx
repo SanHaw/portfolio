@@ -98,8 +98,8 @@ const GraphicDesign: React.FC = () => {
           <div className="grid grid-cols-[5fr_1fr] w-full">
             <div className="flex items-center justify-left">
               <span className="py-0">
-                <p className="font-[Instrument] text-3xl 2xl:7xl">Hi there, I do</p>
-                <p className="font-[Nowcloud] text-6xl 2xl:text-[10rem] lg:text-8xl 2xs:text:2xl">Graphic<br />Design</p>
+                <p className="font-[Instrument] text-4xl 2xl:8xl">Hi there, I do</p>
+                <p className="font-[Nowcloud] text-4xl 2xl:text-[8rem] lg:text-6xl 2xs:text:xl">Graphic<br />Design</p>
               </span>
             </div>
 
@@ -107,7 +107,7 @@ const GraphicDesign: React.FC = () => {
               <div className="flex flex-col gap-y-0 w-full">
                 <div className="w-full aspect-square bg-[#6EAA87] rounded-md"></div>
                 <div className="w-full aspect-square bg-[#A3CED6] rounded-md"></div>
-                <div className="w-full aspect-square bg-[#FFEB81] rounded-md"></div>
+                {/* <div className="w-full aspect-square bg-[#FFEB81] rounded-md"></div> */}
               </div>
             </div>
           

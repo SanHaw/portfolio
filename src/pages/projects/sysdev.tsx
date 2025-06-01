@@ -2,6 +2,7 @@ import BackButton from '@/components/BackButton'; // adjust path if needed
 import React from "react";
 import { FaFigma } from 'react-icons/fa';
 
+
 const Sysdev: React.FC = () => {
     return (
 
@@ -13,24 +14,24 @@ const Sysdev: React.FC = () => {
                                         flex flex-col items-center
                                         pt-0 p-8">
             
-            <div className="justify-center justify-items-center  bg-[#FFEB81] mb-12">
+            <div className="justify-center justify-items-center  bg-[#FFBDC7] mb-12">
                 <div className="w-full h-auto pt-4 pl-4">
                     <BackButton />
                 </div>
                 <p className="font-[Instrument] justify-center
-                                text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
+                                text-4xl 2xl:text-[4rem] lg:text-6xl 2xs:text-2xl
                                 overflow-y-visible text-center
-                                bg-[#FFEB81] pb-12 mb-6 w-[100vw]
-                    ">SAMAHAN Systems Development
-                </p>
+                                bg-[#FFBDC7] pb-12 mb-6 w-[100vw]
+                ">SAMAHAN Systems Development
+            </p>
             </div>
         
             <div className="w-full text-center">
             <p className="font-[Instrument]
-                            text-2xl 2xl:text-5xl
-                                overflow-y-visible pb-10
+                            text-xl 2xl:text-3xl
+                            overflow-y-visible pb-4
                 ">
-                2024
+                2025
                 <br />
                 Lead UX/UI Designer
                 
@@ -48,21 +49,14 @@ const Sysdev: React.FC = () => {
             <div className="pr-2">
             <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
             {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Mobile Development</p>
+            <p>Web Development</p>
             </div>
             </div>
 
             <div className="pr-2">
             <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
             {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>App Development</p>
-            </div>
-            </div>
-
-            <div className="pr-2">
-            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Prototype</p>
+            <p>Agile</p>
             </div>
             </div>
         </div>
@@ -76,106 +70,153 @@ const Sysdev: React.FC = () => {
             <div>
             <p className="font-[Roboto] justify-left
                             text-xl 2xl:text-xl
-                            py-5
+                            py-4
             ">
-                Block Diary is a mobile companion app for Minecraft players 
-                designed to help them log adventures, track coordinates, and 
-                save build ideas. Created in just four days for the IT Week 
-                2025 UI/UX Competition, the app includes three main screens: a 
-                journal feed for documenting gameplay with screenshots and notes, 
-                a location tracker for bookmarking coordinates of key in-game 
-                landmarks, and a build library for saving public structure 
-                inspirations. The output was a fully interactive Figma prototype 
-                focused on usability, functionality, and user-centered design.
-
+                Divine Jewels is a local small business specializing in handcrafted 
+                trinkets and accessories. As the business grew, so did the need for 
+                a more organized and scalable way to manage operations. To support 
+                this expansion, we proposed and developed a custom Point of Sales 
+                (POS) system with integrated inventory management.
+                <br /><br />
+                The system was designed to streamline daily transactions, monitor 
+                stock levels, track raw materials, and log employee activity across 
+                multiple branches. By digitizing these processes, Divine Jewels can 
+                now manage sales and inventory with greater accuracy, improve operational 
+                efficiency, and make data-driven decisions for future growth.
             </p>
             </div>
 
             <div className="w-full pt-12">
-            <div className="grid grid-cols-6 gap-4 w-full">
-            <div className="col-span-6 col-start-1 flex aspect-[6/3] rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd001.jpg"
-                className="w-full h-full object-cover object-left"
-                id="asterisk asset"
-            />
+                <div className="grid grid-cols-6 gap-4 w-full">
+                    <div className="col-span-6 col-start-1 flex aspect-[6/3] rounded-lg overflow-hidden">
+                        <img
+                            src="/work/djpos/djpos001.jpg"
+                            className="w-full h-full object-cover object-top"
+                            id="asterisk asset"
+                        />
+                    </div>
+
+            <div className="col-span-3 col-start-1 row-start-2 row-span-2
+                            aspect-[3/2]
+                    flex rounded-lg overflow-hidden">
+                <img
+                    src="/work/djpos/djpos007.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
 
-            <div className="col-span-2 col-start-1 row-start-2 row-span-4
-                            aspect-[2/4]
+            <div className="col-span-3 col-start-4 row-start-2 row-span-2
+                            aspect-[3/2]
                     flex rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd008.jpg"
-                className="w-full object-cover object-top"
-                id="asterisk asset"
-            />
+                <img
+                    src="/work/djpos/djpos003.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
-            <div className="col-span-2 col-start-3 row-start-2 row-span-4
-                            aspect-[2/4]
+
+            <div className="col-span-3 col-start-1 row-start-2 row-span-2
+                            aspect-[3/2]
                     flex rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd004.jpg"
-                className="w-full object-cover object-top"
-                id="asterisk asset"
-            />
+                <img
+                    src="/work/djpos/djpos004.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
-            <div className="col-span-2 col-start-5 row-start-2 row-span-4
-                            aspect-[2/4]
+
+            <div className="col-span-3 col-start-4 row-start-4 row-span-2
+                            aspect-[3/2]
                     flex rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd005.jpg"
-                className="w-full object-cover object-top"
-                id="asterisk asset"
-            />
+                <img
+                    src="/work/djpos/djpos005.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
+            </div>
+
+            <div className="col-span-3 col-start-1 row-start-4 row-span-
+                            aspect-[3/2]
+                    flex rounded-lg overflow-hidden">
+                <img
+                    src="/work/djpos/djpos007.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
 
             <div className="col-span-6 col-start-1 row-start-11 row-span-4
-                            // aspect-[6/4]
-                    flex rounded-lg overflow-hidden">
-            <iframe
-                src="https://embed.figma.com/design/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?node-id=8-1597&embed-host=share"
-                allowFullScreen
-                className="w-full h-full border-0"
-            />
+                            aspect-[6/4]
+                    flex rounded-lg overflow-hidden ">
+            <div>
+                <p className="font-[Instrument]
+                                text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
+                                overflow-y-visible text-left
+                                mb-6 w-[100vw]
+                    ">Explore the Figma file
+                </p>
+
+                <iframe
+                    src="https://embed.figma.com/design/Nq800CNDFQMzJnFhkHWNRa/Divine-Jewels-POS?node-id=0-1&embed-host=share"
+                    allowFullScreen
+                    className="w-full h-full border-0"
+                />
+            </div>
             </div>
 
             </div>
 
             <div>
-            <p className="font-[Instrument]
-                            text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
-                            overflow-y-visible text-left
-                            pt-16 mb-6 w-[100vw]
-                ">Process
-            </p>
-            <p className="font-[Roboto] justify-left
+                <p className="font-[Instrument]
+                                text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
+                                overflow-y-visible text-left
+                                pt-16 w-[100vw]
+                    ">Process
+                </p>
+                <p className="font-[Roboto] justify-left
                             text-xl 2xl:text-xl 
-                            py-5
-            ">
-                Given the brief, we hit the ground running—breaking down 
-                requirements, mapping seamless user flows, and dividing tasks 
-                to play to our strengths. I led the design process: sketching 
-                wireframes, crafting reusable components, and transforming static 
-                layouts into sleek, animated prototypes. We tested, tweaked, and 
-                polished until everything clicked. In just four days, we turned 
-                chaos into a cohesive, player-focused companion app.
-
-            </p>
+                            py-4
+                ">
+                As part of our Software Engineering course, we were tasked to approach 
+                a local business, identify a real-world problem, and develop a working 
+                software solution. We partnered with Divine Jewels, a small business 
+                selling handmade trinkets and accessories. Their growing operations 
+                had outpaced their manual methods—there was not enough structure or 
+                system in place to efficiently manage sales, stock, and staff across 
+                expanding branches.
+                <br /><br />
+                After a series of consultations, we proposed a custom Point of Sales 
+                (POS) system with built-in inventory and employee management. The system 
+                was developed iteratively, with constant feedback from the business 
+                owner. The UI went through several rounds of revisions to align with 
+                the shop’s workflow and ease of use. Once the interface was finalized, 
+                we designed the database architecture and developed the frontend.
+                <br /><br />
+                Development was done incrementally—each subsystem (sales, inventory, 
+                raw materials, employee logs) was built and tested independently before 
+                integrating into the final system. This modular approach allowed us 
+                to catch issues early, improve stability, and ensure each component 
+                worked as intended. The result is a tailored solution that supports 
+                Divine Jewels' day-to-day operations and future business growth.
+                </p>
             </div>
+
             <div>
             <p className="font-[Instrument]
-                            text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
+                            text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
                             overflow-y-visible text-left
-                            pt-16 mb-6 w-[100vw]
+                            pt-16 w-[100vw]
                 ">Tech Stack
             </p>
             <p className="font-[Roboto] justify-left
                             text-xl 2xl:text-xl 
-                            py-5
+                            py-4
             ">
-                All of this was built in Figma—from low-fidelity wireframes to 
-                polished, interactive prototypes—bringing the entire experience 
-                to life, one frame at a time.
+                The UX/UI was designed in Figma, with multiple iterations based on 
+                user feedback to ensure clarity and usability. QA tests were documented 
+                and tracked using Google Sheets, allowing for organized issue tracking 
+                and efficient debugging throughout development.
 
 
             </p>
@@ -183,19 +224,19 @@ const Sysdev: React.FC = () => {
 
 
         </div>
-            <button
+            {/* <button
                     onClick={() =>
                         window.open(
-                        'https://www.figma.com/proto/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?page-id=8%3A1597&node-id=8-1610&p=f&viewport=-23%2C93%2C0.06&t=sPdTE3DqSQgg9ApL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A1610',
+                        'https://samahan.addu.edu.ph/newsfeed/',
                         '_blank'
                         )}
-                    className="border border-black text-black px-16 py-4 rounded-full 
+                    className="border border-black text-black px-16 py-4 my-4 rounded-full 
                     font-[Instrument] text-2xl
                     transition-transform duration-200 hover:scale-105 active:bg-black 
                     active:text-white" 
                     >
-                    Try out the prototype ❋
-                </button>
+                    See the Website Here ❋
+                </button> */}
         </div>
 
         </div>

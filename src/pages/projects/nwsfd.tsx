@@ -28,8 +28,8 @@ const NWSFD: React.FC = () => {
         
             <div className="w-full text-center">
             <p className="font-[Instrument]
-                            text-2xl 2xl:text-5xl
-                                overflow-y-visible pb-4
+                            text-xl 2xl:text-3xl
+                            overflow-y-visible pb-2
                 ">
                 2025
                 <br />
@@ -37,7 +37,7 @@ const NWSFD: React.FC = () => {
                 
             </p>
             <p className="font-[Instrument]
-                            text-xl 2xl:text-2xl
+                            text-base 2xl:text-xl
                                 overflow-y-visible pb-8
                 ">
                 QA Tester | UX/UI Consultant
@@ -87,7 +87,9 @@ const NWSFD: React.FC = () => {
                 publication—it has evolved into a space where Ateneans see their 
                 journeys reflected not as isolated experiences, but as shared 
                 milestones of a tightly knit community.
-                <br /><br />
+                <br />
+            </p>
+            <p className='text-base'>
                 <i>Copy taken from excerpts from the SAMAHAN Newsfeed Website</i>
 
             </p>
@@ -158,9 +160,9 @@ const NWSFD: React.FC = () => {
                     flex rounded-lg overflow-hidden ">
             <div>
                 <p className="font-[Instrument]
-                                text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
+                                text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
                                 overflow-y-visible text-left
-                                mb-6 w-[100vw]
+                                mb-4 w-[100vw]
                     ">Explore the Figma file
                 </p>
 
@@ -173,17 +175,32 @@ const NWSFD: React.FC = () => {
             </div>
 
             </div>
+            <div className="col-span-6 col-start-1 row-start-11 row-span-4 flex flex-col items-center gap-4 rounded-lg overflow-hidden">
+                    <button
+                        onClick={() =>
+                            window.open(
+                            'https://samahan.addu.edu.ph/newsfeed/',
+                            '_blank'
+                            )}
+                        className="border border-black text-black px-16 py-4 my-4 rounded-full 
+                        font-[Instrument] text-2xl
+                        transition-transform duration-200 hover:scale-105 active:bg-black 
+                        active:text-white" 
+                        >
+                        See the Website Here ❋
+                    </button>
+                </div>
 
             <div>
                 <p className="font-[Instrument]
-                                text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
+                                text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
                                 overflow-y-visible text-left
-                                pt-16 mb-6 w-[100vw]
+                                pt-16 w-[100vw]
                     ">Process
                 </p>
                 <p className="font-[Roboto] justify-left
                             text-xl 2xl:text-xl 
-                            py-5
+                            py-4
                 ">
                 This website was built as part of our ongoing initiatives —{' '}
 
@@ -206,14 +223,14 @@ const NWSFD: React.FC = () => {
 
             <div>
             <p className="font-[Instrument]
-                            text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
+                            text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
                             overflow-y-visible text-left
-                            pt-16 mb-6 w-[100vw]
+                            pt-16 w-[100vw]
                 ">Tech Stack
             </p>
             <p className="font-[Roboto] justify-left
                             text-xl 2xl:text-xl 
-                            py-5
+                            py-4
             ">
                 Our tech stack supports efficient collaboration across all roles. Project management 
                 and documentation are handled using Google Docs and Sheets for task tracking, content 
@@ -226,24 +243,8 @@ const NWSFD: React.FC = () => {
 
             </p>
             </div>
-
-
         </div>
-            <button
-                    onClick={() =>
-                        window.open(
-                        'https://samahan.addu.edu.ph/newsfeed/',
-                        '_blank'
-                        )}
-                    className="border border-black text-black px-16 py-4 my-4 rounded-full 
-                    font-[Instrument] text-2xl
-                    transition-transform duration-200 hover:scale-105 active:bg-black 
-                    active:text-white" 
-                    >
-                    See the Website Here ❋
-                </button>
         </div>
-
         </div>
     </div>
 

@@ -1,10 +1,10 @@
 import React from "react";
 import { FaCss3Alt, FaFigma, FaGitAlt, FaGithub, FaHtml5, FaJsSquare, FaPython, FaReact, FaTrello } from 'react-icons/fa';
 import { SiCanva, SiShadcnui, SiTypescript } from 'react-icons/si';
-
-
-
+import { Link, useNavigate } from 'react-router-dom';
+import Card from '../components/Card';
 import SkillPill from '../components/SkillPill.tsx';
+
 
 let skills = [
   { label: 'Front-end Development', icon: FaReact },
@@ -24,52 +24,38 @@ let skills = [
 
 ];
 
-// let skills = [
-//   { label: 'Project Management', icon: FaTrello },
-//   { label: 'SCRUM', icon: FaTrello },
-//   { label: 'AGILE', icon: FaTrello },
-//   { label: 'QA Testing', icon: FaSlack },
-//   { label: 'UX/UI Design', icon: FaFigma },
-//   { label: 'User Research', icon: FaFigma },
-//   { label: 'Front-end Development', icon: FaReact },
-//   { label: 'Wireframing', icon: FaFigma },
-//   { label: 'Prototyping', icon: FaFigma },
-//   { label: 'User-Centered Design', icon: FaFigma },
-//   { label: 'Atomic Design', icon: MdOutlineDesignServices },
-//   { label: 'Component-Based Design', icon: MdOutlineDesignServices },
-//   { label: 'Interaction design', icon: FaFigma },
-//   { label: 'Micro-interactions', icon: FaFigma },
-//   { label: 'Mobile UI design', icon: FaFigma },
-//   { label: 'App design', icon: FaFigma },
-//   { label: 'Webpage design', icon: FaHtml5 },
-//   { label: 'HTML', icon: FaHtml5 },
-//   { label: 'CSS', icon: FaCss3Alt },
-//   { label: 'ShadCN', icon: SiShadcnui },
-//   { label: 'Git', icon: FaGitAlt },
-//   { label: 'Github', icon: FaGithub },
-//   { label: 'Excel', icon: AiFillFileExcel },
-//   { label: 'Google Suite', icon: BsGoogle },
-//   { label: 'Trello', icon: FaTrello },
-//   { label: 'Slack', icon: FaSlack },
-//   { label: 'Notion', icon: SiNotion },
-//   { label: 'ClickUp', icon: SiClickup },
-//   { label: 'Figma', icon: FaFigma },
-//   { label: 'Responsive Design', icon: FaFigma },
-//   { label: 'Canva', icon: SiCanva },
-//   { label: 'MySQL', icon: SiMysql },
-//   { label: 'Branding Design', icon: MdOutlineDesignServices },
-//   { label: 'Identity Design', icon: MdOutlineDesignServices },
-//   { label: 'Graphic Design', icon: MdOutlineDesignServices },
-//   { label: 'Information Design', icon: MdOutlineDesignServices },
-//   { label: 'JavaScript', icon: FaJsSquare },
-//   { label: 'TypeScript', icon: SiTypescript },
-//   { label: 'React', icon: FaReact },
-//   { label: 'Python', icon: FaPython },
-// ];
+const About: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleCardClick = (cardTitle: string) => {
+    console.log(`${cardTitle} clicked!`);
+  };
+
+  const cards = [
+    {
+      title: 'Minecraft Companion App',
+      description: 'LEAD UX/UI DESIGNER',
+      imageUrl: '/work/bd/bd001.jpg',
+      link: '/projects/bd',
+      onCardClick: () => handleCardClick('Block Diary'),
+    },
+    {
+      title: 'SAMAHAH Systems Development Website',
+      description: 'LEAD UX/UI DESIGNER',
+      imageUrl: '/work/sysdev/sysd001.jpg',
+      link: '/projects/sysdev',
+      onCardClick: () => handleCardClick('SYSDEV'),
+    },
+    {
+      title: 'SAMAHAN Newsfeed',
+      description: 'PROJECT MANAGER',
+      imageUrl: '/work/nwsfd/nwsfd000.jpg',
+      link: '/projects/nwsfd',
+      onCardClick: () => handleCardClick('NWSFD'),
+    }, ];
 
 let colors = ['#FFEB81', '#E8D0FF', '#A3CED6', '#6EAA87'];
 
-const About: React.FC = () => {
   return (
       <div id="whole page" className="min-h-screen sm:w-full
                                       flex pt-0 p-8 
@@ -164,9 +150,11 @@ const About: React.FC = () => {
               </div>
             </div>
 
+            {/* ------------------------------------------------------------------------ */}
+
 {/* Recent Projects */}
 
-            {/* <div className="grid grid-coçls-6 gap-0 w-full">
+            <div className="grid grid-cols-6 gap-0 w-full">
               <div className=" col-start-1 col-span-1">
                 <div className="w-full rounded-lg bg-[transparent aspect-square text-center
                     flex items-center justify-center overflow-hidden"></div>
@@ -195,8 +183,8 @@ const About: React.FC = () => {
                     className="w-max h-max object-contain"
                   />
               </div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+              <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+              <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
               <div className="w-full rounded-lg bg-[transparent aspect-square text-center 
                 flex items-center justify-center overflow-hidden">
                 <img
@@ -208,70 +196,46 @@ const About: React.FC = () => {
               <div className="w-full rounded-lg bg-transparent aspect-square"></div>
                 
               </div>
+              
 
               <div className=" col-start-3 col-span-4">
                 <div>
                   <div>
-                  <div id="latest projects section" className=" 2xl:scale-{1.5}">
+                  <div id="latest projects section" className=" 2xl:scale-{1.5} pt-16">
                     <div className="pl-16 2xl:pl-12 w-full">
-                      <span className="">
+                      <span className="mb-8">
                         <h1 className=" font-[Nowcloud] text-right text-5xl 2xl:text-7xl">Projects</h1>
                         <h1 className=" font-[Nowcloud] mt-[-10px] text-right text-7xl 2xl:text-9xl" >Lately</h1>
                       </span>
                       <div className="flex justify-end justify-items-end 2xl:mt-2">
-                        <div className="w-full flex flex-col justify-between h-full">
-                        <ProjectCard 
-                          title="SYSDEV Website"
-                          role={["UX/UI Head"]}
-                          otherRole={[
-                          ]}
-                          imageUrl="/img/project2.png"
-                          status="Ongoing"
-                      />
-                      <ProjectCard 
-                        title="SAMAHAN Newsfeed"
-                        role={["Project Manager"]}
-                        otherRole={[
-                          { label: "UX/UI Consultant", color: "#4ADE80" },
-                        ]}
-                        imageUrl="/img/project2.png"
-                        status="Ongoing"
-                      />
-                      <ProjectCard 
-                        title="Project Beta"
-                        role={["QA Testing"]}
-                        otherRole={[
-                          { label: "SEO Specialist", color: "#4ADE80" }, // custom role
-                          { label: "DevOps", color: "#60A5FA" }
-                        ]}
-                        imageUrl="/img/project2.png"
-                        status="Ongoing"
-                      />
-                      
-                          <div className="flex justify-end pr-3">
-                            <HoverCard>
-                              <HoverCardTrigger>
-                                <button className="hover:underline 
-                                                  text-stone-800 font-[Instrument] 
-                                                  text-xl 2xl:text-3xl
-                                                  2xl:mt-1
-                                                
-                                >
-                                ">See more</button>
-                              </HoverCardTrigger>
-                            </HoverCard>
+                        <div className="w-full flex flex-col justify-between h-full space-y-4">
+                          {cards.map((card, index) => (
+                            <Card
+                              key={index}
+                              title={card.title}
+                              description={card.description}
+                              imageUrl={card.imageUrl}
+                              link={card.link}
+                              onCardClick={card.onCardClick}
+                            />
+                          ))}
+                          <Link
+                            to="/UXUI"
+                            className="text-[#4995A2] hover:underline text-lg font-medium text-right"
+                          >
+                            See More →
+                          </Link>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div></div>
-                </div>  
               </div>
-            </div> */}
+            </div>
 
             {/* ---------------------------------------------------------------------- */}
 
-            {/* <div className="grid grid-cols-6 gap-0 w-full">
+            <div className="grid grid-cols-6 gap-0 w-full">
               <div className=" col-start-1 col-span-7 flex">
                 <div className="w-full rounded-lg bg-[#FFEB81] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
@@ -291,41 +255,24 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-6 gap-0 w-full">
+            {/* <div className="grid grid-cols-6 gap-0 w-full ">
               <div className=" col-start-1 col-span-7 flex">
-                <div className="w-full 
-                                rounded-lg h-full bg-transparent aspect-square text-center
-                                flex items-center justify-center overflow-hidden">
-                    <img
-                      src="/smiski3.png"
-                      alt=""
-                      className="h-full object-contain"
-                      id="asterisk asset"
-                    />
-                </div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#FFEB81] aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
               </div>
             </div> */}
 
-            <div className="grid grid-cols-6 gap-0 w-full">
-              <div className=" col-start-1 col-span-7 flex">
-              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
-              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
-              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
-              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
-              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
-              <div className="w-full rounded-lg bg-transparent aspect-square"></div>
-              </div>
-            </div>
-
                      {/* ---------------------------------------------------------------------- */}
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
-        
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center my-16">
+            {/* <div className="grid col-span-2 grid-cols-1 sm:grid-cols-2 gap-6 
+            auto-rows-fr items-stretch mt-10">
+            
+          </div> */}
             
             <div className="md:col-span-1">
               <div className="h-full bg-gray-300 rounded-2xl w-full aspect-[2/3] overflow-hidden">
@@ -396,13 +343,14 @@ const About: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>
+          
 
                      {/* ---------------------------------------------------------------------- */}
 
           
         </div>
-      </div>
+        </div></div>
+    
   );
 };
 
