@@ -58,7 +58,7 @@ const UXUI: React.FC = () => {
     <div>
       <div id="whole page" className="min-h-screen sm:w-full
                                       flex pt-0 p-8
-                                      text-stone-800 justify-center overflow-x-hidden">
+                                      text-stone-800 justify-center overflow-x-hidden mt-24">
         <div id="whole page" className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
                                       flex flex-col items-start
                                       pt-0 p-8">

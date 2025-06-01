@@ -2,7 +2,7 @@ import React from 'react';
 
 const Resume: React.FC = () => {
   return (
-    <div className="p-6">
+    <div className="p-6 mt-24">
       <div className="grid grid-cols-[5fr_1fr] w-full">
         <div className="flex items-center justify-left">
           <span className="py-0">

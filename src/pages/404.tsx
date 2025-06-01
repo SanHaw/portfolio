@@ -1,7 +1,7 @@
 import React from 'react';
 const Page404: React.FC = () => {
   return (
-    <div className="p-6">
+    <div className="p-6 mt-24">
       <div className="w-full">
         <div className="gw-full">
           <div className="flex flex-col items-center justify-center">

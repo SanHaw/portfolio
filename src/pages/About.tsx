@@ -62,7 +62,7 @@ let colors = ['#FFEB81', '#E8D0FF', '#A3CED6', '#6EAA87'];
                                       text-stone-800 justify-center overflow-x-hidden">
         <div id="whole page" className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full 
                                       flex flex-col justify-center items-center 
-                                      pt-0 p-8">
+                                      pt-0 p-8 mt-24">
 
           <div className="grid grid-cols-6 gap-0 w-full">
             <div className=" col-start-4 col-span-3 flex">

@@ -8,7 +8,7 @@ const AFM: React.FC = () => {
     <div>
         <div className="min-h-screen sm:w-full
                                         flex pt-0 p-8
-                                        text-stone-800 justify-center overflow-x-hidden">
+                                        text-stone-800 justify-center overflow-x-hidden mt-24">
         <div className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
                                         flex flex-col items-center
                                         pt-0 p-8">
