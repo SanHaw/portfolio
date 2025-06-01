@@ -190,7 +190,7 @@ const BD: React.FC = () => {
                         'https://www.figma.com/proto/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?page-id=8%3A1597&node-id=8-1610&p=f&viewport=-23%2C93%2C0.06&t=sPdTE3DqSQgg9ApL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A1610',
                         '_blank'
                         )}
-                    className="border border-black text-black px-16 py-4 rounded-full 
+                    className="border border-black text-black px-16 py-4 my-4 rounded-full 
                     font-[Instrument] text-2xl
                     transition-transform duration-200 hover:scale-105 active:bg-black 
                     active:text-white" 

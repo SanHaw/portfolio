@@ -24,23 +24,22 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, onCardClick, 
         duration-300 ease-in-out hover:scale-105 hover:shadow-lg active:bg-stone-200"
       onClick={handleClick}
     >
-      {/* Image section: keeps 3:2 width:height ratio */}
-      <div className="w-full sm:w-1/3 aspect-[3/2] ">
+      {/* Image section – 2/5 width on sm+ screens */}
+      <div className="w-full sm:w-2/5 aspect-[3/2] relative flex-shrink-0">
         <img
           src={imageUrl}
           alt={title}
-          className="w-full h-full object-cover object-center"
+          className="absolute inset-0 w-full h-full object-cover object-center"
         />
       </div>
 
-      {/* Text section */}
-      <div className="flex-1 p-4 flex flex-col justify-center">
-        <div className="font-[Instrument] text-3xl sm:text-3xl mb-2">{title}</div>
+      {/* Text section – 3/5 width on sm+ screens */}
+      <div className="flex-1 sm:w-3/5 p-4 flex flex-col justify-center">
+        <div className="font-[Instrument] text-3xl mb-2">{title}</div>
         <p className="text-stone-800 text-sm sm:text-base line-clamp-2 leading-snug">
           {description}
         </p>
       </div>
-
     </div>
   );
 };

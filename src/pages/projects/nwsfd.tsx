@@ -133,37 +133,55 @@ const NWSFD: React.FC = () => {
 
             <div className="col-span-6 col-start-1 row-start-11 row-span-4
                             // aspect-[6/4]
-                    flex rounded-lg overflow-hidden">
-            <iframe
-                src="https://embed.figma.com/design/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?node-id=8-1597&embed-host=share"
-                allowFullScreen
-                className="w-full h-full border-0"
-            />
+                    flex rounded-lg overflow-hidden ">
+            <div>
+                <p className="font-[Instrument]
+                                text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
+                                overflow-y-visible text-left
+                                mb-6 w-[100vw]
+                    ">Explore the Figma file
+                </p>
+
+                <iframe
+                    src="https://embed.figma.com/design/5NhXWcr44GGvOvLbpW2cWr/-SYSDEV--NewsFeed-Website--Copy-?node-id=446-871&embed-host=share"
+                    allowFullScreen
+                    className="w-full h-full border-0"
+                />
+            </div>
             </div>
 
             </div>
 
             <div>
-            <p className="font-[Instrument]
-                            text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
-                            overflow-y-visible text-left
-                            pt-16 mb-6 w-[100vw]
-                ">Process
-            </p>
-            <p className="font-[Roboto] justify-left
+                <p className="font-[Instrument]
+                                text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
+                                overflow-y-visible text-left
+                                pt-16 mb-6 w-[100vw]
+                    ">Process
+                </p>
+                <p className="font-[Roboto] justify-left
                             text-xl 2xl:text-xl 
                             py-5
-            ">
-                Given the brief, we hit the ground running—breaking down 
-                requirements, mapping seamless user flows, and dividing tasks 
-                to play to our strengths. I led the design process: sketching 
-                wireframes, crafting reusable components, and transforming static 
-                layouts into sleek, animated prototypes. We tested, tweaked, and 
-                polished until everything clicked. In just four days, we turned 
-                chaos into a cohesive, player-focused companion app.
+                ">
+                This website was built as part of our ongoing initiatives —{' '}
 
-            </p>
+                <a
+                href="/projects/afm"
+                className="text-[#4995A2] hover:underline decoration-[#4995A2] underline-offset-2"
+                style={{ textDecorationThickness: "1px" }}
+                >
+                see <em>SAMAHAN All</em> for more here
+                </a>
+
+                . What started as a simple archive for articles evolved into a self-sustaining
+                platform, after we realized the team needed to manage content independently
+                with minimal dev support. Alongside my co-manager Ellyanna, I helped lead the
+                project from planning to release. As the project manager, I primarily negotiated
+                technicalities with clients, organized documents, and oversaw the UX/UI process —
+                while also assisting with QA testing to ensure a smooth user experience.
+                </p>
             </div>
+
             <div>
             <p className="font-[Instrument]
                             text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
@@ -175,9 +193,13 @@ const NWSFD: React.FC = () => {
                             text-xl 2xl:text-xl 
                             py-5
             ">
-                All of this was built in Figma—from low-fidelity wireframes to 
-                polished, interactive prototypes—bringing the entire experience 
-                to life, one frame at a time.
+                Our tech stack supports efficient collaboration across all roles. Project management 
+                and documentation are handled using Google Docs and Sheets for task tracking, content 
+                planning, and progress updates. For UI/UX design, we use Figma to create and iterate 
+                on wireframes and mockups. The frontend is built with Next.js and TypeScript, styled 
+                with CSS modules, and optimized using next/font and Vercel’s Geist font. On the backend, 
+                we use TypeScript with Supabase for authentication and PostgreSQL storage, and Prisma 
+                for database management.
 
 
             </p>
@@ -188,15 +210,15 @@ const NWSFD: React.FC = () => {
             <button
                     onClick={() =>
                         window.open(
-                        'https://www.figma.com/proto/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?page-id=8%3A1597&node-id=8-1610&p=f&viewport=-23%2C93%2C0.06&t=sPdTE3DqSQgg9ApL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A1610',
+                        'https://samahan.addu.edu.ph/newsfeed/',
                         '_blank'
                         )}
-                    className="border border-black text-black px-16 py-4 rounded-full 
+                    className="border border-black text-black px-16 py-4 my-4 rounded-full 
                     font-[Instrument] text-2xl
                     transition-transform duration-200 hover:scale-105 active:bg-black 
                     active:text-white" 
                     >
-                    Try out the prototype ❋
+                    See the Website Here ❋
                 </button>
         </div>
 
