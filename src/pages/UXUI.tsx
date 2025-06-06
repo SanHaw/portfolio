@@ -17,13 +17,13 @@ const UXUI: React.FC = () => {
       link: '/projects/bd',
       onCardClick: () => handleCardClick('Block Diary'),
     },
-    {
-      title: 'SAMAHAH Systems Development Website',
-      description: 'LEAD UX/UI DESIGNER',
-      imageUrl: '/work/sysdev/sysd001.jpg',
-      link: '/projects/sysdev',
-      onCardClick: () => handleCardClick('SYSDEV'),
-    },
+    // {
+    //   title: 'SAMAHAH Systems Development Website',
+    //   description: 'LEAD UX/UI DESIGNER',
+    //   imageUrl: '/work/sysdev/sysd001.jpg',
+    //   link: '/projects/sysdev',
+    //   onCardClick: () => handleCardClick('SYSDEV'),
+    // },
     {
       title: 'SAMAHAN Newsfeed',
       description: 'PROJECT MANAGER',
@@ -31,13 +31,13 @@ const UXUI: React.FC = () => {
       link: '/projects/nwsfd',
       onCardClick: () => handleCardClick('NWSFD'),
     },
-    // {
-    //   title: 'MISSCON 2024 Website',
-    //   description: 'UX/UI DESIGNER',
-    //   imageUrl: '/work/mssc/mssc001.jpg',
-    //   link: '/projects/mssc',
-    //   onCardClick: () => handleCardClick('MISSCON 24'),
-    // },
+    {
+      title: 'MISSCON 2024 Website',
+      description: 'UX/UI DESIGNER',
+      imageUrl: '/work/mssc/mssc001.jpg',
+      link: '/projects/mssc',
+      onCardClick: () => handleCardClick('MISSCON 24'),
+    },
     {
       title: 'Divine Jewels Retail Management System',
       description: 'LEAD UX/UI DESIGNER',

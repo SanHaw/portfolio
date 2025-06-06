@@ -1,7 +1,7 @@
+import BackButton from '@/components/BackButton';
 import ImageSlider from "@/components/ImageSlider";
 import React from "react";
 import { SiCanva } from "react-icons/si";
-
 
 const Elysan: React.FC = () => {
   return (
@@ -13,12 +13,16 @@ const Elysan: React.FC = () => {
         <div className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
                                       flex flex-col items-center
                                       pt-0 p-8">
-          <div className="justify-center justify-items-center">
-            <p className="font-[Instrument] justify-center
-                              text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
-                              overflow-y-visible text-center
-                              bg-[#FFEB81] p-20 mb-6 w-[100vw]
-              ">Elysan Design Studio
+          <div className="justify-center justify-items-center  bg-[#FFBDC7] mb-12">
+                <div className="fixed top-32 left-12 z-50 hidden sm:block">
+                    <BackButton />
+                </div>
+
+                <p className="font-[Instrument] justify-center
+                                text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
+                                overflow-y-visible text-center
+                                bg-[#FFEB81] pt-16 pb-12 mb-6 w-[100vw]
+                    ">Elysan Design Studio
             </p>
           </div>
         

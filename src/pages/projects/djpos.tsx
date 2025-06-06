@@ -1,4 +1,4 @@
-import BackButton from '@/components/BackButton'; // adjust path if needed
+import BackButton from '@/components/BackButton';
 import React from "react";
 import { FaFigma } from 'react-icons/fa';
 
@@ -15,14 +15,15 @@ const DJpos: React.FC = () => {
                                         pt-0 p-8">
             
             <div className="justify-center justify-items-center  bg-[#FFBDC7] mb-12">
-                <div className="w-full h-auto pt-4 pl-4">
+                <div className="fixed top-32 left-12 z-50 hidden sm:block">
                     <BackButton />
                 </div>
+
                 <p className="font-[Instrument] justify-center
-                                text-4xl 2xl:text-[4rem] lg:text-6xl 2xs:text-2xl
+                                text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
                                 overflow-y-visible text-center
-                                bg-[#FFBDC7] pb-12 mb-6 w-[100vw]
-                ">Divine Jewels Retail System
+                                bg-[#FFEB81] pt-16 pb-12 mb-6 w-[100vw]
+                    ">Divine Jewels Retail System
             </p>
             </div>
         
