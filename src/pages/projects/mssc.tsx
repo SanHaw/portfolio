@@ -1,8 +1,9 @@
-import BackButton from '@/components/BackButton';
+import BackButton from '@/components/BackButton'; // adjust path if needed
 import React from "react";
 import { FaFigma } from 'react-icons/fa';
 
-const MSSC: React.FC = () => {
+
+const NWSFD: React.FC = () => {
     return (
 
     <div>
@@ -13,7 +14,7 @@ const MSSC: React.FC = () => {
                                         flex flex-col items-center
                                         pt-0 p-8">
             
-            <div className="justify-center justify-items-center  bg-[#FFBDC7] mb-12">
+            <div className="justify-center justify-items-center  bg-[#FFEB81] mb-12 pt-8">
                 <div className="fixed top-32 left-12 z-50 hidden sm:block">
                     <BackButton />
                 </div>
@@ -23,13 +24,13 @@ const MSSC: React.FC = () => {
                                 overflow-y-visible text-center
                                 bg-[#FFEB81] pt-16 pb-12 mb-6 w-[100vw]
                     ">MISSCON 2024
-            </p>
+                </p>
             </div>
         
             <div className="w-full text-center">
             <p className="font-[Instrument]
-                            text-2xl 2xl:text-5xl
-                                overflow-y-visible pb-10
+                            text-xl 2xl:text-3xl
+                            overflow-y-visible pb-2
                 ">
                 2024
                 <br />
@@ -49,21 +50,14 @@ const MSSC: React.FC = () => {
             <div className="pr-2">
             <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
             {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Mobile Development</p>
+            <p>Web Development</p>
             </div>
             </div>
 
             <div className="pr-2">
             <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
             {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>App Development</p>
-            </div>
-            </div>
-
-            <div className="pr-2">
-            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Prototype</p>
+            <p>Agile</p>
             </div>
             </div>
         </div>
@@ -79,113 +73,147 @@ const MSSC: React.FC = () => {
                             text-xl 2xl:text-xl
                             py-5
             ">
-                lorem ipsum
-
+                The official website for MISSCon 2025 provides a sleek, responsive 
+                platform for attendees to explore event details, speaker highlights, 
+                and program timelines. Designed with clarity and professionalism in 
+                mind, the site offers a seamless user experience while reflecting 
+                the innovation and leadership spirit behind the Mindanao-wide 
+                International Studies Students’ Convention.
+                <br />
             </p>
             </div>
-
-            <button
-                onClick={() =>
-                    window.open(
-                    'https://www.figma.com/proto/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?page-id=8%3A1597&node-id=8-1610&p=f&viewport=-23%2C93%2C0.06&t=sPdTE3DqSQgg9ApL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A1610',
-                    '_blank'
-                    )}
-                className="border border-black text-black px-16 py-4 rounded-full 
-                font-[Instrument] text-2xl
-                transition-transform duration-200 hover:scale-105 active:bg-black 
-                active:text-white"
-                >
-                Try out the prototype ❋
-            </button>
 
             <div className="w-full pt-12">
             <div className="grid grid-cols-6 gap-4 w-full">
             <div className="col-span-6 col-start-1 flex aspect-[6/3] rounded-lg overflow-hidden">
             <img
-                src="/work/bd/bd001.jpg"
-                className="w-full h-full object-cover object-left"
+                src="/work/mssc/mssc001.jpg"
+                className="w-full h-full object-cover object-top"
                 id="asterisk asset"
             />
             </div>
 
-            <div className="col-span-2 col-start-1 row-start-2 row-span-4
-                            aspect-[2/4]
+            <div className="col-span-3 col-start-1 row-start-2 row-span-2
+                            aspect-[3/2]
                     flex rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd008.jpg"
-                className="w-fullobject-cover object-top"
-                id="asterisk asset"
-            />
+                <img
+                    src="/work/mssc/mssc003.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
-            <div className="col-span-2 col-start-3 row-start-2 row-span-4
-                            aspect-[2/4]
+
+            <div className="col-span-3 col-start-4 row-start-2 row-span-2
+                            aspect-[3/2]
                     flex rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd004.jpg"
-                className="w-fullobject-cover object-top"
-                id="asterisk asset"
-            />
+                <img
+                    src="/work/mssc/mssc002.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
-            <div className="col-span-2 col-start-5 row-start-2 row-span-4
-                            aspect-[2/4]
+
+            <div className="col-span-3 col-start-1 row-start-4 row-span-
+                            aspect-[3/2]
+                    flex rounded-lg overflow-hidden object-cover object-bottom">
+                <img
+                    src="/work/mssc/mssc004.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
+            </div>
+
+            <div className="col-span-3 col-start-4 row-start-4 row-span-2
+                            aspect-[3/2]
                     flex rounded-lg overflow-hidden">
-            <img
-                src="/work/bd/bd005.jpg"
-                className="w-fullobject-cover object-top"
-                id="asterisk asset"
-            />
+                <img
+                    src="/work/mssc/mssc005.jpg"
+                    className="w-full object-cover object-top"
+                    id="asterisk asset"
+                />
             </div>
 
             <div className="col-span-6 col-start-1 row-start-11 row-span-4
-                            // aspect-[6/4]
-                    flex rounded-lg overflow-hidden">
-            <iframe
-                src="https://embed.figma.com/design/4GeasETcLd8s7pIyNNZAyj/Where-is-it--%7C-Minecraft-UXUI-comp?node-id=8-1597&embed-host=share"
-                allowFullScreen
-                className="w-full h-full border-0"
-            />
+                            aspect-[3/2]
+                    flex rounded-lg overflow-hidden ">
+            <div>
+                <p className="font-[Instrument]
+                                text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
+                                overflow-y-visible text-left
+                                mb-4 w-[100vw]
+                    ">Explore the Figma file
+                </p>
+
+                <iframe
+                    src="https://embed.figma.com/design/5NhXWcr44GGvOvLbpW2cWr/-SYSDEV--NewsFeed-Website--Copy-?node-id=446-871&embed-host=share"
+                    allowFullScreen
+                    className="w-full h-full border-0"
+                />
+            </div>
             </div>
 
             </div>
+            <div className="col-span-6 col-start-1 row-start-11 row-span-4 flex flex-col items-center gap-4 rounded-lg overflow-hidden">
+                    <button
+                        onClick={() =>
+                            window.open(
+                            'https://misscon2025.info',
+                            '_blank'
+                            )}
+                        className="border border-black text-black px-16 py-4 my-4 rounded-full 
+                        font-[Instrument] text-2xl
+                        transition-transform duration-200 hover:scale-105 active:bg-black 
+                        active:text-white" 
+                        >
+                        See the Website Here ❋
+                    </button>
+                </div>
 
             <div>
-            <p className="font-[Instrument]
-                            text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
-                            overflow-y-visible text-left
-                            pt-16 mb-6 w-[100vw]
-                ">Process
-            </p>
-            <p className="font-[Roboto] justify-left
+                <p className="font-[Instrument]
+                                text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
+                                overflow-y-visible text-left
+                                pt-16 w-[100vw]
+                    ">Process
+                </p>
+                <p className="font-[Roboto] justify-left
                             text-xl 2xl:text-xl 
-                            py-5
-            ">
-                lorem ipsum
-
-            </p>
+                            py-4
+                ">
+                We were briefed on the event’s progress and provided with the official 
+                branding and content. From there, we explored the best layout approach 
+                to present everything clearly and cohesively. After aligning structure 
+                with visual identity, we designed the final interface with both clarity 
+                and engagement in mind.
+                </p>
             </div>
+
             <div>
             <p className="font-[Instrument]
-                            text-5xl 2xl:text-[4rem] lg:text-4xl 2xs:text-2xl
+                            text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
                             overflow-y-visible text-left
-                            pt-16 mb-6 w-[100vw]
+                            pt-16 w-[100vw]
                 ">Tech Stack
             </p>
             <p className="font-[Roboto] justify-left
                             text-xl 2xl:text-xl 
-                            py-5
+                            py-4
             ">
-                lorem ipsum
+                Project assets and content were organized through Google Docs, 
+                streamlining collaboration from the start. With the branding kit 
+                on hand, we designed the full user interface in Figma—translating 
+                ideas into clean, functional visuals while keeping everything aligned 
+                with the event’s identity.
+
+
             </p>
             </div>
-
-
         </div>
         </div>
-
         </div>
     </div>
 
     );
 };
 
-export default MSSC;
+export default NWSFD;

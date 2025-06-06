@@ -34,7 +34,7 @@ const UXUI: React.FC = () => {
     {
       title: 'MISSCON 2024 Website',
       description: 'UX/UI DESIGNER',
-      imageUrl: '/work/mssc/mssc001.jpg',
+      imageUrl: '/work/mssc/mssc000.jpg',
       link: '/projects/mssc',
       onCardClick: () => handleCardClick('MISSCON 24'),
     },

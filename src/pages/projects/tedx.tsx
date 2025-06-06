@@ -14,7 +14,7 @@ const Tedx: React.FC = () => {
                                       flex flex-col items-center
                                       pt-0 p-8">
           
-          <div className="justify-center justify-items-center  bg-[#FFBDC7] mb-12">
+          <div className="justify-center justify-items-center  bg-[#FFBDC7] mb-12 pt-8">
                 <div className="fixed top-32 left-12 z-50 hidden sm:block">
                     <BackButton />
                 </div>
