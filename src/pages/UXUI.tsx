@@ -65,7 +65,7 @@ const UXUI: React.FC = () => {
 
 
           {/* First Row of Squares */}
-          <div id="first row of squares" className="grid grid-cols-2 gap-0">
+          <div id="first row of squares" className="grid grid-cols-2 gap-0 w-full justify-end">
             <div></div>
             <div className="col-start-2">
               <div className="grid grid-cols-3 gap-0">

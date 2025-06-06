@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCss3Alt, FaFigma, FaGitAlt, FaGithub, FaHtml5, FaJsSquare, FaPython, FaReact, FaTrello } from 'react-icons/fa';
 import { SiCanva, SiShadcnui, SiTypescript } from 'react-icons/si';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Card from '../components/Card';
 import SkillPill from '../components/SkillPill.tsx';
 
@@ -25,7 +25,6 @@ let skills = [
 ];
 
 const About: React.FC = () => {
-  const navigate = useNavigate();
 
   const handleCardClick = (cardTitle: string) => {
     console.log(`${cardTitle} clicked!`);
