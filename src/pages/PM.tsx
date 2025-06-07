@@ -1,6 +1,6 @@
 import React from "react";
 
-const Resume: React.FC = () => {
+const PM: React.FC = () => {
 
   return (
       <div id="whole page" className="min-h-screen sm:w-full
@@ -32,7 +32,7 @@ const Resume: React.FC = () => {
             <div className="flex items-center justify-left">
               <span className="py-0">
                 
-                <p className="font-[Nowcloud] text-4xl 2xl:text-[8rem] lg:text-6xl 2xs:text:xl">Resume</p>
+                <p className="font-[Nowcloud] text-4xl 2xl:text-[8rem] lg:text-6xl 2xs:text:xl">PM</p>
 
               </span>
             </div>
@@ -88,4 +88,4 @@ const Resume: React.FC = () => {
   );
 };
 
-export default Resume;
+export default PM;

@@ -1,3 +1,4 @@
+import BackButton from '@/components/BackButton';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Card from '../components/Card';
@@ -79,7 +80,9 @@ const GraphicDesign: React.FC = () => {
                                       flex flex-col items-start
                                       pt-0 p-8">
 
-
+          <div className="fixed top-32 left-12 z-50 hidden sm:block">
+                            <BackButton />
+                        </div>
           {/* First Row of Squares */}
           <div id="first row of squares" className="grid grid-cols-2 gap-0 w-full justify-end">
             <div></div>

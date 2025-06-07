@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import GraphicDesign from './pages/GraphicDesign';
+import PM from './pages/PM';
 import AFM from './pages/projects/afm';
 import BD from './pages/projects/bd';
 import DJpos from './pages/projects/djpos';
@@ -11,6 +12,7 @@ import MSSC from './pages/projects/mssc';
 import NWSFD from './pages/projects/nwsfd';
 import Sysdev from './pages/projects/sysdev';
 import TedX from './pages/projects/tedx';
+import UXUI from './pages/UXUI';
 
 const App = () => {
   return (
@@ -30,6 +32,9 @@ const App = () => {
         <Route path="/projects/djpos" element={<DJpos />} />
         <Route path="/projects/mssc" element={<MSSC />} />
         <Route path="/projects/sysdev" element={<Sysdev />} />
+        <Route path="/pages/GraphicDesign" element={<GraphicDesign />} />
+        <Route path="/pages/UXUI" element={<UXUI />} />
+        <Route path="/pages/.PM" element={<PM />} />
         {/* Define routes for other projects here */}
         {/* <Route path="/projects/projectX" element={<ProjectX />} /> */}
       </Routes>

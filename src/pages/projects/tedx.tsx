@@ -22,7 +22,7 @@ const Tedx: React.FC = () => {
                 <p className="font-[Instrument] justify-center
                                 text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
                                 overflow-y-visible text-center
-                                bg-[#FFEB81] pt-16 pb-12 mb-6 w-[100vw]
+                                pt-16 pb-12 mb-6 w-[100vw]
                     ">TEDxLanang Ave
             </p>
           </div>

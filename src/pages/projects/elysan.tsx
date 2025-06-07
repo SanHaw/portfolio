@@ -13,7 +13,7 @@ const Elysan: React.FC = () => {
         <div className="xl:w-[70%] lg:w-[90%] md:w-full sm:w-full
                                       flex flex-col items-center
                                       pt-0 p-8">
-          <div className="justify-center justify-items-center  bg-[#FFBDC7] mb-12 pt-8">
+          <div className="justify-center justify-items-center  bg-[#FFEB81] mb-12 pt-8">
                 <div className="fixed top-32 left-12 z-50 hidden sm:block">
                     <BackButton />
                 </div>
@@ -21,7 +21,7 @@ const Elysan: React.FC = () => {
                 <p className="font-[Instrument] justify-center
                                 text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
                                 overflow-y-visible text-center
-                                bg-[#FFEB81] pt-16 pb-12 mb-6 w-[100vw]
+                                pt-16 pb-12 mb-6 w-[100vw]
                     ">Elysan Design Studio
             </p>
           </div>
