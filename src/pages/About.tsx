@@ -219,7 +219,7 @@ let colors = ['#FFEB81', '#E8D0FF', '#A3CED6', '#6EAA87'];
                             />
                           ))}
                           <Link
-                            to="/UXUI"
+                            to="/Projects"
                             className="text-[#4995A2] hover:underline text-lg font-medium text-right"
                           >
                             See More →

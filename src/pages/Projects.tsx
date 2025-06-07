@@ -1,4 +1,5 @@
 import React from "react";
+import Card from '../components/Card';
 
 const Projects: React.FC = () => {
   const cardData = [
@@ -22,10 +23,73 @@ const Projects: React.FC = () => {
     // },
   ];
 
-  const handleCardClick = (title: string, path: string) => {
+  const handleCardClick2 = (title: string, path: string) => {
     console.log(`${title} clicked!`);
     window.location.href = path; // Use this to ensure navigation always works
   };
+
+  const handleCardClick = (cardTitle: string) => {
+    console.log(`${cardTitle} clicked!`);
+  };
+
+  const cards = [
+    {
+      title: 'Elysan Design',
+      description: 'FOUNDER | GRAPHIC DESIGNER',
+      imageUrl: '/work/eds/eds007.jpg',
+      link: '/projects/elysan',
+      onCardClick: () => handleCardClick('Elysan Design'),
+    },
+    {
+      title: 'TEDxLanang Ave',
+      description: 'BRANDING HEAD',
+      imageUrl: '/work/tedx/tedx001.jpg',
+      link: '/projects/tedx',
+      onCardClick: () => handleCardClick('tedx'),
+    },
+    // {
+    //   title: 'Chammie Carnival',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'CS Student Executive Council',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'Mooncake Festival 2024',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'Purple Up: Kick Off',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'IT Week 2024',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'Cham-along With Us',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // }
+  ];
 
   return (
     <div className="min-h-screen sm:w-full flex pt-0 p-8 text-stone-800 justify-center overflow-x-hidden">
@@ -57,7 +121,7 @@ const Projects: React.FC = () => {
             {cardData.map((card, index) => (
               <div
                 key={index}
-                onClick={() => handleCardClick(card.title, card.path)}
+                onClick={() => handleCardClick2(card.title, card.path)}
                 className="flex flex-col items-center group cursor-pointer w-[300px]"
               >
                 <div className="relative w-full aspect-square overflow-hidden">
@@ -74,6 +138,22 @@ const Projects: React.FC = () => {
                   {card.title}
                 </p>
               </div>
+            ))}
+          
+        </div>
+
+        <div className="grid col-start-2 col-span-4 grid-cols-1 
+            sm:grid-cols-2 gap-6 auto-rows-fr items-stretch mt-10">
+
+            {cards.map((card, index) => (
+              <Card
+                key={index}
+                title={card.title}
+                description={card.description}
+                imageUrl={card.imageUrl}
+                link={card.link}
+                onCardClick={card.onCardClick}
+              />
             ))}
           </div>
         </div>
