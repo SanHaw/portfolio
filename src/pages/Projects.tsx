@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
         <div className="grid grid-cols-[5fr_1fr] w-full">
           <div className="flex items-center justify-left">
             <span className="py-0">
-              <p className="font-[Nowcloud] text-4xl 2xl:text-[8rem] lg:text-6xl 2xs:text:xl">My Projects</p>
+              <p className="py-12 font-[Nowcloud] text-4xl 2xl:text-[8rem] lg:text-6xl 2xs:text:xl">Projects</p>
             </span>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Projects: React.FC = () => {
         </div>
 
         {/* Decorative Bottom Grids */}
-        <div className="grid grid-cols-6 gap-0 w-full">
+        <div className="grid grid-cols-6 gap-0 w-full pt-8">
           <div className="col-start-1 col-span-6 flex">
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>

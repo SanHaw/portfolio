@@ -25,48 +25,48 @@ const GraphicDesign: React.FC = () => {
       link: '/projects/tedx',
       onCardClick: () => handleCardClick('tedx'),
     },
-    {
-      title: 'Chammie Carnival',
-      description: 'Explore the Elysan project!',
-      imageUrl: '/work/temp.jpg',
-      link: '/projects/elysan',
-      onCardClick: () => handleCardClick('Elysan Design'),
-    },
-    {
-      title: 'CS Student Executive Council',
-      description: 'Explore the Elysan project!',
-      imageUrl: '/work/temp.jpg',
-      link: '/projects/elysan',
-      onCardClick: () => handleCardClick('Elysan Design'),
-    },
-    {
-      title: 'Mooncake Festival 2024',
-      description: 'Explore the Elysan project!',
-      imageUrl: '/work/temp.jpg',
-      link: '/projects/elysan',
-      onCardClick: () => handleCardClick('Elysan Design'),
-    },
-    {
-      title: 'Purple Up: Kick Off',
-      description: 'Explore the Elysan project!',
-      imageUrl: '/work/temp.jpg',
-      link: '/projects/elysan',
-      onCardClick: () => handleCardClick('Elysan Design'),
-    },
-    {
-      title: 'IT Week 2024',
-      description: 'Explore the Elysan project!',
-      imageUrl: '/work/temp.jpg',
-      link: '/projects/elysan',
-      onCardClick: () => handleCardClick('Elysan Design'),
-    },
-    {
-      title: 'Cham-along With Us',
-      description: 'Explore the Elysan project!',
-      imageUrl: '/work/temp.jpg',
-      link: '/projects/elysan',
-      onCardClick: () => handleCardClick('Elysan Design'),
-    }
+    // {
+    //   title: 'Chammie Carnival',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'CS Student Executive Council',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'Mooncake Festival 2024',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'Purple Up: Kick Off',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'IT Week 2024',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // },
+    // {
+    //   title: 'Cham-along With Us',
+    //   description: 'Explore the Elysan project!',
+    //   imageUrl: '/work/temp.jpg',
+    //   link: '/projects/elysan',
+    //   onCardClick: () => handleCardClick('Elysan Design'),
+    // }
   ];
 
 
