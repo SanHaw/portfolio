@@ -10,7 +10,7 @@ import Page404 from '../pages/404';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Projects from '../pages/Projects';
-import Resume from '../pages/Resume';
+// import Resume from '../pages/Resume';
 
 const Navbar: React.FC = () => {
   return (
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           {/* <Link to="/graphic-design" className="">Graphic Design</Link>
           <Link to="/uxui" className="">UX/UI</Link> */}
           <Link to="/contact" className="">Contact</Link>
-          <Link to="/resume" className="">Resume</Link>
+          {/* <Link to="/resume" className="">Resume</Link> */}
         </nav>
       </div>
 
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
         <Route path="/projects" element={<Projects />} />
         {/* <Route path="/uxui" element={<UXUI />} /> */}
         <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
+        {/* <Route path="/resume" element={<Resume />} /> */}
         <Route path="/404" element={<Page404 />} />
       </Routes>
     </Router>
