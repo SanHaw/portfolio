@@ -72,8 +72,15 @@ const Projects: React.FC = () => {
           <div className="col-start-4 col-span-3 flex">
             <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
             <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+            <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
+          </div>
+          <div className="col-start-4 col-span-3 flex">
+            <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
+            <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden">
-              <img src="/asterisk.svg" alt="Asterisk" className="w-max h-max object-contain" />
+              <img 
+                src="/smiski5.png" 
+                className="w-full h-full object-contain" />
             </div>
           </div>
         </div>
@@ -114,6 +121,15 @@ const Projects: React.FC = () => {
           
         </div>
 
+        <div className="col-start-1 col-span-6 flex items-center justify-center">
+          <span className="py-0">
+            <p className="pt-8 mt-12 font-[Roboto] text-xl">
+              some of my favorites (totally not biased)
+            </p>
+            
+          </span>
+        </div>
+                    
         <div className="grid col-start-1 col-span-6 grid-cols-1 
             sm:grid-cols-2 gap-6 auto-rows-fr items-stretch mt-10">
 

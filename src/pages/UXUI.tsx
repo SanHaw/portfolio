@@ -73,9 +73,13 @@ const UXUI: React.FC = () => {
                 <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden">
-                  <img src="/asterisk.svg" alt="Asterisk" className="w-max h-max object-contain" id="asterisk asset" />
+                  <img 
+                    src="/asterisk.svg" 
+                    className="w-max h-max object-contain" 
+                    />
                 </div>
               </div>
+              
             </div>
           </div>
 
@@ -147,6 +151,22 @@ const UXUI: React.FC = () => {
             </iframe>
             
         </div></div>
+        
+        <div id="first row of squares" className="grid grid-cols-2 gap-0 w-full justify-end">
+            
+            <div className="col-start-1">
+              <div className="grid grid-cols-3 gap-0">
+                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden">
+                  <img 
+                    src="/asterisk.svg" 
+                    className="w-max h-max object-contain" 
+                    />
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
