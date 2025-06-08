@@ -28,10 +28,9 @@ const Tedx: React.FC = () => {
           </div>
         
           <div className="w-full text-center">
-            <p className="font-[Instrument]
-                            text-2xl 2xl:text-5xl
-                              overflow-y-visible pb-10
-              ">
+            <p className="font-[Instrument] 
+                            text-xl 2xl:text-3xl
+                            overflow-y-visible pb-10">
               2024
               <br />
               Branding Head
@@ -67,10 +66,7 @@ const Tedx: React.FC = () => {
             </div>
 
           <div>
-            <p className="font-[Roboto] justify-left
-                          text-xl 2xl:text-3xl
-                          py-5
-            ">
+            <p className="font-[Roboto] justify-left text-xl 2xl:text-xl py-4">
               TEDxLanang Ave is an independently organized TEDx event held in 
               Davao City that brings together thought leaders, creatives, and 
               changemakers to share ideas worth spreading. Rooted in the spirit 
@@ -140,6 +136,21 @@ const Tedx: React.FC = () => {
                   id="asterisk asset"
                 />
             </div>
+          </div>
+          <div>
+              <p className="font-[Instrument] 
+                              text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
+                              overflow-y-visible text-left pt-16 w-[100vw]">
+                  Tech Stack
+              </p>
+              <p className="font-[Roboto] justify-left text-xl 2xl:text-xl py-4">
+                  All visual assets were created using Figma, which real-time 
+                  collaboration seamless across the team. With Figma’s live 
+                  editing capabilities, multiple contributors could work on the 
+                  same file simultaneously—perfect for refining layouts, sharing 
+                  feedback, and making quick iterations without versioning headaches.
+                  
+              </p>
           </div>
 
           
