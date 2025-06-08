@@ -121,7 +121,7 @@ let colors = ['#FFEB81', '#E8D0FF', '#A3CED6', '#6EAA87'];
                                 rounded-lg bg-[transparent aspect-square text-center
                                 flex items-center justify-center overflow-hidden">
                     <img
-                      src="/asterisk2.svg"
+                      src="/arrow1.svg"
                       alt="Asterisk"
                       className="w-max h-max object-contain"
                       id="asterisk asset"
@@ -143,7 +143,15 @@ let colors = ['#FFEB81', '#E8D0FF', '#A3CED6', '#6EAA87'];
             <div className="grid grid-cols-6 gap-0 w-full">
               <div className=" col-start-1 col-span-3 flex">
                 
-                <div className="w-full rounded-lg bg-[#FFEB81] aspect-square"></div>
+                <div className="w-full 
+                                rounded-lg bg-[transparent aspect-square text-center
+                                flex items-center justify-center overflow-hidden">
+                    <img
+                      src="/smiski2.png"
+                      className="w-max h-max object-contain"
+                      id="asterisk asset"
+                    />
+                </div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
                 <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
               </div>
@@ -237,17 +245,17 @@ let colors = ['#FFEB81', '#E8D0FF', '#A3CED6', '#6EAA87'];
             <div className="grid grid-cols-6 gap-0 w-full">
               <div className=" col-start-1 col-span-7 flex">
                 <div className="w-full rounded-lg bg-[#FFEB81] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
-                <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+                <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+                <div className="w-full rounded-lg bg-transparent aspect-square"></div>
+                <div className="w-full rounded-lg bg-transparent aspect-square"></div>
                 <div className="w-full 
-                                rounded-lg h-full bg-transparent aspect-square text-center
+                                rounded-lg h-full bg-transparent aspect-[2/1] text-center
                                 flex items-center justify-center overflow-hidden">
                     <img
-                      src="/flower.svg"
-                      alt=""
+                      src="/shape04.svg"
+                      
                       className="h-full object-contain"
-                      id="asterisk asset"
+                      
                     />
                 </div>
                 <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>

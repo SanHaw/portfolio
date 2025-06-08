@@ -116,7 +116,7 @@ const UXUI: React.FC = () => {
           <div className="grid grid-cols-6 gap-0 w-full">
             <div className="col-start-1 col-span-6 flex items-left justify-left">
               <span className="py-0">
-                <p className="pt-8 mt-12 font-[Instrument] text-2xl 2xl:text-[3rem] lg:text-xl 2xs:text:xl">
+                <p className="pt-8 mt-12 font-[Instrument] text-5xl">
                   See My UX/UI Resume ☼
                 </p>
                 
@@ -127,7 +127,7 @@ const UXUI: React.FC = () => {
           <div className="flex w-full col-start-1 col-span-6 rounded-lg overflow-hidden py-8
                           justify-center items-center">
             <a
-                    href="/resume/Sarah-Haw-Resume-UXUI-Designer.pdf"
+                    href="/resume/Sarah-Haw-Resume-UXUI.pdf"
                     download
                     className="border border-black text-black px-16 py-4 my-4 
                                 rounded-full font-[Instrument] text-2xl transition-transform 
@@ -140,7 +140,7 @@ const UXUI: React.FC = () => {
           
           <div className="col-start-2 col-span-4 aspect-[210/270] w-full rounded-lg overflow-hidden">
             <iframe
-              src="/resume/Sarah-Haw-Resume-UXUI-Designer.pdf"
+              src="/resume/Sarah-Haw-Resume-UXUI.pdf"
               className="w-full h-full"
               title="PDF Preview"
             >

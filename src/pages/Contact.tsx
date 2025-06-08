@@ -24,16 +24,17 @@ const Contact: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-6 gap-0 w-full">
+        <div className="grid grid-cols-6 gap-20 w-full">
           <div className="col-start-1 col-span-3 flex">
             <div className="flex items-center justify-start">
               <span>
-                <p className="font-[Nowcloud] text-4xl 2xl:text-[8rem] lg:text-6xl 2xs:text:xl">Find Me Here</p>
+                <p className="font-[Nowcloud] 2xl:text-[8rem] lg:text-[5rem] md:text-6xl sm:text-[4rem]">Find Me Here</p>
+
               </span>
             </div>
           </div>
 
-          <div className="col-start-4 col-span-3 flex font-[Instrument] text-3xl 2xl:4xl">
+          <div className="col-start-4 col-span-3 flex font-[Instrument] text-3xl 2xl:4xl md:text-xl sm:text-[1rem]">
             <div className="flex justify-start flex-col gap-8 mt-6 items-start text-left">
               <a
                 href="mailto:itssarahhaw@gmail.com"
