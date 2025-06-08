@@ -135,13 +135,13 @@ const Projects: React.FC = () => {
           <div className="col-start-1 col-span-6 flex">
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
-            <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
+            <div className="w-full rounded-lg bg-[#6EAA87] aspect-square"></div>
             <div className="w-full rounded-lg bg-[#FFEB81] aspect-square"></div>
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden">
-              <img src="/asterisk2.svg" alt="Asterisk" className="w-max h-max object-contain" />
+              
             </div>
             <div className="w-full rounded-lg h-full bg-transparent aspect-square text-center flex items-center justify-center overflow-hidden">
-              <img src="/smiski4.png" alt="" className="h-full object-contain" />
+              <img src="/smiski7.png" alt="" className="h-full object-contain" />
             </div>
           </div>
         </div>
