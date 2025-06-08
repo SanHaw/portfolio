@@ -1,10 +1,9 @@
 import BackButton from '@/components/BackButton';
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import Card from '../components/Card';
 
 const GraphicDesign: React.FC = () => {
-  const navigate = useNavigate(); 
+
 
   const handleCardClick = (cardTitle: string) => {
     console.log(`${cardTitle} clicked!`);
