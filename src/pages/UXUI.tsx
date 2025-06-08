@@ -45,14 +45,14 @@ const UXUI: React.FC = () => {
       imageUrl: '/work/djpos/djpos001.jpg',
       link: '/projects/djpos',
       onCardClick: () => handleCardClick('Divine Jewels'),
-    },
-    {
-      title: 'SAMAHAN All for More Website',
-      description: 'UX/UI DESIGNER',
-      imageUrl: '/work/afm/afm001.jpg',
-      link: '/projects/afm',
-      onCardClick: () => handleCardClick('All for More'),
     }
+    // {
+    //   title: 'SAMAHAN All for More Website',
+    //   description: 'UX/UI DESIGNER',
+    //   imageUrl: '/work/afm/afm001.jpg',
+    //   link: '/projects/afm',
+    //   onCardClick: () => handleCardClick('All for More'),
+    // }
   ];
 
   return (

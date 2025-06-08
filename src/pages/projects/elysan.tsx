@@ -27,10 +27,9 @@ const Elysan: React.FC = () => {
           </div>
         
           <div className="w-full text-center">
-            <p className="font-[Instrument]
-                            text-2xl 2xl:text-5xl
-                              overflow-y-visible pb-10
-              ">
+            <p className="font-[Instrument] 
+                            text-xl 2xl:text-3xl
+                            overflow-y-visible pb-10">
               Online Business | 2022 - present
               <br />
               Founder | Graphic Designer | Customer Service | Social Media Manager
@@ -39,10 +38,7 @@ const Elysan: React.FC = () => {
           </div>
 
           <div>
-            <p className="font-[Roboto] justify-left
-                          text-xl 2xl:text-3xl
-                          py-5
-            ">
+            <p className="font-[Roboto] justify-left text-xl 2xl:text-xl py-4">
               Elysan Design Studios, a digital design brand I launched in 2022 
               on TikTok. What started as a creative outlet has now grown into 
               a small business with over 3,000 followers, 73,000 likes, and 
@@ -208,9 +204,37 @@ const Elysan: React.FC = () => {
                                 bg-[url('/work/eds/eds112.jpg')]">
                                 {/* periodic table */}
                 </div>
-
               </div>
+
+                    <div>
+                        <p className="font-[Instrument] 
+                                        text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
+                                        overflow-y-visible text-left pt-16 w-[100vw]">
+                            Tech Stack
+                        </p>
+                        <p className="font-[Roboto] justify-left text-xl 2xl:text-xl py-4">
+                            At EDS, we keep things streamlined and creative with a 
+                            flexible, purpose-driven toolkit. Most projects are 
+                            crafted on Canva, offering quick turnaround without 
+                            compromising design quality. Google Workspace—particularly 
+                            Docs and Sheets—keeps our administrative side organized 
+                            and collaborative.
+                            <br /><br />
+                            For content and client engagement, we use Meta Business 
+                            Suite to stay responsive across Instagram and Facebook. 
+                            Video editing is handled through CapCut, iMovie, and 
+                            Canva, depending on the complexity of the project.
+                            <br /><br />
+                            When a commission calls for something extra, we bring 
+                            in tools like Figma for interface design and Procreate 
+                            for more detailed, hand-drawn elements. Our stack adapts 
+                            to what each project needs—balancing efficiency, creativity, 
+                            and quality every step of the way.
+                        </p>
+                    </div>
+
             </div>
+          
           
 
         </div>
