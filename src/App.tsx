@@ -6,6 +6,8 @@ import GraphicDesign from './pages/GraphicDesign';
 import PM from './pages/PM';
 import AFM from './pages/projects/afm';
 import BD from './pages/projects/bd';
+import Chammie from './pages/projects/chammie';
+import Cssec from './pages/projects/cssec';
 import DJpos from './pages/projects/djpos';
 import Elysan from './pages/projects/elysan';
 import MSSC from './pages/projects/mssc';
@@ -25,6 +27,8 @@ const App = () => {
       <Routes>
         <Route path="/graphic-design" element={<GraphicDesign />} />
         <Route path="/projects/elysan" element={<Elysan />} />
+        <Route path="/projects/cssec" element={<Cssec />} />
+        <Route path="/projects/chammie" element={<Chammie />} />
         <Route path="/projects/bd" element={<BD />} />
         <Route path="/projects/tedx" element={<TedX />} />
         <Route path="/projects/nwsfd" element={<NWSFD />} />
