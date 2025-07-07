@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
       title: "Other Dev Projects",
       img1: "computer103.png",
       img2: "computer003.png",
-      path: "/pages/PM",
+      path: "/pages/Dev",
     },
   ];
 

@@ -2,55 +2,20 @@ import BackButton from '@/components/BackButton';
 import React from 'react';
 import Card from '../components/Card';
 
-const UXUI: React.FC = () => {
 
-  const handleCardClick = (cardTitle: string) => {
+const Dev: React.FC = () => {
+const handleCardClick = (cardTitle: string) => {
     console.log(`${cardTitle} clicked!`);
   };
 
   const cards = [
-    {
-      title: 'Minecraft Companion App',
-      description: 'LEAD UX/UI DESIGNER',
-      imageUrl: '/work/bd/bd001.jpg',
-      link: '/projects/bd',
-      onCardClick: () => handleCardClick('Block Diary'),
-    },
-    // {
-    //   title: 'SAMAHAH Systems Development Website',
-    //   description: 'LEAD UX/UI DESIGNER',
-    //   imageUrl: '/work/sysdev/sysd001.jpg',
-    //   link: '/projects/sysdev',
-    //   onCardClick: () => handleCardClick('SYSDEV'),
-    // },
     {
       title: 'SAMAHAN Newsfeed',
       description: 'PROJECT MANAGER',
       imageUrl: '/work/nwsfd/nwsfd000.jpg',
       link: '/projects/nwsfd',
       onCardClick: () => handleCardClick('NWSFD'),
-    },
-    {
-      title: 'MISSCON 2024 Website',
-      description: 'UX/UI DESIGNER',
-      imageUrl: '/work/mssc/mssc000.jpg',
-      link: '/projects/mssc',
-      onCardClick: () => handleCardClick('MISSCON 24'),
-    },
-    {
-      title: 'Divine Jewels Retail Management System',
-      description: 'LEAD UX/UI DESIGNER',
-      imageUrl: '/work/djpos/djpos001.jpg',
-      link: '/projects/djpos',
-      onCardClick: () => handleCardClick('Divine Jewels'),
     }
-    // {
-    //   title: 'SAMAHAN All for More Website',
-    //   description: 'UX/UI DESIGNER',
-    //   imageUrl: '/work/afm/afm001.jpg',
-    //   link: '/projects/afm',
-    //   onCardClick: () => handleCardClick('All for More'),
-    // }
   ];
 
   return (
@@ -88,7 +53,7 @@ const UXUI: React.FC = () => {
             <div className="flex items-center justify-left">
               <span className="py-0">
                 <p className="font-[Instrument] text-4xl 2xl:xl">Hi there, I do</p>
-                <p className="font-[Nowcloud] text-4xl 2xl:text-[8rem] lg:text-6xl 2xs:text:xl">UX/UI<br />Design</p>
+                <p className="font-[Nowcloud] text-4xl 2xl:text-[8rem] lg:text-6xl 2xs:text:xl">Tech Project <br />Builds</p>
               </span>
             </div>
 
@@ -121,7 +86,7 @@ const UXUI: React.FC = () => {
             <div className="col-start-1 col-span-6 flex items-left justify-left">
               <span className="py-0">
                 <p className="pt-8 mt-12 font-[Instrument] text-5xl">
-                  See My UX/UI Resume ☼
+                  See My Project Management Resume ☼
                 </p>
                 
               </span>
@@ -131,7 +96,7 @@ const UXUI: React.FC = () => {
           <div className="flex w-full col-start-1 col-span-6 rounded-lg overflow-hidden py-8
                           justify-center items-center">
             <a
-                    href="/resume/Sarah-Haw-Resume-UXUI.pdf"
+                    href="/resume/Sarah-Haw-Resume-Project-Manager.pdf"
                     download
                     className="border border-black text-black px-16 py-4 my-4 
                                 rounded-full font-[Instrument] text-2xl transition-transform 
@@ -144,7 +109,7 @@ const UXUI: React.FC = () => {
           
           <div className="col-start-2 col-span-4 mb-16 aspect-[210/270] w-full rounded-lg overflow-hidden">
             <iframe
-              src="/resume/Sarah-Haw-Resume-UXUI.pdf"
+              src="/resume/Sarah-Haw-Resume-Project-Manager.pdf"
               className="w-full h-full"
               title="PDF Preview"
             >
@@ -174,4 +139,4 @@ const UXUI: React.FC = () => {
   );
 };
 
-export default UXUI;
+export default Dev;

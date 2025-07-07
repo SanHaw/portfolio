@@ -2,8 +2,8 @@
 import Head from 'next/head';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Dev from './pages/Dev';
 import GraphicDesign from './pages/GraphicDesign';
-import PM from './pages/PM';
 import AFM from './pages/projects/afm';
 import BD from './pages/projects/bd';
 import Chammie from './pages/projects/chammie';
@@ -38,7 +38,7 @@ const App = () => {
         <Route path="/projects/sysdev" element={<Sysdev />} />
         <Route path="/pages/GraphicDesign" element={<GraphicDesign />} />
         <Route path="/pages/UXUI" element={<UXUI />} />
-        <Route path="/pages/PM" element={<PM />} />
+        <Route path="/pages/Dev" element={<Dev />} />
         <Route path="/projects/itweek" element={<ITweek />} />
 
         {/* Define routes for other projects here */}
