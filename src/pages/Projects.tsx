@@ -1,5 +1,4 @@
 import React from "react";
-import Card from '../components/Card';
 
 const Projects: React.FC = () => {
   const cardData = [
@@ -70,11 +69,12 @@ const Projects: React.FC = () => {
         {/* Decorative Top Grid */}
         <div className="grid grid-cols-6 gap-0 w-full">
           <div className="col-start-4 col-span-3 flex">
+            <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
             <div className="w-full rounded-lg bg-[#E8D0FF] aspect-square"></div>
             <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
-            <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
+            
           </div>
-          <div className="col-start-4 col-span-3 flex">
+          {/* <div className="col-start-4 col-span-3 flex">
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
             <div className="w-full rounded-lg bg-[transparent aspect-square text-center flex items-center justify-center overflow-hidden">
@@ -82,7 +82,7 @@ const Projects: React.FC = () => {
                 src="/smiski5.png" 
                 className="w-full h-full object-contain" />
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Resume Title */}
@@ -121,7 +121,7 @@ const Projects: React.FC = () => {
           
         </div>
 
-        <div className="col-start-1 col-span-6 flex mt-28 items-center justify-center">
+        {/* <div className="col-start-1 col-span-6 flex mt-28 items-center justify-center">
           <span className="py-0">
             <p className="pt-8 mt-12 font-[Roboto] text-xl">
               some of my favorites (totally not biased)
@@ -143,7 +143,7 @@ const Projects: React.FC = () => {
                 onCardClick={card.onCardClick}
               />
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* Decorative Bottom Grids */}
