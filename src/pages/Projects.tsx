@@ -31,36 +31,36 @@ const Projects: React.FC = () => {
     console.log(`${cardTitle} clicked!`);
   };
 
-  const cards = [
-    {
-      title: 'Minecraft Companion App',
-      description: 'LEAD UX/UI DESIGNER',
-      imageUrl: '/work/bd/bd001.jpg',
-      link: '/projects/bd',
-      onCardClick: () => handleCardClick('Block Diary'),
-    },
-    {
-      title: 'SAMAHAN Newsfeed',
-      description: 'PROJECT MANAGER',
-      imageUrl: '/work/nwsfd/nwsfd000.jpg',
-      link: '/projects/nwsfd',
-      onCardClick: () => handleCardClick('NWSFD'),
-    },
-    {
-      title: 'Elysan Design',
-      description: 'FOUNDER | GRAPHIC DESIGNER',
-      imageUrl: '/work/eds/eds007.jpg',
-      link: '/projects/elysan',
-      onCardClick: () => handleCardClick('Elysan Design'),
-    },
-    {
-      title: 'TEDxLanang Ave',
-      description: 'BRANDING HEAD',
-      imageUrl: '/work/tedx/tedx001.jpg',
-      link: '/projects/tedx',
-      onCardClick: () => handleCardClick('tedx'),
-    }
-  ];
+  // const cards = [
+  //   {
+  //     title: 'Minecraft Companion App',
+  //     description: 'LEAD UX/UI DESIGNER',
+  //     imageUrl: '/work/bd/bd001.jpg',
+  //     link: '/projects/bd',
+  //     onCardClick: () => handleCardClick('Block Diary'),
+  //   },
+  //   {
+  //     title: 'SAMAHAN Newsfeed',
+  //     description: 'PROJECT MANAGER',
+  //     imageUrl: '/work/nwsfd/nwsfd000.jpg',
+  //     link: '/projects/nwsfd',
+  //     onCardClick: () => handleCardClick('NWSFD'),
+  //   },
+  //   {
+  //     title: 'Elysan Design',
+  //     description: 'FOUNDER | GRAPHIC DESIGNER',
+  //     imageUrl: '/work/eds/eds007.jpg',
+  //     link: '/projects/elysan',
+  //     onCardClick: () => handleCardClick('Elysan Design'),
+  //   },
+  //   {
+  //     title: 'TEDxLanang Ave',
+  //     description: 'BRANDING HEAD',
+  //     imageUrl: '/work/tedx/tedx001.jpg',
+  //     link: '/projects/tedx',
+  //     onCardClick: () => handleCardClick('tedx'),
+  //   }
+  // ];
 
   return (
     <div className="min-h-screen sm:w-full flex pt-0 p-8 text-stone-800 justify-center overflow-x-hidden">
