@@ -4,7 +4,7 @@ import Card from '../components/Card';
 const Projects: React.FC = () => {
   const cardData = [
     {
-      title: "UX/UI Design",
+      title: "Dev & Design",
       img1: "computer101.png",
       img2: "computer001.png",
       path: "/pages/UXUI",
