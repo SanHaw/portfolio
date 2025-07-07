@@ -4,7 +4,7 @@ import Card from '../components/Card';
 const Projects: React.FC = () => {
   const cardData = [
     {
-      title: "Dev & Design",
+      title: "UX/UI Design",
       img1: "computer101.png",
       img2: "computer001.png",
       path: "/pages/UXUI",
@@ -15,12 +15,12 @@ const Projects: React.FC = () => {
       img2: "computer002.png",
       path: "/pages/GraphicDesign",
     },
-    // {
-    //   title: "Project Manager",
-    //   img1: "computer103.png",
-    //   img2: "computer003.png",
-    //   path: "/pages/PM",
-    // },
+    {
+      title: "Other Dev Projects",
+      img1: "computer103.png",
+      img2: "computer003.png",
+      path: "/pages/PM",
+    },
   ];
 
   const handleCardClick2 = (title: string, path: string) => {
@@ -121,7 +121,7 @@ const Projects: React.FC = () => {
           
         </div>
 
-        <div className="col-start-1 col-span-6 flex items-center justify-center">
+        <div className="col-start-1 col-span-6 flex mt-28 items-center justify-center">
           <span className="py-0">
             <p className="pt-8 mt-12 font-[Roboto] text-xl">
               some of my favorites (totally not biased)
