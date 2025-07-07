@@ -56,7 +56,7 @@ const GraphicDesign: React.FC = () => {
     //   title: 'IT Week 2024',
     //   description: 'Explore the Elysan project!',
     //   imageUrl: '/work/temp.jpg',
-    //   link: '/projects/elysan',
+    //   link: '/projects/itweek',
     //   onCardClick: () => handleCardClick('Elysan Design'),
     // },
     // {
