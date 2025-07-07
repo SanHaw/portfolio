@@ -27,9 +27,9 @@ const Projects: React.FC = () => {
     window.location.href = path; // Use this to ensure navigation always works
   };
 
-  const handleCardClick = (cardTitle: string) => {
-    console.log(`${cardTitle} clicked!`);
-  };
+  // const handleCardClick = (cardTitle: string) => {
+  //   console.log(`${cardTitle} clicked!`);
+  // };
 
   // const cards = [
   //   {
