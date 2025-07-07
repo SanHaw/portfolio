@@ -23,13 +23,13 @@ const UXUI: React.FC = () => {
     //   link: '/projects/sysdev',
     //   onCardClick: () => handleCardClick('SYSDEV'),
     // },
-    {
-      title: 'SAMAHAN Newsfeed',
-      description: 'PROJECT MANAGER',
-      imageUrl: '/work/nwsfd/nwsfd000.jpg',
-      link: '/projects/nwsfd',
-      onCardClick: () => handleCardClick('NWSFD'),
-    },
+    // {
+    //   title: 'SAMAHAN Newsfeed',
+    //   description: 'PROJECT MANAGER',
+    //   imageUrl: '/work/nwsfd/nwsfd000.jpg',
+    //   link: '/projects/nwsfd',
+    //   onCardClick: () => handleCardClick('NWSFD'),
+    // },
     {
       title: 'MISSCON 2024 Website',
       description: 'UX/UI DESIGNER',
