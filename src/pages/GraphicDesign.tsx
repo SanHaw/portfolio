@@ -33,8 +33,8 @@ const GraphicDesign: React.FC = () => {
     // },
     {
       title: 'CS Student Executive Council',
-      description: 'Explore the Elysan project!',
-      imageUrl: '/work/temp.jpg',
+      description: 'Creatives Head',
+      imageUrl: '/work/cssec/cssec000.jpg',
       link: '/projects/cssec',
       onCardClick: () => handleCardClick('CSSEC'),
     },
