@@ -52,16 +52,16 @@ const Elysan: React.FC = () => {
           <div className="flex w-[70%] flex-shrink-0 whitespace-nowrap justify-center">
                               
           <div className="pr-2">
-            <div className="flex bg-[#E8D0FF] p-1 px-4 rounded-xl pr-4">
+            <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
             <SiCanva className="mt-1 mr-2" />
             <p>Canva</p>
             </div>
           </div>
 
           <div className="pr-2">
-            <div className="flex bg-[#E8D0FF] p-1 px-4 rounded-xl pr-4">
-            <SiCanva className="mt-1 mr-2" />
-            <p>Canva</p>
+            <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+              {/* <FaFigma className="mt-1 mr-2" /> */}
+              <p>Figma</p>
             </div>
           </div>
 
@@ -76,6 +76,20 @@ const Elysan: React.FC = () => {
             <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
               {/* <FaFigma className="mt-1 mr-2" /> */}
               <p>Information Design</p>
+            </div>
+          </div>
+
+          <div className="pr-2">
+            <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+              {/* <FaFigma className="mt-1 mr-2" /> */}
+              <p>Branding Design</p>
+            </div>
+          </div>
+
+          <div className="pr-2">
+            <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+              {/* <FaFigma className="mt-1 mr-2" /> */}
+              <p>Visual Design</p>
             </div>
           </div>
           
