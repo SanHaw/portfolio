@@ -39,19 +39,21 @@ const About: React.FC = () => {
       onCardClick: () => handleCardClick('Block Diary'),
     },
     {
-      title: 'SAMAHAH Systems Development Website',
-      description: 'LEAD UX/UI DESIGNER',
-      imageUrl: '/work/sysdev/sysd001.jpg',
-      link: '/projects/sysdev',
-      onCardClick: () => handleCardClick('SYSDEV'),
-    },
-    {
       title: 'SAMAHAN Newsfeed',
       description: 'PROJECT MANAGER',
       imageUrl: '/work/nwsfd/nwsfd000.jpg',
       link: '/projects/nwsfd',
       onCardClick: () => handleCardClick('NWSFD'),
-    }, ];
+    }, 
+    {
+      title: 'CS Student Executive Council',
+      description: 'Creatives Head',
+      imageUrl: '/work/cssec/cssec000.jpg',
+      link: '/projects/cssec',
+      onCardClick: () => handleCardClick('CSSEC'),
+    },
+  
+  ];
 
 let colors = ['#FFEB81', '#E8D0FF', '#A3CED6', '#6EAA87'];
 
