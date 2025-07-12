@@ -100,7 +100,7 @@ const Contact: React.FC = () => {
         {/* Decorative Middle Grid */}
         <div className="grid grid-cols-6 gap-0 w-full">
           <div className="col-start-1 col-span-6 flex">
-            <div className="w-full rounded-lg bg-transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
+
             <div className="w-full rounded-lg bg-transparent aspect-square text-center flex items-center justify-center overflow-hidden"></div>
             <div className="w-full rounded-lg bg-[#A3CED6] aspect-square"></div>
             <div className="w-full rounded-lg bg-[#FFEB81] aspect-square"></div>
