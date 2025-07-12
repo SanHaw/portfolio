@@ -22,7 +22,7 @@ const DJpos: React.FC = () => {
                 <p className="font-[Instrument] justify-center
                                 text-5xl 2xl:text-[6rem] lg:text-6xl 2xs:text-2xl
                                 overflow-y-visible text-center
-                                bg-[#FFEB81] pt-16 pb-12 mb-6 w-[100vw]
+                                pt-16 pb-12 mb-6 w-[100vw]
                     ">Divine Jewels Retail System
             </p>
             </div>
@@ -41,24 +41,38 @@ const DJpos: React.FC = () => {
 
             <div className="flex w-[70%] flex-wrap justify-center gap-y-2">
                 <div className="pr-2">
-                    <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+                    <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
                         <FaFigma className="mt-1 mr-2" />
                         <p>Figma</p>
                 </div>
             </div>
 
             <div className="pr-2">
-            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Web Development</p>
-            </div>
+                <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>Web Development</p>
+                </div>
             </div>
 
             <div className="pr-2">
-            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Agile</p>
+                <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>UX/UI Design</p>
+                </div>
             </div>
+
+            <div className="pr-2">
+                <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>Web App</p>
+                </div>
+            </div>
+
+            <div className="pr-2">
+                <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>Software Engineering</p>
+                </div>
             </div>
         </div>
 
