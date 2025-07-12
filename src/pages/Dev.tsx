@@ -91,9 +91,8 @@ const handleCardClick = (cardTitle: string) => {
                 
               </span>
             </div>
-          
-          
-          <div className="flex w-full col-start-1 col-span-6 rounded-lg overflow-hidden py-8
+            
+            <div className="flex w-full col-start-1 col-span-6 rounded-lg overflow-hidden py-8
                           justify-center items-center">
             <a
                     href="/resume/Sarah-Haw-Resume-Project-Manager.pdf"
@@ -116,6 +115,7 @@ const handleCardClick = (cardTitle: string) => {
             </iframe>
             
         </div></div>
+
         
         <div id="first row of squares" className="grid grid-cols-2 gap-0 w-full justify-end">
             
