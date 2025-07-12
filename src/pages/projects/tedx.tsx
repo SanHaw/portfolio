@@ -57,6 +57,20 @@ const Tedx: React.FC = () => {
             <p>Graphic Design</p>
             </div>
           </div>
+          <div className="pr-2">
+            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+            <p>Branding Design</p>
+            </div>
+            <div className="pr-2">
+            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+            <p>Visual Design</p>
+            </div>
+          </div>
+          </div>
+
+          
         </div>
 
           <div className="w-full pt-8">
