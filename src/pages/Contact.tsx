@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
 
 
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/SanHaw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 hover:text-[#A3CED6] transition"
@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
                   </a>
 
                   <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://www.linkedin.com/in/sanhaw/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 hover:text-[#A3CED6] transition"
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
                   </a>
 
                   <a
-                    href="https://instagram.com/yourusername"
+                    href="https://www.instagram.com/_sannyyyyyy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 hover:text-[#A3CED6] transition"
@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
                   </a>
 
                   <a
-                    href="https://twitter.com/yourusername"
+                    href="https://x.com/_sannyyy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 hover:text-[#A3CED6] transition"
