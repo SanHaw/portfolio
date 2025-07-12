@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
       title: "Graphic Designer",
       img1: "computer102.png",
       img2: "computer002.png",
-      path: "/pages/GraphicDesign",
+      path: "/pages/graphic-design",
     },
     {
       title: "Other Dev Projects",
