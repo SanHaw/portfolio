@@ -48,25 +48,47 @@ const NWSFD: React.FC = () => {
 
             <div className="flex w-[70%] flex-wrap justify-center gap-y-2">
                 <div className="pr-2">
-                    <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+                    <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
                         <FaFigma className="mt-1 mr-2" />
                         <p>Figma</p>
                 </div>
             </div>
 
             <div className="pr-2">
-            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Web Development</p>
-            </div>
+                <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>Web Development</p>
+                </div>
             </div>
 
             <div className="pr-2">
-            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Agile</p>
+                <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>Agile</p>
+                </div>
             </div>
+
+            <div className="pr-2">
+                <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>Project Management</p>
+                </div>
             </div>
+
+            <div className="pr-2">
+                <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>UX/UI</p>
+                </div>
+            </div>
+
+            <div className="pr-2">
+                <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>QA Testing</p>
+                </div>
+            </div>
+
         </div>
 
             <div className="w-full pt-8">
