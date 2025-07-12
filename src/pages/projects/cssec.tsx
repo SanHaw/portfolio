@@ -29,7 +29,7 @@ const Cssec: React.FC = () => {
         
           <div className="w-full text-center">
             <p className="font-[Instrument] 
-                            text-xl 2xl:text-3xl
+                            text-3xl 2xl:text-3xl
                             overflow-y-visible pb-10">
               2024 - 2025
               <br />
@@ -90,66 +90,573 @@ const Cssec: React.FC = () => {
             </p>
           </div>
 
-          <div className="w-full pt-8">
-          <div className="grid grid-cols-6 gap-4 w-full">
-            <div className="col-span-2 col-start-1 flex justify-center aspect-square
-                items-center rounded-lg overflow-hidden">
-                <img
-                  src="/work/cssec/cssec001.jpg"
-                  alt="Asterisk"
-                  className="w-full h-full object-cover object-left"
-                  id="asterisk asset"
-                />
-            </div>
-            <div className="col-span-2 col-start-3 flex justify-center 
-                items-center rounded-lg overflow-hidden">
-                <img
-                  src="/work/cssec/cssec002.jpg"
-                  alt="Asterisk"
-                  className="w-max object-contain"
-                  id="asterisk asset"
-                />
-            </div>
-            <div className="col-span-2 col-start-5 flex justify-center 
-                items-center rounded-lg overflow-hidden">
-                <img
-                  src="/work/cssec/cssec003.jpg"
-                  alt="Asterisk"
-                  className="w-max object-contain"
-                  id="asterisk asset"
-                />
+          {/* projects */}
+          <div>
+            <div className="w-full text-start">
+              <p className="font-[Instrument] 
+                              text-3xl 2xl:text-3xl
+                              overflow-y-visible pt-12">
+                Temporary Branding
+              </p>
             </div>
 
-            <div className="col-span-2 col-start-1 flex justify-center aspect-square
-                items-center rounded-lg overflow-hidden">
-                <img
-                  src="/work/cssec/cssec004.jpg"
-                  alt="Asterisk"
-                  className="w-full h-full object-cover object-left"
-                  id="asterisk asset"
-                />
+{/* temporary branding */}
+            <div className="w-full pt-8">
+              <div className="grid grid-cols-6 gap-4 w-full">
+                
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec001.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec101.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec103.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec104.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec105.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec106.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec109.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec107.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec108.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+              </div>
+              
+            </div>
+
+{/* main */}
+            <div className="w-full text-start">
+              <p className="font-[Instrument] 
+                              text-3xl 2xl:text-3xl
+                              overflow-y-visible pt-12">
+                Main Branding
+              </p>
             </div>
 
             <div className="col-span-2 col-start-3 flex justify-center 
-                items-center rounded-lg overflow-hidden">
-                <img
-                  src="/work/cssec/cssec005.jpg"
-                  alt="Asterisk"
-                  className="w-max object-contain"
-                  id="asterisk asset"
-                />
+                  items-center rounded-lg overflow-hidden -mb-4">
+                  <img
+                    src="/work/cssec/cssec302.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
             </div>
-            <div className="col-span-2 col-start-5 flex justify-center 
-                items-center rounded-lg overflow-hidden">
-                <img
-                  src="/work/cssec/cssec006.jpg"
-                  alt="Asterisk"
-                  className="w-max object-contain"
-                  id="asterisk asset"
-                />
+
+            <div className="w-full pt-8">
+              <div className="grid grid-cols-6 gap-4 w-full">
+                
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec300.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec307.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec303.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec304.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec308.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec003.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec309.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec305.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec306.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+
+              </div>
+              
             </div>
-            
+
+{/* leadership training */}
+
+            {/* <div className="w-full text-start">
+              <p className="font-[Instrument] 
+                              text-3xl 2xl:text-3xl
+                              overflow-y-visible pt-12">
+                Leadership Training Camp
+              </p>
+            </div>
+
+            <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden -mb-4">
+                  <img
+                    src="/work/cssec/cssec302.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+            </div>
+
+            <div className="w-full pt-8">
+              <div className="grid grid-cols-6 gap-4 w-full">
+                
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec300.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec307.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec303.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+
+                
+
+              </div> 
+              
+            </div> */}
+
+{/* cham along w us */}
+            <div className="w-full text-start">
+              <p className="font-[Instrument] 
+                              text-3xl 2xl:text-3xl
+                              overflow-y-visible pt-12">
+                Cham Along With Us
+              </p>
+            </div>
+
+            {/* <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden -mb-4">
+                  <img
+                    src="/work/cssec/cssec402.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+            </div> */}
+
+            <div className="w-full pt-8">
+              <div className="grid grid-cols-6 gap-4 w-full">
+                
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg aspect-square overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec401.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg aspect-square overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec406.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 row-start-1 row-span-2 flex justify-center 
+                items-center rounded-lg aspect-[1/2] h-full overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec408.jpg"
+                    alt=""
+                    className="h-full w-auto object-cover object-center"
+                  />
+                </div>
+
+
+                {/* <div className="col-span-4 col-start-1 row-start-2 row-span-1 flex justify-center 
+                items-center rounded-lg aspect-[4/1] w-auto overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec402.jpg"
+                    alt=""
+                    className="h-full object-contain"
+                    
+                  />
+                </div> */}
+
+                
+
+                <div className="col-span-1 row-span-1 flex justify-center items-center 
+                                rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec403.jpg"
+                    alt=""
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                {/* Second: 1x1 */}
+                <div className="col-span-1 row-span-1 flex justify-center items-center 
+                                rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec404.jpg"
+                    alt=""
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+                {/* Third: 2x1 */}
+                <div className="col-span-2 row-span-1 flex justify-center items-center 
+                                rounded-lg overflow-hidden aspect-square">
+                  <img
+                    src="/work/cssec/cssec405.jpg"
+                    alt=""
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+
+              </div>
+              
+            </div>
+
+{/* kick off */}
+            <div className="w-full text-start">
+              <p className="font-[Instrument] 
+                              text-3xl 2xl:text-3xl
+                              overflow-y-visible pt-12">
+                Purple Up: Kick-Off
+              </p>
+            </div>
+
+            <div className="w-full pt-8">
+              <div className="grid grid-cols-6 gap-4 w-full">
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <div className="grid grid-cols-1 gap-4 w-full">
+                    <div className="col-span-2 col-start-1 flex justify-center 
+                      items-center rounded-lg overflow-hidden">
+                      <img
+                        src="/work/cssec/cssec501.jpg"
+                        alt=""
+                        className="w-max object-contain"
+                        
+                      />
+                    </div>
+
+                    <div className="col-span-2 col-start-1 flex justify-center 
+                      items-center rounded-lg overflow-hidden">
+                      <img
+                        src="/work/cssec/cssec502.jpg"
+                        alt=""
+                        className="w-max object-contain"
+                        
+                      />
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <div className="col-span-4 col-start-3 flex justify-items-start 
+                  items-start rounded-lg overflow-hidden">
+                  <div className="grid grid-cols-6 gap-4 w-full">
+                    <div className="col-span-6 col-start-1 flex justify-center 
+                      items-center rounded-lg overflow-hidden pb-5">
+                      <img
+                        src="/work/cssec/cssec511.jpg"
+                        alt=""
+                        className="w-max object-contain"
+                        
+                      />
+                    </div>
+
+                    <div className="col-span-3 col-start-1 flex justify-center 
+                      items-center rounded-lg overflow-hidden">
+                      <img
+                        src="/work/cssec/cssec503.jpg"
+                        alt=""
+                        className="w-max object-contain"
+                        
+                      />
+                    </div>
+                    <div className="col-span-3 col-start-4 flex justify-center 
+                      items-center rounded-lg overflow-hidden">
+                      <img
+                        src="/work/cssec/cssec507.jpg"
+                        alt=""
+                        className="w-max object-contain"
+                        
+                      />
+                    </div>
+
+                    <div className="col-span-3 col-start-1 flex justify-center 
+                      items-center rounded-lg overflow-hidden ">
+                      <img
+                        src="/work/cssec/cssec510.jpg"
+                        alt=""
+                        className="w-auto h-full object-contain"
+                        
+                      />
+                    </div>
+                    <div className="col-span-3 col-start-4 flex justify-center 
+                      items-center rounded-lg h-full overflow-hidden">
+                      <img
+                        src="/work/cssec/cssec512.jpg"
+                        alt=""
+                        className="w-max object-contain"
+                        
+                      />
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-6 gap-4 w-full pt-4">
+                <div className="col-span-2 col-start-1 flex justify-center 
+                    items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec500.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                    items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec508.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 flex justify-center 
+                    items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec514.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+              </div>
+              
+            </div>
+
+{/* it week */}
+            <div className="w-full text-start">
+              <p className="font-[Instrument] 
+                              text-3xl 2xl:text-3xl
+                              overflow-y-visible pt-12 pb-4">
+                IT Week 2024
+              </p>
+            </div>
+
+            <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden -mb-4">
+                  <img
+                    src="/work/cssec/cssec605.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+            </div>
+
+            <div className="w-full pt-8">
+              <div className="grid grid-cols-6 gap-4 w-full">
+                
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec601.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec602.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-2 col-start-5 flex justify-center 
+                  items-center rounded-lg overflow-hidden">
+                  <img
+                    src="/work/cssec/cssec603.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+
+                <div className="col-span-2 col-start-1 flex justify-center 
+                  items-center rounded-lg overflow-hidden h-full">
+                  <img
+                    src="/work/cssec/cssec604.jpg"
+                    alt=""
+                    className="w-full object-contain"
+                    
+                  />
+                </div>
+                <div className="col-span-4 col-start-3 flex justify-center 
+                  items-center rounded-lg overflow-hidden aspect-[2/1]">
+                  <img
+                    src="/work/cssec/cssec606.jpg"
+                    alt=""
+                    className="w-max object-contain"
+                    
+                  />
+                </div>
+
+              </div>
+              
+            </div>
+
           </div>
+
+
+
+
+
+          <div className="w-full pt-8">
           <div>
               <p className="font-[Instrument] 
                               text-3xl 2xl:text-[2rem] lg:text-2xl 2xs:text-xl
