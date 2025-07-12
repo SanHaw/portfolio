@@ -48,17 +48,31 @@ const NWSFD: React.FC = () => {
             </div>
 
             <div className="pr-2">
-            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Web Development</p>
-            </div>
+                <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>Web Development</p>
+                </div>
             </div>
 
             <div className="pr-2">
-            <div className="flex bg-[#A3CED6] p-1 px-4 rounded-xl pr-4">
-            {/* <SiTailwindcss className="mt-1 mr-2" /> */}
-            <p>Agile</p>
+                <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>Agile</p>
+                </div>
             </div>
+
+            <div className="pr-2">
+                <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>Website Development</p>
+                </div>
+            </div>
+
+            <div className="pr-2">
+                <div className="flex bg-[#FFEB81] p-1 px-4 rounded-xl pr-4">
+                {/* <SiTailwindcss className="mt-1 mr-2" /> */}
+                <p>UX/UI Design</p>
+                </div>
             </div>
         </div>
 
@@ -133,7 +147,7 @@ const NWSFD: React.FC = () => {
                 />
             </div>
 
-            <div className="col-span-6 col-start-1 row-start-11 row-span-4
+            {/* <div className="col-span-6 col-start-1 row-start-11 row-span-4
                             aspect-[3/2]
                     flex rounded-lg overflow-hidden ">
             <div>
@@ -150,7 +164,7 @@ const NWSFD: React.FC = () => {
                     className="w-full h-full border-0"
                 />
             </div>
-            </div>
+            </div> */}
 
             </div>
             <div className="col-span-6 col-start-1 row-start-11 row-span-4 flex flex-col items-center gap-4 rounded-lg overflow-hidden">
