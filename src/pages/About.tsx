@@ -4,22 +4,34 @@ import { SiCanva, SiShadcnui, SiTypescript } from 'react-icons/si';
 import { Link } from 'react-router-dom';
 import Card from '../components/Card';
 import SkillPill from '../components/SkillPill.tsx';
+// FontAwesome
+import {
+  FaDraftingCompass,
+  FaRegObjectGroup,
+  FaSearch
+} from 'react-icons/fa';
+
 
 
 let skills = [
-  { label: 'Front-end Development', icon: FaReact },
-  { label: 'HTML', icon: FaHtml5 },
-  { label: 'CSS', icon: FaCss3Alt },
-  { label: 'ShadCN', icon: SiShadcnui },
-  { label: 'JavaScript', icon: FaJsSquare },
-  { label: 'TypeScript', icon: SiTypescript },
-  { label: 'React', icon: FaReact },
-  { label: 'Git', icon: FaGitAlt },
-  { label: 'Github', icon: FaGithub },
-  { label: 'Python', icon: FaPython },
-  { label: 'Figma', icon: FaFigma },
-  { label: 'Canva', icon: SiCanva },
-  { label: 'Project Management', icon: FaTrello },
+  { label: 'User Research', icon: FaSearch },
+{ label: 'User Interface Design', icon: FaFigma },
+{ label: 'Wireframing', icon: FaRegObjectGroup },
+{ label: 'Prototyping', icon: FaDraftingCompass },
+{ label: 'Figma', icon: FaFigma },
+{ label: 'Canva', icon: SiCanva },
+{ label: 'ShadCN', icon: SiShadcnui },
+{ label: 'Front-end Development', icon: FaReact },
+{ label: 'React', icon: FaReact },
+{ label: 'HTML', icon: FaHtml5 },
+{ label: 'CSS', icon: FaCss3Alt },
+{ label: 'JavaScript', icon: FaJsSquare },
+{ label: 'TypeScript', icon: SiTypescript },
+{ label: 'Python', icon: FaPython },
+
+{ label: 'Project Management', icon: FaTrello },
+{ label: 'Git', icon: FaGitAlt },
+{ label: 'Github', icon: FaGithub },
 
 
 ];
